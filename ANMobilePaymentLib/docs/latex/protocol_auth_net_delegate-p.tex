@@ -1,0 +1,110 @@
+\hypertarget{protocol_auth_net_delegate-p}{
+\section{$<$AuthNetDelegate$>$ Protocol Reference}
+\label{protocol_auth_net_delegate-p}\index{AuthNetDelegate-\/p@{AuthNetDelegate-\/p}}
+}
+
+
+\hyperlink{interface_auth_net}{AuthNet} Delegate methods for each transaction paths.  
+
+
+
+
+{\ttfamily \#import $<$AuthNet.h$>$}
+
+Inheritance diagram for $<$AuthNetDelegate$>$:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{protocol_auth_net_delegate-p}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{protocol_auth_net_delegate-p_a83216768724bb11ffb35836d1c26b3a9}{
+(void) -\/ \hyperlink{protocol_auth_net_delegate-p_a83216768724bb11ffb35836d1c26b3a9}{paymentSucceeded:}}
+\label{protocol_auth_net_delegate-p_a83216768724bb11ffb35836d1c26b3a9}
+
+\begin{DoxyCompactList}\small\item\em Delegate method is called when an \hyperlink{interface_create_transaction_response}{CreateTransactionResponse} response is returned from the server, including non processing of payment. \item\end{DoxyCompactList}\item 
+\hypertarget{protocol_auth_net_delegate-p_a85de6c31d6fd6190b54f66b33cd2c7b0}{
+(void) -\/ \hyperlink{protocol_auth_net_delegate-p_a85de6c31d6fd6190b54f66b33cd2c7b0}{paymentCancelled}}
+\label{protocol_auth_net_delegate-p_a85de6c31d6fd6190b54f66b33cd2c7b0}
+
+\begin{DoxyCompactList}\small\item\em Delegate method is called user cancels a transaction from the standardized checkout flow by clicking on the cancel button in the payment UI. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{protocol_auth_net_delegate-p_a93b8bf1be8cf23af9c53eadd3e3566b3}{paymentFailed:}
+\begin{DoxyCompactList}\small\item\em Delegate method is called when a non \hyperlink{interface_create_transaction_response}{CreateTransactionResponse} is returned from the server. \item\end{DoxyCompactList}\item 
+\hypertarget{protocol_auth_net_delegate-p_a83216768724bb11ffb35836d1c26b3a9}{
+(void) -\/ \hyperlink{protocol_auth_net_delegate-p_a83216768724bb11ffb35836d1c26b3a9}{paymentSucceeded:}}
+\label{protocol_auth_net_delegate-p_a83216768724bb11ffb35836d1c26b3a9}
+
+\begin{DoxyCompactList}\small\item\em Delegate method is called when an \hyperlink{interface_create_transaction_response}{CreateTransactionResponse} response is returned from the server, including non processing of payment. \item\end{DoxyCompactList}\item 
+\hypertarget{protocol_auth_net_delegate-p_a85de6c31d6fd6190b54f66b33cd2c7b0}{
+(void) -\/ \hyperlink{protocol_auth_net_delegate-p_a85de6c31d6fd6190b54f66b33cd2c7b0}{paymentCancelled}}
+\label{protocol_auth_net_delegate-p_a85de6c31d6fd6190b54f66b33cd2c7b0}
+
+\begin{DoxyCompactList}\small\item\em Delegate method is called user cancels a transaction from the standardized checkout flow by clicking on the cancel button in the payment UI. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{protocol_auth_net_delegate-p_a93b8bf1be8cf23af9c53eadd3e3566b3}{paymentFailed:}
+\begin{DoxyCompactList}\small\item\em Delegate method is called when a non \hyperlink{interface_create_transaction_response}{CreateTransactionResponse} is returned from the server. \item\end{DoxyCompactList}\item 
+\hypertarget{protocol_auth_net_delegate-p_a83216768724bb11ffb35836d1c26b3a9}{
+(void) -\/ \hyperlink{protocol_auth_net_delegate-p_a83216768724bb11ffb35836d1c26b3a9}{paymentSucceeded:}}
+\label{protocol_auth_net_delegate-p_a83216768724bb11ffb35836d1c26b3a9}
+
+\begin{DoxyCompactList}\small\item\em Delegate method is called when an \hyperlink{interface_create_transaction_response}{CreateTransactionResponse} response is returned from the server, including non processing of payment. \item\end{DoxyCompactList}\item 
+\hypertarget{protocol_auth_net_delegate-p_a85de6c31d6fd6190b54f66b33cd2c7b0}{
+(void) -\/ \hyperlink{protocol_auth_net_delegate-p_a85de6c31d6fd6190b54f66b33cd2c7b0}{paymentCancelled}}
+\label{protocol_auth_net_delegate-p_a85de6c31d6fd6190b54f66b33cd2c7b0}
+
+\begin{DoxyCompactList}\small\item\em Delegate method is called user cancels a transaction from the standardized checkout flow by clicking on the cancel button in the payment UI. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{protocol_auth_net_delegate-p_a93b8bf1be8cf23af9c53eadd3e3566b3}{paymentFailed:}
+\begin{DoxyCompactList}\small\item\em Delegate method is called when a non \hyperlink{interface_create_transaction_response}{CreateTransactionResponse} is returned from the server. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{interface_auth_net}{AuthNet} Delegate methods for each transaction paths. 
+
+\subsection{Member Function Documentation}
+\hypertarget{protocol_auth_net_delegate-p_a93b8bf1be8cf23af9c53eadd3e3566b3}{
+\index{AuthNetDelegate-\/p@{AuthNetDelegate-\/p}!paymentFailed:@{paymentFailed:}}
+\index{paymentFailed:@{paymentFailed:}!AuthNetDelegate-p@{AuthNetDelegate-\/p}}
+\subsubsection[{paymentFailed:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) paymentFailed: 
+\begin{DoxyParamCaption}
+\item[{dummy({\bf AuthNetResponse} $\ast$)}]{ response}
+\end{DoxyParamCaption}
+\hspace{0.3cm}{\ttfamily  \mbox{[}required\mbox{]}}}}
+\label{protocol_auth_net_delegate-p_a93b8bf1be8cf23af9c53eadd3e3566b3}
+
+
+Delegate method is called when a non \hyperlink{interface_create_transaction_response}{CreateTransactionResponse} is returned from the server. 
+
+The errorType data member of response should indicate either SERVER\_\-ERROR or TRANSACTION\_\-ERROR. TRANSACTION\_\-ERROR are non-\/APRROVED response code. SERVER\_\-ERROR are due to connection errors with the Authorize.Net server. \hypertarget{protocol_auth_net_delegate-p_a93b8bf1be8cf23af9c53eadd3e3566b3}{
+\index{AuthNetDelegate-\/p@{AuthNetDelegate-\/p}!paymentFailed:@{paymentFailed:}}
+\index{paymentFailed:@{paymentFailed:}!AuthNetDelegate-p@{AuthNetDelegate-\/p}}
+\subsubsection[{paymentFailed:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) paymentFailed: 
+\begin{DoxyParamCaption}
+\item[{dummy({\bf AuthNetResponse} $\ast$)}]{ response}
+\end{DoxyParamCaption}
+\hspace{0.3cm}{\ttfamily  \mbox{[}required\mbox{]}}}}
+\label{protocol_auth_net_delegate-p_a93b8bf1be8cf23af9c53eadd3e3566b3}
+
+
+Delegate method is called when a non \hyperlink{interface_create_transaction_response}{CreateTransactionResponse} is returned from the server. 
+
+The errorType data member of response should indicate either SERVER\_\-ERROR or TRANSACTION\_\-ERROR. TRANSACTION\_\-ERROR are non-\/APRROVED response code. SERVER\_\-ERROR are due to connection errors with the Authorize.Net server. \hypertarget{protocol_auth_net_delegate-p_a93b8bf1be8cf23af9c53eadd3e3566b3}{
+\index{AuthNetDelegate-\/p@{AuthNetDelegate-\/p}!paymentFailed:@{paymentFailed:}}
+\index{paymentFailed:@{paymentFailed:}!AuthNetDelegate-p@{AuthNetDelegate-\/p}}
+\subsubsection[{paymentFailed:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) paymentFailed: 
+\begin{DoxyParamCaption}
+\item[{dummy({\bf AuthNetResponse} $\ast$)}]{ response}
+\end{DoxyParamCaption}
+\hspace{0.3cm}{\ttfamily  \mbox{[}required\mbox{]}}}}
+\label{protocol_auth_net_delegate-p_a93b8bf1be8cf23af9c53eadd3e3566b3}
+
+
+Delegate method is called when a non \hyperlink{interface_create_transaction_response}{CreateTransactionResponse} is returned from the server. 
+
+The errorType data member of response should indicate either SERVER\_\-ERROR or TRANSACTION\_\-ERROR. TRANSACTION\_\-ERROR are non-\/APRROVED response code. SERVER\_\-ERROR are due to connection errors with the Authorize.Net server. 
+
+The documentation for this protocol was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+/Users/Shiun/labzero/svn-\/aim-\/ios-\/sk/trunk/ANMobilePaymentLib/AuthNet.h\item 
+/Users/Shiun/labzero/svn-\/aim-\/ios-\/sk/trunk/AuthNet.h\item 
+/Users/Shiun/labzero/svn-\/aim-\/ios-\/sk/trunk/CoffeeShopApp/ANMobilePaymentLib/AuthNet.h\end{DoxyCompactItemize}

@@ -1,0 +1,2383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_a_net_api_request.html</Path>
+    <Anchor>a77d7b3eec11910bcf62d678749c18ca3</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_a_net_api_request.html</Path>
+    <Anchor>a77d7b3eec11910bcf62d678749c18ca3</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_a_net_api_request.html</Path>
+    <Anchor>a77d7b3eec11910bcf62d678749c18ca3</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>anetApiRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_a_net_api_request.html</Path>
+    <Anchor>a389bb4ae074f13e05aeaad78328353cc</Anchor>
+    <Abstract>Creates an autoreleased object.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>anetApiRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_a_net_api_request.html</Path>
+    <Anchor>a389bb4ae074f13e05aeaad78328353cc</Anchor>
+    <Abstract>Creates an autoreleased object.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>anetApiRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_a_net_api_request.html</Path>
+    <Anchor>a389bb4ae074f13e05aeaad78328353cc</Anchor>
+    <Abstract>Creates an autoreleased object.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>authorizeWithRequest:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>ae8435d36d1a6d00e6e771a9fa58ec210</Anchor>
+    <Abstract>Perform AUTH transaction with request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>purchaseWithRequest:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>a466bfa76518d3dd27fc7eb38a7967812</Anchor>
+    <Abstract>Perform AUTH_CAPTURE transaction with request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>captureWithRequest:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>a6a586e0765c774199ccecbebdf072d3d</Anchor>
+    <Abstract>Perform PRIOR_AUTH_CAPTURE transaction with request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>captureOnlyWithRequest:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>a5d2e5d9f91f57cf1ea72a8f091aebf2d</Anchor>
+    <Abstract>Perform CAPTURE_ONLY transaction with request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>voidWithRequest:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>aef8d13917d406c5056a2176817562260</Anchor>
+    <Abstract>Perform VOID transaction with request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>creditWithRequest:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>a95bc4a5faa7ce40df5295837b98617b3</Anchor>
+    <Abstract>Perform CREDIT transaction with request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>unlinkedCreditWithRequest:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>a5b2bc486ff67a6f7fd8c8708c89057a0</Anchor>
+    <Abstract>Perform unlinked CREDIT transaction with request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getBatchStatisticsRequest:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>a46d75652309982e05c800901ac86e5eb</Anchor>
+    <Abstract>Perform getSettledBatchListRequest on the Reporting API.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getSettledBatchListRequest:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>a1fa89b0779cc561949082cb567dba157</Anchor>
+    <Abstract>Perform getSettledBatchListRequest on the Reporting API.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getTransactionDetailsRequest:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>aceb44273bc91643ae24b3197fe41f5a1</Anchor>
+    <Abstract>Perform getTransactionDetailsRequest on the Reporting API.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getTransactionListRequest:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>aea170727593689d07fd6a522523bf222</Anchor>
+    <Abstract>Perform getTransactionDetailsRequest on the Reporting API.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getUnsettledTransactionListRequest:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>aa5bdf2aed5018970a50ee6e3184a6bf8</Anchor>
+    <Abstract>Perform getUnsettledTransactionListRequest on the Reporting API.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mobileDeviceLoginRequest:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>a69e0de01f90a5296752f90fcf5f9e893</Anchor>
+    <Abstract>Perform mobileDeviceLoginRequest on the AIM API.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mobileDeviceRegistrationRequest:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>a85da8b448835e5dc865772a5fbe2527e</Anchor>
+    <Abstract>Perform mobileDeviceRegistrationRequest on the AIM API.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getButton:withCheckout:withLeft:withTop:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>af2379b1db2c4a14d5dda010f81a2c3cb</Anchor>
+    <Abstract>Standardized checkout experience.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getButton:withCheckout:atX:atY:withWidth:withHeight:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>a14b9eb10d8c3702b4f89eac53076c621</Anchor>
+    <Abstract>Standardized checkout experience.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>startCheckout:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>a20baaa2b91fc9778de02bef1d007cda4</Anchor>
+    <Abstract>Method to start standardized checkout experience.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>dismissModalView</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>ab910773060178d13fbc24394f9bc1ab1</Anchor>
+    <Abstract>Method to dismissModalView of the checkout UI modal view.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>authorizeWithRequest:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>ae8435d36d1a6d00e6e771a9fa58ec210</Anchor>
+    <Abstract>Perform AUTH transaction with request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>purchaseWithRequest:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>a466bfa76518d3dd27fc7eb38a7967812</Anchor>
+    <Abstract>Perform AUTH_CAPTURE transaction with request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>captureWithRequest:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>a6a586e0765c774199ccecbebdf072d3d</Anchor>
+    <Abstract>Perform PRIOR_AUTH_CAPTURE transaction with request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>captureOnlyWithRequest:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>a5d2e5d9f91f57cf1ea72a8f091aebf2d</Anchor>
+    <Abstract>Perform CAPTURE_ONLY transaction with request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>voidWithRequest:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>aef8d13917d406c5056a2176817562260</Anchor>
+    <Abstract>Perform VOID transaction with request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>creditWithRequest:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>a95bc4a5faa7ce40df5295837b98617b3</Anchor>
+    <Abstract>Perform CREDIT transaction with request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>unlinkedCreditWithRequest:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>a5b2bc486ff67a6f7fd8c8708c89057a0</Anchor>
+    <Abstract>Perform unlinked CREDIT transaction with request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getBatchStatisticsRequest:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>a46d75652309982e05c800901ac86e5eb</Anchor>
+    <Abstract>Perform getSettledBatchListRequest on the Reporting API.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getSettledBatchListRequest:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>a1fa89b0779cc561949082cb567dba157</Anchor>
+    <Abstract>Perform getSettledBatchListRequest on the Reporting API.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getTransactionDetailsRequest:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>aceb44273bc91643ae24b3197fe41f5a1</Anchor>
+    <Abstract>Perform getTransactionDetailsRequest on the Reporting API.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getTransactionListRequest:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>aea170727593689d07fd6a522523bf222</Anchor>
+    <Abstract>Perform getTransactionDetailsRequest on the Reporting API.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getUnsettledTransactionListRequest:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>aa5bdf2aed5018970a50ee6e3184a6bf8</Anchor>
+    <Abstract>Perform getUnsettledTransactionListRequest on the Reporting API.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mobileDeviceLoginRequest:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>a69e0de01f90a5296752f90fcf5f9e893</Anchor>
+    <Abstract>Perform mobileDeviceLoginRequest on the AIM API.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mobileDeviceRegistrationRequest:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>a85da8b448835e5dc865772a5fbe2527e</Anchor>
+    <Abstract>Perform mobileDeviceRegistrationRequest on the AIM API.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getButton:withCheckout:withLeft:withTop:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>af2379b1db2c4a14d5dda010f81a2c3cb</Anchor>
+    <Abstract>Standardized checkout experience.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getButton:withCheckout:atX:atY:withWidth:withHeight:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>a14b9eb10d8c3702b4f89eac53076c621</Anchor>
+    <Abstract>Standardized checkout experience.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>startCheckout:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>a20baaa2b91fc9778de02bef1d007cda4</Anchor>
+    <Abstract>Method to start standardized checkout experience.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>dismissModalView</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>ab910773060178d13fbc24394f9bc1ab1</Anchor>
+    <Abstract>Method to dismissModalView of the checkout UI modal view.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>authorizeWithRequest:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>ae8435d36d1a6d00e6e771a9fa58ec210</Anchor>
+    <Abstract>Perform AUTH transaction with request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>purchaseWithRequest:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>a466bfa76518d3dd27fc7eb38a7967812</Anchor>
+    <Abstract>Perform AUTH_CAPTURE transaction with request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>captureWithRequest:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>a6a586e0765c774199ccecbebdf072d3d</Anchor>
+    <Abstract>Perform PRIOR_AUTH_CAPTURE transaction with request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>captureOnlyWithRequest:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>a5d2e5d9f91f57cf1ea72a8f091aebf2d</Anchor>
+    <Abstract>Perform CAPTURE_ONLY transaction with request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>voidWithRequest:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>aef8d13917d406c5056a2176817562260</Anchor>
+    <Abstract>Perform VOID transaction with request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>creditWithRequest:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>a95bc4a5faa7ce40df5295837b98617b3</Anchor>
+    <Abstract>Perform CREDIT transaction with request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>unlinkedCreditWithRequest:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>a5b2bc486ff67a6f7fd8c8708c89057a0</Anchor>
+    <Abstract>Perform unlinked CREDIT transaction with request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getBatchStatisticsRequest:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>a46d75652309982e05c800901ac86e5eb</Anchor>
+    <Abstract>Perform getSettledBatchListRequest on the Reporting API.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getSettledBatchListRequest:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>a1fa89b0779cc561949082cb567dba157</Anchor>
+    <Abstract>Perform getSettledBatchListRequest on the Reporting API.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getTransactionDetailsRequest:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>aceb44273bc91643ae24b3197fe41f5a1</Anchor>
+    <Abstract>Perform getTransactionDetailsRequest on the Reporting API.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getTransactionListRequest:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>aea170727593689d07fd6a522523bf222</Anchor>
+    <Abstract>Perform getTransactionDetailsRequest on the Reporting API.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getUnsettledTransactionListRequest:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>aa5bdf2aed5018970a50ee6e3184a6bf8</Anchor>
+    <Abstract>Perform getUnsettledTransactionListRequest on the Reporting API.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mobileDeviceLoginRequest:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>a69e0de01f90a5296752f90fcf5f9e893</Anchor>
+    <Abstract>Perform mobileDeviceLoginRequest on the AIM API.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mobileDeviceRegistrationRequest:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>a85da8b448835e5dc865772a5fbe2527e</Anchor>
+    <Abstract>Perform mobileDeviceRegistrationRequest on the AIM API.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getButton:withCheckout:withLeft:withTop:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>af2379b1db2c4a14d5dda010f81a2c3cb</Anchor>
+    <Abstract>Standardized checkout experience.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getButton:withCheckout:atX:atY:withWidth:withHeight:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>a14b9eb10d8c3702b4f89eac53076c621</Anchor>
+    <Abstract>Standardized checkout experience.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>startCheckout:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>a20baaa2b91fc9778de02bef1d007cda4</Anchor>
+    <Abstract>Method to start standardized checkout experience.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>dismissModalView</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>ab910773060178d13fbc24394f9bc1ab1</Anchor>
+    <Abstract>Method to dismissModalView of the checkout UI modal view.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>authNetWithEnvironment:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>a786b06faf840607cc5dd722ab101394a</Anchor>
+    <Abstract>Initialization of the AuthNet Singleton with the development server type.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getInstance</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>a0f038013f30dbc3cd4980c3bf038310d</Anchor>
+    <Abstract>Get reference to singleton.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>setDelegate:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>aea5da974fc41578357c9919df5d34fee</Anchor>
+    <Abstract>Set Delegate to controller.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>authNetWithEnvironment:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>a786b06faf840607cc5dd722ab101394a</Anchor>
+    <Abstract>Initialization of the AuthNet Singleton with the development server type.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getInstance</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>a0f038013f30dbc3cd4980c3bf038310d</Anchor>
+    <Abstract>Get reference to singleton.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>setDelegate:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>aea5da974fc41578357c9919df5d34fee</Anchor>
+    <Abstract>Set Delegate to controller.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>authNetWithEnvironment:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>a786b06faf840607cc5dd722ab101394a</Anchor>
+    <Abstract>Initialization of the AuthNet Singleton with the development server type.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getInstance</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>a0f038013f30dbc3cd4980c3bf038310d</Anchor>
+    <Abstract>Get reference to singleton.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>setDelegate:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>aea5da974fc41578357c9919df5d34fee</Anchor>
+    <Abstract>Set Delegate to controller.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>delegate</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>aab213bddd9479dd42193e3c9d1b333b7</Anchor>
+    <Abstract>delegate Implements the checkoutSelector callback as well as AuthNetDelegate Response handling callba...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rootvc</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>a299efc78870696910facc396a05180c8</Anchor>
+    <Abstract>rootvc UIViewController that presents the modal view of the quick and easy checkout experience...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>environment</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>a6392ca5496c66dd26ca4aabfd6df57b6</Anchor>
+    <Abstract>environment Determine whether we are hitting the live or test servers.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>merchantAuthentication</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>a61248d0996e38a3962e4f17ce06c0233</Anchor>
+    <Abstract>merchantAuthentication MerchantAuthentication object that holds the username/password login informati...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sessionToken</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>a98feb2cfaa5eefb0a6ae11a62e8688d2</Anchor>
+    <Abstract>sessionToken SessionToken that is used to interact with the API Gateway.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>duplicateWindowValue</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>aeae52b6e46a10a90aeea3b6e5228e2ea</Anchor>
+    <Abstract>duplicateWindowValue A value in seconds that determines when two same transactions to the gateway wil...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>button</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>af93902fc8e52ec2765adb22891d98391</Anchor>
+    <Abstract>button The UIButton that is returned by the AuthNet module after calling the method(UIButton *) getBu...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>responseData</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>a295493a56ba8823b0a751a159abff7f6</Anchor>
+    <Abstract>responseData The responseData from the outstanding HTTP request to the Authorize.Net gateway API...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>isPendingResponse</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>a7cb6478b15ab6c0cffb29eaf53db9d49</Anchor>
+    <Abstract>isPendingResponse Indicate there is still an outstanding Authorize.Net API request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>merchantFields</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net.html</Path>
+    <Anchor>af618d51af5fbb8318c8160f5a255400c</Anchor>
+    <Abstract>merchantFields The dictionary of merchant defined fields.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>paymentSucceeded:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+    </TokenIdentifier>
+    <Path>protocol_auth_net_delegate-p.html</Path>
+    <Anchor>a83216768724bb11ffb35836d1c26b3a9</Anchor>
+    <Abstract>Delegate method is called when an CreateTransactionResponse response is returned from the server...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>paymentCancelled</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+    </TokenIdentifier>
+    <Path>protocol_auth_net_delegate-p.html</Path>
+    <Anchor>a85de6c31d6fd6190b54f66b33cd2c7b0</Anchor>
+    <Abstract>Delegate method is called user cancels a transaction from the standardized checkout flow by clicking ...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>paymentFailed:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+    </TokenIdentifier>
+    <Path>protocol_auth_net_delegate-p.html</Path>
+    <Anchor>a93b8bf1be8cf23af9c53eadd3e3566b3</Anchor>
+    <Abstract>Delegate method is called when a non CreateTransactionResponse is returned from the server...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>paymentSucceeded:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+    </TokenIdentifier>
+    <Path>protocol_auth_net_delegate-p.html</Path>
+    <Anchor>a83216768724bb11ffb35836d1c26b3a9</Anchor>
+    <Abstract>Delegate method is called when an CreateTransactionResponse response is returned from the server...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>paymentCancelled</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+    </TokenIdentifier>
+    <Path>protocol_auth_net_delegate-p.html</Path>
+    <Anchor>a85de6c31d6fd6190b54f66b33cd2c7b0</Anchor>
+    <Abstract>Delegate method is called user cancels a transaction from the standardized checkout flow by clicking ...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>paymentFailed:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+    </TokenIdentifier>
+    <Path>protocol_auth_net_delegate-p.html</Path>
+    <Anchor>a93b8bf1be8cf23af9c53eadd3e3566b3</Anchor>
+    <Abstract>Delegate method is called when a non CreateTransactionResponse is returned from the server...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>paymentSucceeded:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+    </TokenIdentifier>
+    <Path>protocol_auth_net_delegate-p.html</Path>
+    <Anchor>a83216768724bb11ffb35836d1c26b3a9</Anchor>
+    <Abstract>Delegate method is called when an CreateTransactionResponse response is returned from the server...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>paymentCancelled</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+    </TokenIdentifier>
+    <Path>protocol_auth_net_delegate-p.html</Path>
+    <Anchor>a85de6c31d6fd6190b54f66b33cd2c7b0</Anchor>
+    <Abstract>Delegate method is called user cancels a transaction from the standardized checkout flow by clicking ...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>paymentFailed:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+    </TokenIdentifier>
+    <Path>protocol_auth_net_delegate-p.html</Path>
+    <Anchor>a93b8bf1be8cf23af9c53eadd3e3566b3</Anchor>
+    <Abstract>Delegate method is called when a non CreateTransactionResponse is returned from the server...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net_request.html</Path>
+    <Anchor>aab99d065f49b7ed086b041c1c70e2975</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net_request.html</Path>
+    <Anchor>aab99d065f49b7ed086b041c1c70e2975</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_auth_net_request.html</Path>
+    <Anchor>aab99d065f49b7ed086b041c1c70e2975</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>isValid</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_create_transaction_request.html</Path>
+    <Anchor>ae220346366fe451b071343ee4fee24ca</Anchor>
+    <Abstract>Checks that the fields of the request pass validation check.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_create_transaction_request.html</Path>
+    <Anchor>a2650296394067bade8916c1fac2a5819</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>isValid</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_create_transaction_request.html</Path>
+    <Anchor>ae220346366fe451b071343ee4fee24ca</Anchor>
+    <Abstract>Checks that the fields of the request pass validation check.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_create_transaction_request.html</Path>
+    <Anchor>a2650296394067bade8916c1fac2a5819</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>isValid</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_create_transaction_request.html</Path>
+    <Anchor>ae220346366fe451b071343ee4fee24ca</Anchor>
+    <Abstract>Checks that the fields of the request pass validation check.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_create_transaction_request.html</Path>
+    <Anchor>a2650296394067bade8916c1fac2a5819</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>createTransactionRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_create_transaction_request.html</Path>
+    <Anchor>a4068071dc7054e54bd7bdf745e2f8e2d</Anchor>
+    <Abstract>Creates an autoreleased object;.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>createTransactionRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_create_transaction_request.html</Path>
+    <Anchor>a4068071dc7054e54bd7bdf745e2f8e2d</Anchor>
+    <Abstract>Creates an autoreleased object;.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>createTransactionRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_create_transaction_request.html</Path>
+    <Anchor>a4068071dc7054e54bd7bdf745e2f8e2d</Anchor>
+    <Abstract>Creates an autoreleased object;.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>isValid</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_credit_card_type.html</Path>
+    <Anchor>a201c09b0a84634ed5e015d3b20e20d42</Anchor>
+    <Abstract>Validate that fields are valid in terms of length and acceptable values.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_credit_card_type.html</Path>
+    <Anchor>aff6e2d3e9e56f3ede8deb567417072c8</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>isValid</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_credit_card_type.html</Path>
+    <Anchor>a201c09b0a84634ed5e015d3b20e20d42</Anchor>
+    <Abstract>Validate that fields are valid in terms of length and acceptable values.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_credit_card_type.html</Path>
+    <Anchor>aff6e2d3e9e56f3ede8deb567417072c8</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>isValid</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_credit_card_type.html</Path>
+    <Anchor>a201c09b0a84634ed5e015d3b20e20d42</Anchor>
+    <Abstract>Validate that fields are valid in terms of length and acceptable values.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_credit_card_type.html</Path>
+    <Anchor>aff6e2d3e9e56f3ede8deb567417072c8</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>creditCardType</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_credit_card_type.html</Path>
+    <Anchor>ae1fb0f1765f7c90431810bd324e287b7</Anchor>
+    <Abstract>Creates an autoreleased CreditCardType object;.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>isValidCreditCardNumber:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_credit_card_type.html</Path>
+    <Anchor>ab1c905ab3c19e4e3ea3301d92ae1ad30</Anchor>
+    <Abstract>Runs the Luhn Algorithm check against a credit card number.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>creditCardType</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_credit_card_type.html</Path>
+    <Anchor>ae1fb0f1765f7c90431810bd324e287b7</Anchor>
+    <Abstract>Creates an autoreleased CreditCardType object;.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>isValidCreditCardNumber:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_credit_card_type.html</Path>
+    <Anchor>ab1c905ab3c19e4e3ea3301d92ae1ad30</Anchor>
+    <Abstract>Runs the Luhn Algorithm check against a credit card number.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>creditCardType</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_credit_card_type.html</Path>
+    <Anchor>ae1fb0f1765f7c90431810bd324e287b7</Anchor>
+    <Abstract>Creates an autoreleased CreditCardType object;.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>isValidCreditCardNumber:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_credit_card_type.html</Path>
+    <Anchor>ab1c905ab3c19e4e3ea3301d92ae1ad30</Anchor>
+    <Abstract>Runs the Luhn Algorithm check against a credit card number.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_customer_address_type.html</Path>
+    <Anchor>a556f026b6a303c3656cc9056200e3b9d</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_customer_address_type.html</Path>
+    <Anchor>a556f026b6a303c3656cc9056200e3b9d</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_customer_address_type.html</Path>
+    <Anchor>a556f026b6a303c3656cc9056200e3b9d</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>customerAddressType</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_customer_address_type.html</Path>
+    <Anchor>ae4fb6cc0fb89c3f995c7f6c331b1a0cf</Anchor>
+    <Abstract>Creates an autoreleased CustomerAddressType object;.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>buildCustomerAddressType:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_customer_address_type.html</Path>
+    <Anchor>a6ce0bcef3cbd2fe97e8ed07602c352eb</Anchor>
+    <Abstract>CustomerAddressType from parsing the XML response indexed by GDataXMLElement.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>customerAddressType</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_customer_address_type.html</Path>
+    <Anchor>ae4fb6cc0fb89c3f995c7f6c331b1a0cf</Anchor>
+    <Abstract>Creates an autoreleased CustomerAddressType object;.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>buildCustomerAddressType:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_customer_address_type.html</Path>
+    <Anchor>a6ce0bcef3cbd2fe97e8ed07602c352eb</Anchor>
+    <Abstract>CustomerAddressType from parsing the XML response indexed by GDataXMLElement.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>customerAddressType</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_customer_address_type.html</Path>
+    <Anchor>ae4fb6cc0fb89c3f995c7f6c331b1a0cf</Anchor>
+    <Abstract>Creates an autoreleased CustomerAddressType object;.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>buildCustomerAddressType:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_customer_address_type.html</Path>
+    <Anchor>a6ce0bcef3cbd2fe97e8ed07602c352eb</Anchor>
+    <Abstract>CustomerAddressType from parsing the XML response indexed by GDataXMLElement.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>isValid</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_customer_data_type.html</Path>
+    <Anchor>a2796d0e14f1ad163dc81960731914b4b</Anchor>
+    <Abstract>Validate that fields are valid in terms of length and acceptable values.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_customer_data_type.html</Path>
+    <Anchor>a0997a17232cee2090415b705faae5e3b</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>isValid</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_customer_data_type.html</Path>
+    <Anchor>a2796d0e14f1ad163dc81960731914b4b</Anchor>
+    <Abstract>Validate that fields are valid in terms of length and acceptable values.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_customer_data_type.html</Path>
+    <Anchor>a0997a17232cee2090415b705faae5e3b</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>isValid</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_customer_data_type.html</Path>
+    <Anchor>a2796d0e14f1ad163dc81960731914b4b</Anchor>
+    <Abstract>Validate that fields are valid in terms of length and acceptable values.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_customer_data_type.html</Path>
+    <Anchor>a0997a17232cee2090415b705faae5e3b</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>customerDataType</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_customer_data_type.html</Path>
+    <Anchor>a1a90d423f00ea98ae284402f6613574b</Anchor>
+    <Abstract>Creates an autoreleased Customer object;.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>buildCustomerDataType:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_customer_data_type.html</Path>
+    <Anchor>a211da3a7a3ca1a622fe3505eba7834d4</Anchor>
+    <Abstract>CustomerDataType from parsing the XML response indexed by GDataXMLElement.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>customerDataType</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_customer_data_type.html</Path>
+    <Anchor>a1a90d423f00ea98ae284402f6613574b</Anchor>
+    <Abstract>Creates an autoreleased Customer object;.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>buildCustomerDataType:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_customer_data_type.html</Path>
+    <Anchor>a211da3a7a3ca1a622fe3505eba7834d4</Anchor>
+    <Abstract>CustomerDataType from parsing the XML response indexed by GDataXMLElement.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>customerDataType</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_customer_data_type.html</Path>
+    <Anchor>a1a90d423f00ea98ae284402f6613574b</Anchor>
+    <Abstract>Creates an autoreleased Customer object;.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>buildCustomerDataType:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_customer_data_type.html</Path>
+    <Anchor>a211da3a7a3ca1a622fe3505eba7834d4</Anchor>
+    <Abstract>CustomerDataType from parsing the XML response indexed by GDataXMLElement.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>buildExtendedAmountType:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_extended_amount_type.html</Path>
+    <Anchor>ae691f7f2e118cf4cc20b107ca9720556</Anchor>
+    <Abstract>ExtendedAmountType from parsing the XML response indexed by GDataXMLElement.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>buildExtendedAmountType:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_extended_amount_type.html</Path>
+    <Anchor>ae691f7f2e118cf4cc20b107ca9720556</Anchor>
+    <Abstract>ExtendedAmountType from parsing the XML response indexed by GDataXMLElement.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>buildExtendedAmountType:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_extended_amount_type.html</Path>
+    <Anchor>ae691f7f2e118cf4cc20b107ca9720556</Anchor>
+    <Abstract>ExtendedAmountType from parsing the XML response indexed by GDataXMLElement.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_get_batch_statistics_request.html</Path>
+    <Anchor>aa331c611a60cabee121b32e1e2f0b951</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_get_batch_statistics_request.html</Path>
+    <Anchor>aa331c611a60cabee121b32e1e2f0b951</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_get_batch_statistics_request.html</Path>
+    <Anchor>aa331c611a60cabee121b32e1e2f0b951</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>loadGetBatchStatisticsResponseFromFilename:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_get_batch_statistics_response.html</Path>
+    <Anchor>a8a2b7c209f329ac13e0b200237c58461</Anchor>
+    <Abstract>For unit testing.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>loadGetBatchStatisticsResponseFromFilename:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_get_batch_statistics_response.html</Path>
+    <Anchor>a8a2b7c209f329ac13e0b200237c58461</Anchor>
+    <Abstract>For unit testing.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>loadGetBatchStatisticsResponseFromFilename:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_get_batch_statistics_response.html</Path>
+    <Anchor>a8a2b7c209f329ac13e0b200237c58461</Anchor>
+    <Abstract>For unit testing.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_get_settled_batch_list_request.html</Path>
+    <Anchor>a712612028b479ee9d5c360b221c582d1</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_get_settled_batch_list_request.html</Path>
+    <Anchor>a712612028b479ee9d5c360b221c582d1</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_get_settled_batch_list_request.html</Path>
+    <Anchor>a712612028b479ee9d5c360b221c582d1</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_get_transaction_list_request.html</Path>
+    <Anchor>ae48ed74252ae467a7505df4a14ce95db</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_get_transaction_list_request.html</Path>
+    <Anchor>ae48ed74252ae467a7505df4a14ce95db</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_get_transaction_list_request.html</Path>
+    <Anchor>ae48ed74252ae467a7505df4a14ce95db</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_get_unsettled_transaction_list_request.html</Path>
+    <Anchor>a602ff13daa999aaaeb265e2977883ff1</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_get_unsettled_transaction_list_request.html</Path>
+    <Anchor>a602ff13daa999aaaeb265e2977883ff1</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_get_unsettled_transaction_list_request.html</Path>
+    <Anchor>a602ff13daa999aaaeb265e2977883ff1</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>isValid</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_line_item_type.html</Path>
+    <Anchor>a469d81df14dc40459bca844b1c3a18f9</Anchor>
+    <Abstract>Validate that fields are valid in terms of length and acceptable values.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_line_item_type.html</Path>
+    <Anchor>ad0e1ea00f89a34714cfd95a60406142b</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>isValid</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_line_item_type.html</Path>
+    <Anchor>a469d81df14dc40459bca844b1c3a18f9</Anchor>
+    <Abstract>Validate that fields are valid in terms of length and acceptable values.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_line_item_type.html</Path>
+    <Anchor>ad0e1ea00f89a34714cfd95a60406142b</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>isValid</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_line_item_type.html</Path>
+    <Anchor>a469d81df14dc40459bca844b1c3a18f9</Anchor>
+    <Abstract>Validate that fields are valid in terms of length and acceptable values.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_line_item_type.html</Path>
+    <Anchor>ad0e1ea00f89a34714cfd95a60406142b</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>lineItem</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_line_item_type.html</Path>
+    <Anchor>a3d39c24f1bfd7807333c2a7480beabd5</Anchor>
+    <Abstract>Creates an autoreleased LineItemType object;.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>buildLineItem:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_line_item_type.html</Path>
+    <Anchor>ab88b17b872d7f5d0cb8875b8bd9bec95</Anchor>
+    <Abstract>LineItemType from parsing the XML response indexed by GDataXMLElement.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>lineItem</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_line_item_type.html</Path>
+    <Anchor>a3d39c24f1bfd7807333c2a7480beabd5</Anchor>
+    <Abstract>Creates an autoreleased LineItemType object;.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>buildLineItem:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_line_item_type.html</Path>
+    <Anchor>a1c4b1049a9982dd49c15debfad0df9b5</Anchor>
+    <Abstract>LineItemType from parsing the XML response indexed by GDataXMLElement.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>lineItem</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_line_item_type.html</Path>
+    <Anchor>a3d39c24f1bfd7807333c2a7480beabd5</Anchor>
+    <Abstract>Creates an autoreleased LineItemType object;.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>buildLineItem:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_line_item_type.html</Path>
+    <Anchor>a1c4b1049a9982dd49c15debfad0df9b5</Anchor>
+    <Abstract>LineItemType from parsing the XML response indexed by GDataXMLElement.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_logout_request.html</Path>
+    <Anchor>acd75476bb33e0423b93890944b3cd728</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_logout_request.html</Path>
+    <Anchor>acd75476bb33e0423b93890944b3cd728</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_logout_request.html</Path>
+    <Anchor>acd75476bb33e0423b93890944b3cd728</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>logoutRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_logout_request.html</Path>
+    <Anchor>aa0033ca61b9293d4a46b013473cad650</Anchor>
+    <Abstract>Creates an autoreleased object.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>logoutRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_logout_request.html</Path>
+    <Anchor>aa0033ca61b9293d4a46b013473cad650</Anchor>
+    <Abstract>Creates an autoreleased object.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>logoutRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_logout_request.html</Path>
+    <Anchor>aa0033ca61b9293d4a46b013473cad650</Anchor>
+    <Abstract>Creates an autoreleased object.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>logoutResponse</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_logout_response.html</Path>
+    <Anchor>a9cfa077fb292c9581ba1a6ab8196a39d</Anchor>
+    <Abstract>Creates an autoreleased object.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>logoutResponse</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_logout_response.html</Path>
+    <Anchor>a9cfa077fb292c9581ba1a6ab8196a39d</Anchor>
+    <Abstract>Creates an autoreleased object.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>logoutResponse</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_logout_response.html</Path>
+    <Anchor>a9cfa077fb292c9581ba1a6ab8196a39d</Anchor>
+    <Abstract>Creates an autoreleased object.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_merchant_authentication_type.html</Path>
+    <Anchor>a346fe55ac7f0c3fb6fd1de01d7a35819</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_merchant_authentication_type.html</Path>
+    <Anchor>a346fe55ac7f0c3fb6fd1de01d7a35819</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_merchant_authentication_type.html</Path>
+    <Anchor>a346fe55ac7f0c3fb6fd1de01d7a35819</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>merchantAuthentication</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_merchant_authentication_type.html</Path>
+    <Anchor>ad43413799b4622a7a7a49f6bf42ac84d</Anchor>
+    <Abstract>Creates an autoreleased object.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>merchantAuthentication</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_merchant_authentication_type.html</Path>
+    <Anchor>ad43413799b4622a7a7a49f6bf42ac84d</Anchor>
+    <Abstract>Creates an autoreleased object.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>merchantAuthentication</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_merchant_authentication_type.html</Path>
+    <Anchor>ad43413799b4622a7a7a49f6bf42ac84d</Anchor>
+    <Abstract>Creates an autoreleased object.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_mobile_device_login_request.html</Path>
+    <Anchor>ab67f6cb7f99436880f34570b74db8803</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_mobile_device_login_request.html</Path>
+    <Anchor>ab67f6cb7f99436880f34570b74db8803</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_mobile_device_login_request.html</Path>
+    <Anchor>ab67f6cb7f99436880f34570b74db8803</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mobileDeviceLoginRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_mobile_device_login_request.html</Path>
+    <Anchor>a95b7097925d29b4c7c514e60a8966aa1</Anchor>
+    <Abstract>Creates an autoreleased object.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mobileDeviceLoginRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_mobile_device_login_request.html</Path>
+    <Anchor>a95b7097925d29b4c7c514e60a8966aa1</Anchor>
+    <Abstract>Creates an autoreleased object.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mobileDeviceLoginRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_mobile_device_login_request.html</Path>
+    <Anchor>a95b7097925d29b4c7c514e60a8966aa1</Anchor>
+    <Abstract>Creates an autoreleased object.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mobileDeviceLoginResponse</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_mobile_device_login_response.html</Path>
+    <Anchor>a363c8d6e00bd50c759900c29481ded4b</Anchor>
+    <Abstract>Creates an autoreleased object.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mobileDeviceLoginResponse</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_mobile_device_login_response.html</Path>
+    <Anchor>a363c8d6e00bd50c759900c29481ded4b</Anchor>
+    <Abstract>Creates an autoreleased object.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mobileDeviceLoginResponse</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_mobile_device_login_response.html</Path>
+    <Anchor>a363c8d6e00bd50c759900c29481ded4b</Anchor>
+    <Abstract>Creates an autoreleased object.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_mobile_device_registration_request.html</Path>
+    <Anchor>a023178b693465c21f5c8959bfd1aea4e</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_mobile_device_registration_request.html</Path>
+    <Anchor>a023178b693465c21f5c8959bfd1aea4e</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_mobile_device_registration_request.html</Path>
+    <Anchor>a023178b693465c21f5c8959bfd1aea4e</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mobileDeviceRegistrationRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_mobile_device_registration_request.html</Path>
+    <Anchor>aef29eec5bb96dad9bf28734bcaa9be80</Anchor>
+    <Abstract>Creates an autoreleased object.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mobileDeviceRegistrationRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_mobile_device_registration_request.html</Path>
+    <Anchor>aef29eec5bb96dad9bf28734bcaa9be80</Anchor>
+    <Abstract>Creates an autoreleased object.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mobileDeviceRegistrationRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_mobile_device_registration_request.html</Path>
+    <Anchor>aef29eec5bb96dad9bf28734bcaa9be80</Anchor>
+    <Abstract>Creates an autoreleased object.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mobileDeviceRegistrationResponse</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_mobile_device_registration_response.html</Path>
+    <Anchor>aca1c52c278dd74542f75439de450c506</Anchor>
+    <Abstract>Creates an autoreleased object.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>parseMobileDeviceRegistrationResponse:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_mobile_device_registration_response.html</Path>
+    <Anchor>ae0e564506ff65b450601f8ad48da2ecd</Anchor>
+    <Abstract>Creates an autoreleased object from passing xmlData.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>loadMobileDeviceRegistrationResponseFromFilename:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_mobile_device_registration_response.html</Path>
+    <Anchor>a4dbc56ca78a8ef70d78fdc136e4c9665</Anchor>
+    <Abstract>Creates an autoreleased object from parsing from a file.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mobileDeviceRegistrationResponse</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_mobile_device_registration_response.html</Path>
+    <Anchor>aca1c52c278dd74542f75439de450c506</Anchor>
+    <Abstract>Creates an autoreleased object.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>parseMobileDeviceRegistrationResponse:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_mobile_device_registration_response.html</Path>
+    <Anchor>ae0e564506ff65b450601f8ad48da2ecd</Anchor>
+    <Abstract>Creates an autoreleased object from passing xmlData.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>loadMobileDeviceRegistrationResponseFromFilename:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_mobile_device_registration_response.html</Path>
+    <Anchor>a4dbc56ca78a8ef70d78fdc136e4c9665</Anchor>
+    <Abstract>Creates an autoreleased object from parsing from a file.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mobileDeviceRegistrationResponse</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_mobile_device_registration_response.html</Path>
+    <Anchor>aca1c52c278dd74542f75439de450c506</Anchor>
+    <Abstract>Creates an autoreleased object.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>parseMobileDeviceRegistrationResponse:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_mobile_device_registration_response.html</Path>
+    <Anchor>ae0e564506ff65b450601f8ad48da2ecd</Anchor>
+    <Abstract>Creates an autoreleased object from passing xmlData.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>loadMobileDeviceRegistrationResponseFromFilename:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_mobile_device_registration_response.html</Path>
+    <Anchor>a4dbc56ca78a8ef70d78fdc136e4c9665</Anchor>
+    <Abstract>Creates an autoreleased object from parsing from a file.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_mobile_device_type.html</Path>
+    <Anchor>a86f29bc7bb3493c498694603fd9835d3</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_mobile_device_type.html</Path>
+    <Anchor>a86f29bc7bb3493c498694603fd9835d3</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_mobile_device_type.html</Path>
+    <Anchor>a86f29bc7bb3493c498694603fd9835d3</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mobileDevice</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_mobile_device_type.html</Path>
+    <Anchor>a0c3560c92c4e838906154c3c0684a81f</Anchor>
+    <Abstract>Creates an autoreleased object.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mobileDevice</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_mobile_device_type.html</Path>
+    <Anchor>a0c3560c92c4e838906154c3c0684a81f</Anchor>
+    <Abstract>Creates an autoreleased object.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mobileDevice</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_mobile_device_type.html</Path>
+    <Anchor>a0c3560c92c4e838906154c3c0684a81f</Anchor>
+    <Abstract>Creates an autoreleased object.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_name_and_address_type.html</Path>
+    <Anchor>ab8321d353b3ec46068dd808f03db1d72</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_name_and_address_type.html</Path>
+    <Anchor>ab8321d353b3ec46068dd808f03db1d72</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_name_and_address_type.html</Path>
+    <Anchor>ab8321d353b3ec46068dd808f03db1d72</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>nameAndAddressType</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_name_and_address_type.html</Path>
+    <Anchor>a5bde884f28077c4b2228f044e2347634</Anchor>
+    <Abstract>Creates an autoreleased NameAndAddressType object;.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>buildNameAndAddressType:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_name_and_address_type.html</Path>
+    <Anchor>aae29be499f2d1a89fbce8e9a0401dfc7</Anchor>
+    <Abstract>LineItemType from parsing the XML response indexed by GDataXMLElement.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>nameAndAddressType</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_name_and_address_type.html</Path>
+    <Anchor>a5bde884f28077c4b2228f044e2347634</Anchor>
+    <Abstract>Creates an autoreleased NameAndAddressType object;.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>buildNameAndAddressType:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_name_and_address_type.html</Path>
+    <Anchor>aae29be499f2d1a89fbce8e9a0401dfc7</Anchor>
+    <Abstract>LineItemType from parsing the XML response indexed by GDataXMLElement.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>nameAndAddressType</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_name_and_address_type.html</Path>
+    <Anchor>a5bde884f28077c4b2228f044e2347634</Anchor>
+    <Abstract>Creates an autoreleased NameAndAddressType object;.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>buildNameAndAddressType:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_name_and_address_type.html</Path>
+    <Anchor>aae29be499f2d1a89fbce8e9a0401dfc7</Anchor>
+    <Abstract>LineItemType from parsing the XML response indexed by GDataXMLElement.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>isValid</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_order_type.html</Path>
+    <Anchor>aed0335271275111bb2643b889bca0d5e</Anchor>
+    <Abstract>Validate that fields are valid in terms of length and acceptable values.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_order_type.html</Path>
+    <Anchor>a699d1eb0cc2c4aca5e79d9873931c079</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>isValid</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_order_type.html</Path>
+    <Anchor>aed0335271275111bb2643b889bca0d5e</Anchor>
+    <Abstract>Validate that fields are valid in terms of length and acceptable values.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_order_type.html</Path>
+    <Anchor>a699d1eb0cc2c4aca5e79d9873931c079</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>isValid</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_order_type.html</Path>
+    <Anchor>aed0335271275111bb2643b889bca0d5e</Anchor>
+    <Abstract>Validate that fields are valid in terms of length and acceptable values.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_order_type.html</Path>
+    <Anchor>a699d1eb0cc2c4aca5e79d9873931c079</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>order</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_order_type.html</Path>
+    <Anchor>a06bdf1e6f862936fb835791d836a7f2f</Anchor>
+    <Abstract>Creates an autoreleased Order object;.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>buildOrder:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_order_type.html</Path>
+    <Anchor>ab65489efc0a78811a8be5e524baff6c9</Anchor>
+    <Abstract>OrderType from parsing the XML response indexed by GDataXMLElement.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>order</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_order_type.html</Path>
+    <Anchor>a06bdf1e6f862936fb835791d836a7f2f</Anchor>
+    <Abstract>Creates an autoreleased Order object;.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>buildOrder:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_order_type.html</Path>
+    <Anchor>ab65489efc0a78811a8be5e524baff6c9</Anchor>
+    <Abstract>OrderType from parsing the XML response indexed by GDataXMLElement.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>order</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_order_type.html</Path>
+    <Anchor>a06bdf1e6f862936fb835791d836a7f2f</Anchor>
+    <Abstract>Creates an autoreleased Order object;.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>buildOrder:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_order_type.html</Path>
+    <Anchor>ab65489efc0a78811a8be5e524baff6c9</Anchor>
+    <Abstract>OrderType from parsing the XML response indexed by GDataXMLElement.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>isValid</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_setting_type.html</Path>
+    <Anchor>a61a1dc1ffdd81ce74a6903f7abb65168</Anchor>
+    <Abstract>Validate that fields are valid in terms of length and acceptable values.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_setting_type.html</Path>
+    <Anchor>a73be2186b19c1f2b6002da3893ec9ba5</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>isValid</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_setting_type.html</Path>
+    <Anchor>a61a1dc1ffdd81ce74a6903f7abb65168</Anchor>
+    <Abstract>Validate that fields are valid in terms of length and acceptable values.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_setting_type.html</Path>
+    <Anchor>a73be2186b19c1f2b6002da3893ec9ba5</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>isValid</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_setting_type.html</Path>
+    <Anchor>a61a1dc1ffdd81ce74a6903f7abb65168</Anchor>
+    <Abstract>Validate that fields are valid in terms of length and acceptable values.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_setting_type.html</Path>
+    <Anchor>a73be2186b19c1f2b6002da3893ec9ba5</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_user_field.html</Path>
+    <Anchor>a380d3943e6e1cd691c50c3859715eba2</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_user_field.html</Path>
+    <Anchor>a380d3943e6e1cd691c50c3859715eba2</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringOfXMLRequest</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_user_field.html</Path>
+    <Anchor>a380d3943e6e1cd691c50c3859715eba2</Anchor>
+    <Abstract>NSString of the XML Request for this class.</Abstract>
+  </Token>
+</Tokens>

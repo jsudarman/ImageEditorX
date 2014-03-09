@@ -1,0 +1,204 @@
+\hypertarget{interface_credit_card}{
+\section{CreditCard Class Reference}
+\label{interface_credit_card}\index{CreditCard@{CreditCard}}
+}
+
+
+\hyperlink{interface_credit_card}{CreditCard}.  
+
+
+
+
+{\ttfamily \#import $<$CreditCard.h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+(NSString $\ast$) -\/ \hyperlink{interface_credit_card_a02130f1f00cd68fb813ff2c5a78853ab}{creditCardTypeString:}
+\begin{DoxyCompactList}\small\item\em Get NSString representation of the Credit Card Type. \item\end{DoxyCompactList}\item 
+(NSString $\ast$) -\/ \hyperlink{interface_credit_card_ab6cbd1d21cedb4fc982f46ff858fbb74}{avsCodeToString:}
+\begin{DoxyCompactList}\small\item\em Get NSString representation of the AVS Code. \item\end{DoxyCompactList}\item 
+(NSString $\ast$) -\/ \hyperlink{interface_credit_card_a38cec2721db46428b3ffcb07c5a105e0}{avsCodeToDescription:}
+\begin{DoxyCompactList}\small\item\em Get NSString representation of the AVC Code description. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_credit_card_a6c14ddd655215402e8232271f77a5ec6}{generateCreditCardFields:}
+\begin{DoxyCompactList}\small\item\em Generate the key/value fields that are associated with this \hyperlink{interface_credit_card}{CreditCard}. \item\end{DoxyCompactList}\item 
+(BOOL) -\/ \hyperlink{interface_credit_card_a9b2bbbda0eaf51af013aa1d4db4a36f5}{isValid}
+\begin{DoxyCompactList}\small\item\em Validate that fields are valid in terms of length and acceptable values. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+(\hyperlink{interface_credit_card}{CreditCard} $\ast$) + \hyperlink{interface_credit_card_a3a5164577d3cdb01fb78b8acd7a92be1}{creditCard}
+\begin{DoxyCompactList}\small\item\em Creates an autoreleased \hyperlink{interface_credit_card}{CreditCard} object;. \item\end{DoxyCompactList}\item 
+(BOOL) + \hyperlink{interface_credit_card_a55d3f288d976515cf0bd05bdd288d42e}{isValidCreditCardNumber:}
+\begin{DoxyCompactList}\small\item\em Runs the Luhn Algorithm check against a credit card number. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_credit_card_abec5607fef06181531ed94d432f7401b}{
+NSString $\ast$ {\bfseries creditCardNumber}}
+\label{interface_credit_card_abec5607fef06181531ed94d432f7401b}
+
+\item 
+\hypertarget{interface_credit_card_a6a3e6f9fbf466c256b24166e52d2b29e}{
+NSString $\ast$ {\bfseries expirationDate}}
+\label{interface_credit_card_a6a3e6f9fbf466c256b24166e52d2b29e}
+
+\item 
+\hypertarget{interface_credit_card_a9d678889b44b9ded50d14095f3cd57b5}{
+CREDIT\_\-CARD\_\-TYPE {\bfseries cardType}}
+\label{interface_credit_card_a9d678889b44b9ded50d14095f3cd57b5}
+
+\item 
+\hypertarget{interface_credit_card_aa4114c15cec757c5e578d09ee7c42b37}{
+NSString $\ast$ {\bfseries cardCodeVerification}}
+\label{interface_credit_card_aa4114c15cec757c5e578d09ee7c42b37}
+
+\item 
+\hypertarget{interface_credit_card_a839d88cb3e1ee4d4a16a2e4d04e7ba27}{
+NSString $\ast$ {\bfseries cardholderAuthenticationIndicator}}
+\label{interface_credit_card_a839d88cb3e1ee4d4a16a2e4d04e7ba27}
+
+\item 
+\hypertarget{interface_credit_card_ab556ece7b3a20c5697ae43f7866dbd9c}{
+NSString $\ast$ {\bfseries cardholderAuthenticationValue}}
+\label{interface_credit_card_ab556ece7b3a20c5697ae43f7866dbd9c}
+
+\item 
+\hypertarget{interface_credit_card_a4ce729f4388623ad489daef62a11c414}{
+AVS\_\-CODE {\bfseries avsCode}}
+\label{interface_credit_card_a4ce729f4388623ad489daef62a11c414}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{interface_credit_card}{CreditCard}. Contains the values that are common to the credit card information of a \hyperlink{interface_auth_net_request}{AuthNetRequest} object. 
+
+\subsection{Member Function Documentation}
+\hypertarget{interface_credit_card_a38cec2721db46428b3ffcb07c5a105e0}{
+\index{CreditCard@{CreditCard}!avsCodeToDescription:@{avsCodeToDescription:}}
+\index{avsCodeToDescription:@{avsCodeToDescription:}!CreditCard@{CreditCard}}
+\subsubsection[{avsCodeToDescription:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (NSString $\ast$) avsCodeToDescription: 
+\begin{DoxyParamCaption}
+\item[{dummy(AVS\_\-CODE)}]{ code}
+\end{DoxyParamCaption}
+}}
+\label{interface_credit_card_a38cec2721db46428b3ffcb07c5a105e0}
+
+
+Get NSString representation of the AVC Code description. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em code}]AVS Code enumeration. \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+NSString of the AVS Code description 
+\end{DoxyReturn}
+\hypertarget{interface_credit_card_ab6cbd1d21cedb4fc982f46ff858fbb74}{
+\index{CreditCard@{CreditCard}!avsCodeToString:@{avsCodeToString:}}
+\index{avsCodeToString:@{avsCodeToString:}!CreditCard@{CreditCard}}
+\subsubsection[{avsCodeToString:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (NSString $\ast$) avsCodeToString: 
+\begin{DoxyParamCaption}
+\item[{dummy(AVS\_\-CODE)}]{ code}
+\end{DoxyParamCaption}
+}}
+\label{interface_credit_card_ab6cbd1d21cedb4fc982f46ff858fbb74}
+
+
+Get NSString representation of the AVS Code. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em code}]AVS Code enumeration. \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+NSString of the AVS Code. 
+\end{DoxyReturn}
+\hypertarget{interface_credit_card_a3a5164577d3cdb01fb78b8acd7a92be1}{
+\index{CreditCard@{CreditCard}!creditCard@{creditCard}}
+\index{creditCard@{creditCard}!CreditCard@{CreditCard}}
+\subsubsection[{creditCard}]{\setlength{\rightskip}{0pt plus 5cm}+ ({\bf CreditCard} $\ast$) creditCard 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}
+\label{interface_credit_card_a3a5164577d3cdb01fb78b8acd7a92be1}
+
+
+Creates an autoreleased \hyperlink{interface_credit_card}{CreditCard} object;. 
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{interface_credit_card}{CreditCard} an autoreleased credit card object. 
+\end{DoxyReturn}
+\hypertarget{interface_credit_card_a02130f1f00cd68fb813ff2c5a78853ab}{
+\index{CreditCard@{CreditCard}!creditCardTypeString:@{creditCardTypeString:}}
+\index{creditCardTypeString:@{creditCardTypeString:}!CreditCard@{CreditCard}}
+\subsubsection[{creditCardTypeString:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (NSString $\ast$) creditCardTypeString: 
+\begin{DoxyParamCaption}
+\item[{dummy(CREDIT\_\-CARD\_\-TYPE)}]{ creditCardType}
+\end{DoxyParamCaption}
+}}
+\label{interface_credit_card_a02130f1f00cd68fb813ff2c5a78853ab}
+
+
+Get NSString representation of the Credit Card Type. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em creditCardType}]Credit Card Type enumeration \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+NSString of the credit card type. 
+\end{DoxyReturn}
+\hypertarget{interface_credit_card_a6c14ddd655215402e8232271f77a5ec6}{
+\index{CreditCard@{CreditCard}!generateCreditCardFields:@{generateCreditCardFields:}}
+\index{generateCreditCardFields:@{generateCreditCardFields:}!CreditCard@{CreditCard}}
+\subsubsection[{generateCreditCardFields:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) generateCreditCardFields: 
+\begin{DoxyParamCaption}
+\item[{dummy(NSMutableDictionary $\ast$)}]{ fields}
+\end{DoxyParamCaption}
+}}
+\label{interface_credit_card_a6c14ddd655215402e8232271f77a5ec6}
+
+
+Generate the key/value fields that are associated with this \hyperlink{interface_credit_card}{CreditCard}. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em fields}]The NSMutableDictionary that will be filled with the Key/Value fields. \end{DoxyParams}
+\hypertarget{interface_credit_card_a9b2bbbda0eaf51af013aa1d4db4a36f5}{
+\index{CreditCard@{CreditCard}!isValid@{isValid}}
+\index{isValid@{isValid}!CreditCard@{CreditCard}}
+\subsubsection[{isValid}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (BOOL) isValid 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}
+\label{interface_credit_card_a9b2bbbda0eaf51af013aa1d4db4a36f5}
+
+
+Validate that fields are valid in terms of length and acceptable values. 
+
+\begin{DoxyReturn}{Returns}
+BOOL returns whether values are valid. 
+\end{DoxyReturn}
+\hypertarget{interface_credit_card_a55d3f288d976515cf0bd05bdd288d42e}{
+\index{CreditCard@{CreditCard}!isValidCreditCardNumber:@{isValidCreditCardNumber:}}
+\index{isValidCreditCardNumber:@{isValidCreditCardNumber:}!CreditCard@{CreditCard}}
+\subsubsection[{isValidCreditCardNumber:}]{\setlength{\rightskip}{0pt plus 5cm}+ (BOOL) isValidCreditCardNumber: 
+\begin{DoxyParamCaption}
+\item[{dummy(NSString $\ast$)}]{ number}
+\end{DoxyParamCaption}
+}}
+\label{interface_credit_card_a55d3f288d976515cf0bd05bdd288d42e}
+
+
+Runs the Luhn Algorithm check against a credit card number. 
+
+\begin{DoxyReturn}{Returns}
+BOOL returns whether the credit card is valid. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+/Users/Shiun/labzero/iphone-\/aim/CreditCard.h\item 
+/Users/Shiun/labzero/iphone-\/aim/CreditCard.m\end{DoxyCompactItemize}

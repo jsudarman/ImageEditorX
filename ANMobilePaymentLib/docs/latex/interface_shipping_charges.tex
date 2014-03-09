@@ -1,0 +1,143 @@
+\hypertarget{interface_shipping_charges}{
+\section{ShippingCharges Class Reference}
+\label{interface_shipping_charges}\index{ShippingCharges@{ShippingCharges}}
+}
+
+
+\hyperlink{interface_shipping_charges}{ShippingCharges}.  
+
+
+
+
+{\ttfamily \#import $<$ShippingCharges.h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+(void) -\/ \hyperlink{interface_shipping_charges_a212ce5ba856b42e7cbc2e8406490b455}{generateShippingChargesFields:}
+\begin{DoxyCompactList}\small\item\em Generate the key/value fields that are associated with the shipping charges. \item\end{DoxyCompactList}\item 
+(BOOL) -\/ \hyperlink{interface_shipping_charges_aecfee25e5f6be36343b053d3a772bb15}{isValid}
+\begin{DoxyCompactList}\small\item\em Validate that fields are valid in terms of length and acceptable values. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+(\hyperlink{interface_shipping_charges}{ShippingCharges} $\ast$) + \hyperlink{interface_shipping_charges_af582b223677096ca9c0772f8e719aa43}{shippingCharges}
+\begin{DoxyCompactList}\small\item\em Creates an autoreleased \hyperlink{interface_shipping_charges}{ShippingCharges} object;. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_shipping_charges_aa0d5fa972367698e3beee3a1bb16d7cf}{
+NSString $\ast$ {\bfseries taxItemName}}
+\label{interface_shipping_charges_aa0d5fa972367698e3beee3a1bb16d7cf}
+
+\item 
+\hypertarget{interface_shipping_charges_a64c9668c62ab5da5e6e73a00425101f0}{
+NSString $\ast$ {\bfseries taxDescription}}
+\label{interface_shipping_charges_a64c9668c62ab5da5e6e73a00425101f0}
+
+\item 
+\hypertarget{interface_shipping_charges_a1322fcd87712a2601b2826bb106ae8b7}{
+NSDecimalNumber $\ast$ {\bfseries taxAmount}}
+\label{interface_shipping_charges_a1322fcd87712a2601b2826bb106ae8b7}
+
+\item 
+\hypertarget{interface_shipping_charges_aa4865e10959df6f0a9f729b04ee6587e}{
+NSString $\ast$ {\bfseries freightItemName}}
+\label{interface_shipping_charges_aa4865e10959df6f0a9f729b04ee6587e}
+
+\item 
+\hypertarget{interface_shipping_charges_a5961cebb6b8ba90ea84e7272ce4b328a}{
+NSString $\ast$ {\bfseries freightDescription}}
+\label{interface_shipping_charges_a5961cebb6b8ba90ea84e7272ce4b328a}
+
+\item 
+\hypertarget{interface_shipping_charges_a542253c9dac6515c34d61fe871f29008}{
+NSDecimalNumber $\ast$ {\bfseries freightAmount}}
+\label{interface_shipping_charges_a542253c9dac6515c34d61fe871f29008}
+
+\item 
+\hypertarget{interface_shipping_charges_a67f523aa63557e1e491a8fc010fa06bf}{
+NSString $\ast$ {\bfseries dutyItemName}}
+\label{interface_shipping_charges_a67f523aa63557e1e491a8fc010fa06bf}
+
+\item 
+\hypertarget{interface_shipping_charges_ad60a6def4021590cb7cf557172369ee8}{
+NSString $\ast$ {\bfseries dutyDescription}}
+\label{interface_shipping_charges_ad60a6def4021590cb7cf557172369ee8}
+
+\item 
+\hypertarget{interface_shipping_charges_a2fc9562eeb0d1acbb2b53c028237ae2c}{
+NSDecimalNumber $\ast$ {\bfseries dutyAmount}}
+\label{interface_shipping_charges_a2fc9562eeb0d1acbb2b53c028237ae2c}
+
+\item 
+\hypertarget{interface_shipping_charges_a39fd5c80f2c5f26c8c50f03cc5a6b3fc}{
+BOOL {\bfseries taxExempt}}
+\label{interface_shipping_charges_a39fd5c80f2c5f26c8c50f03cc5a6b3fc}
+
+\item 
+\hypertarget{interface_shipping_charges_aee482be4ee1df93a73248d176e00d47e}{
+NSString $\ast$ {\bfseries purchaseOrderNumber}}
+\label{interface_shipping_charges_aee482be4ee1df93a73248d176e00d47e}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{interface_shipping_charges}{ShippingCharges}. Contains the values that are common to the shipping charges information of a \hyperlink{interface_auth_net_request}{AuthNetRequest} object. 
+
+\subsection{Member Function Documentation}
+\hypertarget{interface_shipping_charges_a212ce5ba856b42e7cbc2e8406490b455}{
+\index{ShippingCharges@{ShippingCharges}!generateShippingChargesFields:@{generateShippingChargesFields:}}
+\index{generateShippingChargesFields:@{generateShippingChargesFields:}!ShippingCharges@{ShippingCharges}}
+\subsubsection[{generateShippingChargesFields:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) generateShippingChargesFields: 
+\begin{DoxyParamCaption}
+\item[{dummy(NSMutableDictionary $\ast$)}]{ fields}
+\end{DoxyParamCaption}
+}}
+\label{interface_shipping_charges_a212ce5ba856b42e7cbc2e8406490b455}
+
+
+Generate the key/value fields that are associated with the shipping charges. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em fields}]The NSMutableDictionary that will be filled with the Key/Value fields. \end{DoxyParams}
+\hypertarget{interface_shipping_charges_aecfee25e5f6be36343b053d3a772bb15}{
+\index{ShippingCharges@{ShippingCharges}!isValid@{isValid}}
+\index{isValid@{isValid}!ShippingCharges@{ShippingCharges}}
+\subsubsection[{isValid}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (BOOL) isValid 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}
+\label{interface_shipping_charges_aecfee25e5f6be36343b053d3a772bb15}
+
+
+Validate that fields are valid in terms of length and acceptable values. 
+
+\begin{DoxyReturn}{Returns}
+BOOL returns whether values are valid. 
+\end{DoxyReturn}
+\hypertarget{interface_shipping_charges_af582b223677096ca9c0772f8e719aa43}{
+\index{ShippingCharges@{ShippingCharges}!shippingCharges@{shippingCharges}}
+\index{shippingCharges@{shippingCharges}!ShippingCharges@{ShippingCharges}}
+\subsubsection[{shippingCharges}]{\setlength{\rightskip}{0pt plus 5cm}+ ({\bf ShippingCharges} $\ast$) shippingCharges 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}
+\label{interface_shipping_charges_af582b223677096ca9c0772f8e719aa43}
+
+
+Creates an autoreleased \hyperlink{interface_shipping_charges}{ShippingCharges} object;. 
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{interface_shipping_charges}{ShippingCharges} an autoreleased \hyperlink{interface_shipping_charges}{ShippingCharges} object. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+/Users/Shiun/labzero/iphone-\/aim/ShippingCharges.h\item 
+/Users/Shiun/labzero/iphone-\/aim/ShippingCharges.m\end{DoxyCompactItemize}

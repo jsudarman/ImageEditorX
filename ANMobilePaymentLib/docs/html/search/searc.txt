@@ -1,0 +1,7 @@
+FILE QUARANTINED
+
+Microsoft Forefront Security for Exchange Server removed a file since it was found to match a filter.
+File name: "winmail.dat->anet_ios_sdk-1.1.1.zip->search.js"
+Filter name: "FILE FILTER= unnamed: *.js"
+
+Server: SW550HCPX001

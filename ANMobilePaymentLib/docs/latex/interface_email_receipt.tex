@@ -1,0 +1,113 @@
+\hypertarget{interface_email_receipt}{
+\section{EmailReceipt Class Reference}
+\label{interface_email_receipt}\index{EmailReceipt@{EmailReceipt}}
+}
+
+
+\hyperlink{interface_email_receipt}{EmailReceipt}.  
+
+
+
+
+{\ttfamily \#import $<$EmailReceipt.h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+(void) -\/ \hyperlink{interface_email_receipt_a0667f5d47432520a7a76e39c8ff80948}{generateEmailReceiptFields:}
+\begin{DoxyCompactList}\small\item\em Generate the key/value fields that are associated with this email receipt. \item\end{DoxyCompactList}\item 
+(BOOL) -\/ \hyperlink{interface_email_receipt_a643a132ff66cd612089b663778f25f18}{isValid}
+\begin{DoxyCompactList}\small\item\em Validate that fields are valid in terms of length and acceptable values. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+(\hyperlink{interface_email_receipt}{EmailReceipt} $\ast$) + \hyperlink{interface_email_receipt_a62a4108502ab24d3222e362361369556}{emailReceipt}
+\begin{DoxyCompactList}\small\item\em Creates an autoreleased \hyperlink{interface_email_receipt}{EmailReceipt} object;. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_email_receipt_ae792f2d931942af8551ff38c3adc2c23}{
+BOOL {\bfseries emailCustomer}}
+\label{interface_email_receipt_ae792f2d931942af8551ff38c3adc2c23}
+
+\item 
+\hypertarget{interface_email_receipt_a859c4c29402cd921d31dcf1cddcf8570}{
+NSString $\ast$ {\bfseries email}}
+\label{interface_email_receipt_a859c4c29402cd921d31dcf1cddcf8570}
+
+\item 
+\hypertarget{interface_email_receipt_a985eeb90c53e446f44d1d9bb5144255a}{
+NSString $\ast$ {\bfseries headerEmailReceipt}}
+\label{interface_email_receipt_a985eeb90c53e446f44d1d9bb5144255a}
+
+\item 
+\hypertarget{interface_email_receipt_a629920c967fa9e8f121876dfb9808d63}{
+NSString $\ast$ {\bfseries footerEmailReceipt}}
+\label{interface_email_receipt_a629920c967fa9e8f121876dfb9808d63}
+
+\item 
+\hypertarget{interface_email_receipt_a281d2114c7f37e039a47e44d595e3e39}{
+NSString $\ast$ {\bfseries merchantEmail}}
+\label{interface_email_receipt_a281d2114c7f37e039a47e44d595e3e39}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{interface_email_receipt}{EmailReceipt}. Contains the values that are common to the email receipt information of a \hyperlink{interface_auth_net_request}{AuthNetRequest} object. 
+
+\subsection{Member Function Documentation}
+\hypertarget{interface_email_receipt_a62a4108502ab24d3222e362361369556}{
+\index{EmailReceipt@{EmailReceipt}!emailReceipt@{emailReceipt}}
+\index{emailReceipt@{emailReceipt}!EmailReceipt@{EmailReceipt}}
+\subsubsection[{emailReceipt}]{\setlength{\rightskip}{0pt plus 5cm}+ ({\bf EmailReceipt} $\ast$) emailReceipt 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}
+\label{interface_email_receipt_a62a4108502ab24d3222e362361369556}
+
+
+Creates an autoreleased \hyperlink{interface_email_receipt}{EmailReceipt} object;. 
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{interface_email_receipt}{EmailReceipt} an autoreleased \hyperlink{interface_email_receipt}{EmailReceipt} object. 
+\end{DoxyReturn}
+\hypertarget{interface_email_receipt_a0667f5d47432520a7a76e39c8ff80948}{
+\index{EmailReceipt@{EmailReceipt}!generateEmailReceiptFields:@{generateEmailReceiptFields:}}
+\index{generateEmailReceiptFields:@{generateEmailReceiptFields:}!EmailReceipt@{EmailReceipt}}
+\subsubsection[{generateEmailReceiptFields:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) generateEmailReceiptFields: 
+\begin{DoxyParamCaption}
+\item[{dummy(NSMutableDictionary $\ast$)}]{ fields}
+\end{DoxyParamCaption}
+}}
+\label{interface_email_receipt_a0667f5d47432520a7a76e39c8ff80948}
+
+
+Generate the key/value fields that are associated with this email receipt. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em fields}]The NSMutableDictionary that will be filled with the Key/Value fields. \end{DoxyParams}
+\hypertarget{interface_email_receipt_a643a132ff66cd612089b663778f25f18}{
+\index{EmailReceipt@{EmailReceipt}!isValid@{isValid}}
+\index{isValid@{isValid}!EmailReceipt@{EmailReceipt}}
+\subsubsection[{isValid}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (BOOL) isValid 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}
+\label{interface_email_receipt_a643a132ff66cd612089b663778f25f18}
+
+
+Validate that fields are valid in terms of length and acceptable values. 
+
+\begin{DoxyReturn}{Returns}
+BOOL returns whether values are valid. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+/Users/Shiun/labzero/iphone-\/aim/EmailReceipt.h\item 
+/Users/Shiun/labzero/iphone-\/aim/EmailReceipt.m\end{DoxyCompactItemize}

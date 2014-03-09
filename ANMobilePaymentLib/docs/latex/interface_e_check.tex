@@ -1,0 +1,170 @@
+\hypertarget{interface_e_check}{
+\section{ECheck Class Reference}
+\label{interface_e_check}\index{ECheck@{ECheck}}
+}
+
+
+\hyperlink{interface_e_check}{ECheck}.  
+
+
+
+
+{\ttfamily \#import $<$ECheck.h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+(NSString $\ast$) -\/ \hyperlink{interface_e_check_a1e9c099c57eda74f9ca3b61fddb55bf0}{getBankAccountTypeString:}
+\begin{DoxyCompactList}\small\item\em Get NSString representation of bank account type. \item\end{DoxyCompactList}\item 
+(NSString $\ast$) -\/ \hyperlink{interface_e_check_a236d483c58c4b529055a34b3819c8e68}{getECheckTypeString:}
+\begin{DoxyCompactList}\small\item\em Get NSString representation of \hyperlink{interface_e_check}{ECheck} type. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_e_check_ae10e1bf62891812f48124d0e7274c492}{generateECheckFields:}
+\begin{DoxyCompactList}\small\item\em Generate the key/value fields that are associated with this eCheck. \item\end{DoxyCompactList}\item 
+(BOOL) -\/ \hyperlink{interface_e_check_a07435fa1584ced8083778daccfa45132}{isValid}
+\begin{DoxyCompactList}\small\item\em Validate that fields are valid in terms of length and acceptable values. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+(\hyperlink{interface_e_check}{ECheck} $\ast$) + \hyperlink{interface_e_check_a6990be9ab121e4f07a07924bce0a422b}{eCheck}
+\begin{DoxyCompactList}\small\item\em Creates an autoreleased \hyperlink{interface_e_check}{ECheck} object;. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_e_check_a63fe402c597e16d5072cb7fd847e3ec2}{
+NSString $\ast$ {\bfseries routingNumber}}
+\label{interface_e_check_a63fe402c597e16d5072cb7fd847e3ec2}
+
+\item 
+\hypertarget{interface_e_check_a1cd64d4f7def11d337f78040d7b52494}{
+NSString $\ast$ {\bfseries bankAccountNumber}}
+\label{interface_e_check_a1cd64d4f7def11d337f78040d7b52494}
+
+\item 
+\hypertarget{interface_e_check_a911ad86a40b578c0570705f9e36fc18e}{
+BANK\_\-ACCOUNT\_\-TYPE {\bfseries bankAccountType}}
+\label{interface_e_check_a911ad86a40b578c0570705f9e36fc18e}
+
+\item 
+\hypertarget{interface_e_check_a4dfe57223b8b1fa1319f75a04a966002}{
+NSString $\ast$ {\bfseries bankName}}
+\label{interface_e_check_a4dfe57223b8b1fa1319f75a04a966002}
+
+\item 
+\hypertarget{interface_e_check_a22f0c0734ba51e83e5b7d036023ec2eb}{
+NSString $\ast$ {\bfseries bankAccountName}}
+\label{interface_e_check_a22f0c0734ba51e83e5b7d036023ec2eb}
+
+\item 
+\hypertarget{interface_e_check_a10821ed4b5ee9033a558dfabb27126e9}{
+NSString $\ast$ {\bfseries bankCheckNumber}}
+\label{interface_e_check_a10821ed4b5ee9033a558dfabb27126e9}
+
+\item 
+\hypertarget{interface_e_check_ad304786202227025c5c6ddb2a8d6446e}{
+ECHECK\_\-TYPE {\bfseries echeckType}}
+\label{interface_e_check_ad304786202227025c5c6ddb2a8d6446e}
+
+\item 
+\hypertarget{interface_e_check_a4b2b9ac8cb27ff6692bafb4d5aa92cba}{
+BOOL {\bfseries recurringBilling}}
+\label{interface_e_check_a4b2b9ac8cb27ff6692bafb4d5aa92cba}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{interface_e_check}{ECheck}. Contains the values that are common to the eCheck information of a \hyperlink{interface_auth_net_request}{AuthNetRequest} object. 
+
+\subsection{Member Function Documentation}
+\hypertarget{interface_e_check_a6990be9ab121e4f07a07924bce0a422b}{
+\index{ECheck@{ECheck}!eCheck@{eCheck}}
+\index{eCheck@{eCheck}!ECheck@{ECheck}}
+\subsubsection[{eCheck}]{\setlength{\rightskip}{0pt plus 5cm}+ ({\bf ECheck} $\ast$) eCheck 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}
+\label{interface_e_check_a6990be9ab121e4f07a07924bce0a422b}
+
+
+Creates an autoreleased \hyperlink{interface_e_check}{ECheck} object;. 
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{interface_e_check}{ECheck} an autoreleased \hyperlink{interface_e_check}{ECheck} object. 
+\end{DoxyReturn}
+\hypertarget{interface_e_check_ae10e1bf62891812f48124d0e7274c492}{
+\index{ECheck@{ECheck}!generateECheckFields:@{generateECheckFields:}}
+\index{generateECheckFields:@{generateECheckFields:}!ECheck@{ECheck}}
+\subsubsection[{generateECheckFields:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) generateECheckFields: 
+\begin{DoxyParamCaption}
+\item[{dummy(NSMutableDictionary $\ast$)}]{ fields}
+\end{DoxyParamCaption}
+}}
+\label{interface_e_check_ae10e1bf62891812f48124d0e7274c492}
+
+
+Generate the key/value fields that are associated with this eCheck. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em fields}]The NSMutableDictionary that will be filled with the Key/Value fields. \end{DoxyParams}
+\hypertarget{interface_e_check_a1e9c099c57eda74f9ca3b61fddb55bf0}{
+\index{ECheck@{ECheck}!getBankAccountTypeString:@{getBankAccountTypeString:}}
+\index{getBankAccountTypeString:@{getBankAccountTypeString:}!ECheck@{ECheck}}
+\subsubsection[{getBankAccountTypeString:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (NSString $\ast$) getBankAccountTypeString: 
+\begin{DoxyParamCaption}
+\item[{dummy(BANK\_\-ACCOUNT\_\-TYPE)}]{ type}
+\end{DoxyParamCaption}
+}}
+\label{interface_e_check_a1e9c099c57eda74f9ca3b61fddb55bf0}
+
+
+Get NSString representation of bank account type. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em type}]Bank account type enumeration. \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+NSString of the bank account type. 
+\end{DoxyReturn}
+\hypertarget{interface_e_check_a236d483c58c4b529055a34b3819c8e68}{
+\index{ECheck@{ECheck}!getECheckTypeString:@{getECheckTypeString:}}
+\index{getECheckTypeString:@{getECheckTypeString:}!ECheck@{ECheck}}
+\subsubsection[{getECheckTypeString:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (NSString $\ast$) getECheckTypeString: 
+\begin{DoxyParamCaption}
+\item[{dummy(ECHECK\_\-TYPE)}]{ type}
+\end{DoxyParamCaption}
+}}
+\label{interface_e_check_a236d483c58c4b529055a34b3819c8e68}
+
+
+Get NSString representation of \hyperlink{interface_e_check}{ECheck} type. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em type}]\hyperlink{interface_e_check}{ECheck} type enumeration. \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+NSString representation of the \hyperlink{interface_e_check}{ECheck} string. 
+\end{DoxyReturn}
+\hypertarget{interface_e_check_a07435fa1584ced8083778daccfa45132}{
+\index{ECheck@{ECheck}!isValid@{isValid}}
+\index{isValid@{isValid}!ECheck@{ECheck}}
+\subsubsection[{isValid}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (BOOL) isValid 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}
+\label{interface_e_check_a07435fa1584ced8083778daccfa45132}
+
+
+Validate that fields are valid in terms of length and acceptable values. 
+
+\begin{DoxyReturn}{Returns}
+BOOL returns whether values are valid. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+/Users/Shiun/labzero/iphone-\/aim/ECheck.h\item 
+/Users/Shiun/labzero/iphone-\/aim/ECheck.m\end{DoxyCompactItemize}

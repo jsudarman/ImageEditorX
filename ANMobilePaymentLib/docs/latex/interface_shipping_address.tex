@@ -1,0 +1,128 @@
+\hypertarget{interface_shipping_address}{
+\section{ShippingAddress Class Reference}
+\label{interface_shipping_address}\index{ShippingAddress@{ShippingAddress}}
+}
+
+
+\hyperlink{interface_shipping_address}{ShippingAddress}.  
+
+
+
+
+{\ttfamily \#import $<$ShippingAddress.h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+(void) -\/ \hyperlink{interface_shipping_address_aacd441c150b9d29689d8e6f6c257bdda}{generateShippingAddressFields:}
+\begin{DoxyCompactList}\small\item\em Generate the key/value fields that are associated with the shipping address. \item\end{DoxyCompactList}\item 
+(BOOL) -\/ \hyperlink{interface_shipping_address_a87367fe1cf71f739afd527726d8d9e15}{isValid}
+\begin{DoxyCompactList}\small\item\em Validate that fields are valid in terms of length and acceptable values. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+(\hyperlink{interface_shipping_address}{ShippingAddress} $\ast$) + \hyperlink{interface_shipping_address_a796bbc8193c516c6b26952949f0f2f16}{shippingAddress}
+\begin{DoxyCompactList}\small\item\em Creates an autoreleased \hyperlink{interface_shipping_address}{ShippingAddress} object;. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_shipping_address_aab8b9e8039c9447fb70a08cdee7c595d}{
+NSString $\ast$ {\bfseries firstName}}
+\label{interface_shipping_address_aab8b9e8039c9447fb70a08cdee7c595d}
+
+\item 
+\hypertarget{interface_shipping_address_a1b5111270e6cbff86f13d85bf1b18272}{
+NSString $\ast$ {\bfseries lastName}}
+\label{interface_shipping_address_a1b5111270e6cbff86f13d85bf1b18272}
+
+\item 
+\hypertarget{interface_shipping_address_a66bbde6231dcb0b7568545f86fd60053}{
+NSString $\ast$ {\bfseries company}}
+\label{interface_shipping_address_a66bbde6231dcb0b7568545f86fd60053}
+
+\item 
+\hypertarget{interface_shipping_address_a1c91e78ea37fb9c1ba2bcbc1979f9bef}{
+NSString $\ast$ {\bfseries address}}
+\label{interface_shipping_address_a1c91e78ea37fb9c1ba2bcbc1979f9bef}
+
+\item 
+\hypertarget{interface_shipping_address_adb83655fed6a4f5b34015465ed3cb58a}{
+NSString $\ast$ {\bfseries city}}
+\label{interface_shipping_address_adb83655fed6a4f5b34015465ed3cb58a}
+
+\item 
+\hypertarget{interface_shipping_address_aeb8588ae00dd1d5e316923395aa9d030}{
+NSString $\ast$ {\bfseries state}}
+\label{interface_shipping_address_aeb8588ae00dd1d5e316923395aa9d030}
+
+\item 
+\hypertarget{interface_shipping_address_a430d4d959763dbcd5dfe1889352b6381}{
+NSString $\ast$ {\bfseries zip}}
+\label{interface_shipping_address_a430d4d959763dbcd5dfe1889352b6381}
+
+\item 
+\hypertarget{interface_shipping_address_a14f2feedbd4f6a0b96b3c4bab454caa8}{
+NSString $\ast$ {\bfseries country}}
+\label{interface_shipping_address_a14f2feedbd4f6a0b96b3c4bab454caa8}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{interface_shipping_address}{ShippingAddress}. Contains the values that are common to the shipping address information of a \hyperlink{interface_auth_net_request}{AuthNetRequest} object. 
+
+\subsection{Member Function Documentation}
+\hypertarget{interface_shipping_address_aacd441c150b9d29689d8e6f6c257bdda}{
+\index{ShippingAddress@{ShippingAddress}!generateShippingAddressFields:@{generateShippingAddressFields:}}
+\index{generateShippingAddressFields:@{generateShippingAddressFields:}!ShippingAddress@{ShippingAddress}}
+\subsubsection[{generateShippingAddressFields:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) generateShippingAddressFields: 
+\begin{DoxyParamCaption}
+\item[{dummy(NSMutableDictionary $\ast$)}]{ fields}
+\end{DoxyParamCaption}
+}}
+\label{interface_shipping_address_aacd441c150b9d29689d8e6f6c257bdda}
+
+
+Generate the key/value fields that are associated with the shipping address. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em fields}]The NSMutableDictionary that will be filled with the Key/Value fields. \end{DoxyParams}
+\hypertarget{interface_shipping_address_a87367fe1cf71f739afd527726d8d9e15}{
+\index{ShippingAddress@{ShippingAddress}!isValid@{isValid}}
+\index{isValid@{isValid}!ShippingAddress@{ShippingAddress}}
+\subsubsection[{isValid}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (BOOL) isValid 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}
+\label{interface_shipping_address_a87367fe1cf71f739afd527726d8d9e15}
+
+
+Validate that fields are valid in terms of length and acceptable values. 
+
+\begin{DoxyReturn}{Returns}
+BOOL returns whether values are valid. 
+\end{DoxyReturn}
+\hypertarget{interface_shipping_address_a796bbc8193c516c6b26952949f0f2f16}{
+\index{ShippingAddress@{ShippingAddress}!shippingAddress@{shippingAddress}}
+\index{shippingAddress@{shippingAddress}!ShippingAddress@{ShippingAddress}}
+\subsubsection[{shippingAddress}]{\setlength{\rightskip}{0pt plus 5cm}+ ({\bf ShippingAddress} $\ast$) shippingAddress 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}
+\label{interface_shipping_address_a796bbc8193c516c6b26952949f0f2f16}
+
+
+Creates an autoreleased \hyperlink{interface_shipping_address}{ShippingAddress} object;. 
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{interface_shipping_address}{ShippingAddress} an autoreleased \hyperlink{interface_shipping_address}{ShippingAddress} object. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+/Users/Shiun/labzero/iphone-\/aim/ShippingAddress.h\item 
+/Users/Shiun/labzero/iphone-\/aim/ShippingAddress.m\end{DoxyCompactItemize}

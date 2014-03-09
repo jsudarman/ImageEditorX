@@ -1,0 +1,1314 @@
+\hypertarget{interface_auth_net}{
+\section{AuthNet Class Reference}
+\label{interface_auth_net}\index{AuthNet@{AuthNet}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+(void) -\/ \hyperlink{interface_auth_net_ae8435d36d1a6d00e6e771a9fa58ec210}{authorizeWithRequest:}
+\begin{DoxyCompactList}\small\item\em Perform AUTH transaction with request. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_auth_net_a466bfa76518d3dd27fc7eb38a7967812}{purchaseWithRequest:}
+\begin{DoxyCompactList}\small\item\em Perform AUTH\_\-CAPTURE transaction with request. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_auth_net_a6a586e0765c774199ccecbebdf072d3d}{captureWithRequest:}
+\begin{DoxyCompactList}\small\item\em Perform PRIOR\_\-AUTH\_\-CAPTURE transaction with request. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_auth_net_a5d2e5d9f91f57cf1ea72a8f091aebf2d}{captureOnlyWithRequest:}
+\begin{DoxyCompactList}\small\item\em Perform CAPTURE\_\-ONLY transaction with request. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_auth_net_aef8d13917d406c5056a2176817562260}{voidWithRequest:}
+\begin{DoxyCompactList}\small\item\em Perform VOID transaction with request. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_auth_net_a95bc4a5faa7ce40df5295837b98617b3}{creditWithRequest:}
+\begin{DoxyCompactList}\small\item\em Perform CREDIT transaction with request. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_auth_net_a5b2bc486ff67a6f7fd8c8708c89057a0}{unlinkedCreditWithRequest:}
+\begin{DoxyCompactList}\small\item\em Perform unlinked CREDIT transaction with request. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_auth_net_a46d75652309982e05c800901ac86e5eb}{getBatchStatisticsRequest:}
+\begin{DoxyCompactList}\small\item\em Perform getSettledBatchListRequest on the Reporting API. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_auth_net_a1fa89b0779cc561949082cb567dba157}{getSettledBatchListRequest:}
+\begin{DoxyCompactList}\small\item\em Perform getSettledBatchListRequest on the Reporting API. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_auth_net_aceb44273bc91643ae24b3197fe41f5a1}{getTransactionDetailsRequest:}
+\begin{DoxyCompactList}\small\item\em Perform getTransactionDetailsRequest on the Reporting API. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_auth_net_aea170727593689d07fd6a522523bf222}{getTransactionListRequest:}
+\begin{DoxyCompactList}\small\item\em Perform getTransactionDetailsRequest on the Reporting API. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_auth_net_aa5bdf2aed5018970a50ee6e3184a6bf8}{getUnsettledTransactionListRequest:}
+\begin{DoxyCompactList}\small\item\em Perform getUnsettledTransactionListRequest on the Reporting API. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_auth_net_a69e0de01f90a5296752f90fcf5f9e893}{mobileDeviceLoginRequest:}
+\begin{DoxyCompactList}\small\item\em Perform mobileDeviceLoginRequest on the AIM API. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_auth_net_a85da8b448835e5dc865772a5fbe2527e}{mobileDeviceRegistrationRequest:}
+\begin{DoxyCompactList}\small\item\em Perform mobileDeviceRegistrationRequest on the AIM API. \item\end{DoxyCompactList}\item 
+(UIButton $\ast$) -\/ \hyperlink{interface_auth_net_af2379b1db2c4a14d5dda010f81a2c3cb}{getButton:withCheckout:withLeft:withTop:}
+\begin{DoxyCompactList}\small\item\em Standardized checkout experience. \item\end{DoxyCompactList}\item 
+(UIButton $\ast$) -\/ \hyperlink{interface_auth_net_a14b9eb10d8c3702b4f89eac53076c621}{getButton:withCheckout:atX:atY:withWidth:withHeight:}
+\begin{DoxyCompactList}\small\item\em Standardized checkout experience. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_auth_net_a20baaa2b91fc9778de02bef1d007cda4}{startCheckout:}
+\begin{DoxyCompactList}\small\item\em Method to start standardized checkout experience. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_auth_net_ab910773060178d13fbc24394f9bc1ab1}{dismissModalView}
+\begin{DoxyCompactList}\small\item\em Method to dismissModalView of the checkout UI modal view. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_auth_net_ae8435d36d1a6d00e6e771a9fa58ec210}{authorizeWithRequest:}
+\begin{DoxyCompactList}\small\item\em Perform AUTH transaction with request. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_auth_net_a466bfa76518d3dd27fc7eb38a7967812}{purchaseWithRequest:}
+\begin{DoxyCompactList}\small\item\em Perform AUTH\_\-CAPTURE transaction with request. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_auth_net_a6a586e0765c774199ccecbebdf072d3d}{captureWithRequest:}
+\begin{DoxyCompactList}\small\item\em Perform PRIOR\_\-AUTH\_\-CAPTURE transaction with request. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_auth_net_a5d2e5d9f91f57cf1ea72a8f091aebf2d}{captureOnlyWithRequest:}
+\begin{DoxyCompactList}\small\item\em Perform CAPTURE\_\-ONLY transaction with request. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_auth_net_aef8d13917d406c5056a2176817562260}{voidWithRequest:}
+\begin{DoxyCompactList}\small\item\em Perform VOID transaction with request. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_auth_net_a95bc4a5faa7ce40df5295837b98617b3}{creditWithRequest:}
+\begin{DoxyCompactList}\small\item\em Perform CREDIT transaction with request. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_auth_net_a5b2bc486ff67a6f7fd8c8708c89057a0}{unlinkedCreditWithRequest:}
+\begin{DoxyCompactList}\small\item\em Perform unlinked CREDIT transaction with request. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_auth_net_a46d75652309982e05c800901ac86e5eb}{getBatchStatisticsRequest:}
+\begin{DoxyCompactList}\small\item\em Perform getSettledBatchListRequest on the Reporting API. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_auth_net_a1fa89b0779cc561949082cb567dba157}{getSettledBatchListRequest:}
+\begin{DoxyCompactList}\small\item\em Perform getSettledBatchListRequest on the Reporting API. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_auth_net_aceb44273bc91643ae24b3197fe41f5a1}{getTransactionDetailsRequest:}
+\begin{DoxyCompactList}\small\item\em Perform getTransactionDetailsRequest on the Reporting API. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_auth_net_aea170727593689d07fd6a522523bf222}{getTransactionListRequest:}
+\begin{DoxyCompactList}\small\item\em Perform getTransactionDetailsRequest on the Reporting API. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_auth_net_aa5bdf2aed5018970a50ee6e3184a6bf8}{getUnsettledTransactionListRequest:}
+\begin{DoxyCompactList}\small\item\em Perform getUnsettledTransactionListRequest on the Reporting API. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_auth_net_a69e0de01f90a5296752f90fcf5f9e893}{mobileDeviceLoginRequest:}
+\begin{DoxyCompactList}\small\item\em Perform mobileDeviceLoginRequest on the AIM API. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_auth_net_a85da8b448835e5dc865772a5fbe2527e}{mobileDeviceRegistrationRequest:}
+\begin{DoxyCompactList}\small\item\em Perform mobileDeviceRegistrationRequest on the AIM API. \item\end{DoxyCompactList}\item 
+(UIButton $\ast$) -\/ \hyperlink{interface_auth_net_af2379b1db2c4a14d5dda010f81a2c3cb}{getButton:withCheckout:withLeft:withTop:}
+\begin{DoxyCompactList}\small\item\em Standardized checkout experience. \item\end{DoxyCompactList}\item 
+(UIButton $\ast$) -\/ \hyperlink{interface_auth_net_a14b9eb10d8c3702b4f89eac53076c621}{getButton:withCheckout:atX:atY:withWidth:withHeight:}
+\begin{DoxyCompactList}\small\item\em Standardized checkout experience. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_auth_net_a20baaa2b91fc9778de02bef1d007cda4}{startCheckout:}
+\begin{DoxyCompactList}\small\item\em Method to start standardized checkout experience. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_auth_net_ab910773060178d13fbc24394f9bc1ab1}{dismissModalView}
+\begin{DoxyCompactList}\small\item\em Method to dismissModalView of the checkout UI modal view. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_auth_net_ae8435d36d1a6d00e6e771a9fa58ec210}{authorizeWithRequest:}
+\begin{DoxyCompactList}\small\item\em Perform AUTH transaction with request. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_auth_net_a466bfa76518d3dd27fc7eb38a7967812}{purchaseWithRequest:}
+\begin{DoxyCompactList}\small\item\em Perform AUTH\_\-CAPTURE transaction with request. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_auth_net_a6a586e0765c774199ccecbebdf072d3d}{captureWithRequest:}
+\begin{DoxyCompactList}\small\item\em Perform PRIOR\_\-AUTH\_\-CAPTURE transaction with request. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_auth_net_a5d2e5d9f91f57cf1ea72a8f091aebf2d}{captureOnlyWithRequest:}
+\begin{DoxyCompactList}\small\item\em Perform CAPTURE\_\-ONLY transaction with request. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_auth_net_aef8d13917d406c5056a2176817562260}{voidWithRequest:}
+\begin{DoxyCompactList}\small\item\em Perform VOID transaction with request. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_auth_net_a95bc4a5faa7ce40df5295837b98617b3}{creditWithRequest:}
+\begin{DoxyCompactList}\small\item\em Perform CREDIT transaction with request. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_auth_net_a5b2bc486ff67a6f7fd8c8708c89057a0}{unlinkedCreditWithRequest:}
+\begin{DoxyCompactList}\small\item\em Perform unlinked CREDIT transaction with request. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_auth_net_a46d75652309982e05c800901ac86e5eb}{getBatchStatisticsRequest:}
+\begin{DoxyCompactList}\small\item\em Perform getSettledBatchListRequest on the Reporting API. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_auth_net_a1fa89b0779cc561949082cb567dba157}{getSettledBatchListRequest:}
+\begin{DoxyCompactList}\small\item\em Perform getSettledBatchListRequest on the Reporting API. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_auth_net_aceb44273bc91643ae24b3197fe41f5a1}{getTransactionDetailsRequest:}
+\begin{DoxyCompactList}\small\item\em Perform getTransactionDetailsRequest on the Reporting API. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_auth_net_aea170727593689d07fd6a522523bf222}{getTransactionListRequest:}
+\begin{DoxyCompactList}\small\item\em Perform getTransactionDetailsRequest on the Reporting API. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_auth_net_aa5bdf2aed5018970a50ee6e3184a6bf8}{getUnsettledTransactionListRequest:}
+\begin{DoxyCompactList}\small\item\em Perform getUnsettledTransactionListRequest on the Reporting API. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_auth_net_a69e0de01f90a5296752f90fcf5f9e893}{mobileDeviceLoginRequest:}
+\begin{DoxyCompactList}\small\item\em Perform mobileDeviceLoginRequest on the AIM API. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_auth_net_a85da8b448835e5dc865772a5fbe2527e}{mobileDeviceRegistrationRequest:}
+\begin{DoxyCompactList}\small\item\em Perform mobileDeviceRegistrationRequest on the AIM API. \item\end{DoxyCompactList}\item 
+(UIButton $\ast$) -\/ \hyperlink{interface_auth_net_af2379b1db2c4a14d5dda010f81a2c3cb}{getButton:withCheckout:withLeft:withTop:}
+\begin{DoxyCompactList}\small\item\em Standardized checkout experience. \item\end{DoxyCompactList}\item 
+(UIButton $\ast$) -\/ \hyperlink{interface_auth_net_a14b9eb10d8c3702b4f89eac53076c621}{getButton:withCheckout:atX:atY:withWidth:withHeight:}
+\begin{DoxyCompactList}\small\item\em Standardized checkout experience. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_auth_net_a20baaa2b91fc9778de02bef1d007cda4}{startCheckout:}
+\begin{DoxyCompactList}\small\item\em Method to start standardized checkout experience. \item\end{DoxyCompactList}\item 
+(void) -\/ \hyperlink{interface_auth_net_ab910773060178d13fbc24394f9bc1ab1}{dismissModalView}
+\begin{DoxyCompactList}\small\item\em Method to dismissModalView of the checkout UI modal view. \item\end{DoxyCompactList}\item 
+\hypertarget{interface_auth_net_a807fcfb56537622a9d703c0cc5620097}{
+(\hyperlink{interface_auth_net}{AuthNet} $\ast$) -\/ {\bfseries initWithEnvironment:}}
+\label{interface_auth_net_a807fcfb56537622a9d703c0cc5620097}
+
+\item 
+\hypertarget{interface_auth_net_a807fcfb56537622a9d703c0cc5620097}{
+(\hyperlink{interface_auth_net}{AuthNet} $\ast$) -\/ {\bfseries initWithEnvironment:}}
+\label{interface_auth_net_a807fcfb56537622a9d703c0cc5620097}
+
+\item 
+\hypertarget{interface_auth_net_ab2e16a9a3336ca1015e4db66811971e0}{
+(BOOL) -\/ {\bfseries issueSSLPost:withURL:}}
+\label{interface_auth_net_ab2e16a9a3336ca1015e4db66811971e0}
+
+\item 
+\hypertarget{interface_auth_net_a0c4fe24c94b6962d16fcbba424252417}{
+(IBAction) -\/ {\bfseries buttonPressed}}
+\label{interface_auth_net_a0c4fe24c94b6962d16fcbba424252417}
+
+\item 
+\hypertarget{interface_auth_net_aa2e153da1cfc505f38f40bf9655cc4ea}{
+(void) -\/ {\bfseries checkHTTPResponseCode:}}
+\label{interface_auth_net_aa2e153da1cfc505f38f40bf9655cc4ea}
+
+\item 
+\hypertarget{interface_auth_net_af91d751ca806993485a47a6ee4fe0a47}{
+(void) -\/ {\bfseries processCreateTransactionResponse:}}
+\label{interface_auth_net_af91d751ca806993485a47a6ee4fe0a47}
+
+\item 
+\hypertarget{interface_auth_net_a13337790d2ddd12efd3b7433a2517b8f}{
+(void) -\/ {\bfseries processMobileRegistrationResponse:}}
+\label{interface_auth_net_a13337790d2ddd12efd3b7433a2517b8f}
+
+\item 
+\hypertarget{interface_auth_net_aca1b3aa607150e178380df25bbe2eec1}{
+(void) -\/ {\bfseries processMobileLoginResponse:}}
+\label{interface_auth_net_aca1b3aa607150e178380df25bbe2eec1}
+
+\item 
+\hypertarget{interface_auth_net_a6a40ec5037cdca764ae7431e749a6eaf}{
+(void) -\/ {\bfseries processGetSettledBatchListResponse:}}
+\label{interface_auth_net_a6a40ec5037cdca764ae7431e749a6eaf}
+
+\item 
+\hypertarget{interface_auth_net_acd8f21d835203aeb6ccab7e25ca54bec}{
+(void) -\/ {\bfseries processGetTransactionListResponse:}}
+\label{interface_auth_net_acd8f21d835203aeb6ccab7e25ca54bec}
+
+\item 
+\hypertarget{interface_auth_net_a1bad1337c6c097f0f84247deace273ef}{
+(void) -\/ {\bfseries processGetUnsettledTransactionListResponse:}}
+\label{interface_auth_net_a1bad1337c6c097f0f84247deace273ef}
+
+\item 
+\hypertarget{interface_auth_net_a2f178eb9b6600279042c87b3a79e133e}{
+(void) -\/ {\bfseries processResponseData:}}
+\label{interface_auth_net_a2f178eb9b6600279042c87b3a79e133e}
+
+\item 
+\hypertarget{interface_auth_net_a36bc65a5ec1b12f80648836e72cb0116}{
+(void) -\/ {\bfseries processConnectionFailError:}}
+\label{interface_auth_net_a36bc65a5ec1b12f80648836e72cb0116}
+
+\item 
+\hypertarget{interface_auth_net_abbf381b0e043831b6671d883bb395e91}{
+(void) -\/ {\bfseries makeRequest:}}
+\label{interface_auth_net_abbf381b0e043831b6671d883bb395e91}
+
+\item 
+\hypertarget{interface_auth_net_a815830cb4b7f723df3295bc2400c48d3}{
+(void) -\/ {\bfseries getSessionToken:}}
+\label{interface_auth_net_a815830cb4b7f723df3295bc2400c48d3}
+
+\item 
+\hypertarget{interface_auth_net_a131213e8b41e8708e48003f5d9b7d347}{
+(void) -\/ {\bfseries registerAndLoginMobileDevice:}}
+\label{interface_auth_net_a131213e8b41e8708e48003f5d9b7d347}
+
+\item 
+\hypertarget{interface_auth_net_a6df683d722015e3faa84be18eb536081}{
+(BOOL) -\/ {\bfseries isValidSessionToken:}}
+\label{interface_auth_net_a6df683d722015e3faa84be18eb536081}
+
+\item 
+\hypertarget{interface_auth_net_a1175fb170e583b5fb9835e0d1b9081db}{
+(\hyperlink{interface_auth_net}{AuthNet} $\ast$) -\/ {\bfseries initWithAPILoginID:andTransactionKey:forEnvironment:}}
+\label{interface_auth_net_a1175fb170e583b5fb9835e0d1b9081db}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+(\hyperlink{interface_auth_net}{AuthNet} $\ast$) + \hyperlink{interface_auth_net_a786b06faf840607cc5dd722ab101394a}{authNetWithEnvironment:}
+\begin{DoxyCompactList}\small\item\em Initialization of the \hyperlink{interface_auth_net}{AuthNet} Singleton with the development server type. \item\end{DoxyCompactList}\item 
+\hypertarget{interface_auth_net_a0f038013f30dbc3cd4980c3bf038310d}{
+(\hyperlink{interface_auth_net}{AuthNet} $\ast$) + \hyperlink{interface_auth_net_a0f038013f30dbc3cd4980c3bf038310d}{getInstance}}
+\label{interface_auth_net_a0f038013f30dbc3cd4980c3bf038310d}
+
+\begin{DoxyCompactList}\small\item\em Get reference to singleton. \item\end{DoxyCompactList}\item 
+(void) + \hyperlink{interface_auth_net_aea5da974fc41578357c9919df5d34fee}{setDelegate:}
+\begin{DoxyCompactList}\small\item\em Set Delegate to controller. \item\end{DoxyCompactList}\item 
+(\hyperlink{interface_auth_net}{AuthNet} $\ast$) + \hyperlink{interface_auth_net_a786b06faf840607cc5dd722ab101394a}{authNetWithEnvironment:}
+\begin{DoxyCompactList}\small\item\em Initialization of the \hyperlink{interface_auth_net}{AuthNet} Singleton with the development server type. \item\end{DoxyCompactList}\item 
+\hypertarget{interface_auth_net_a0f038013f30dbc3cd4980c3bf038310d}{
+(\hyperlink{interface_auth_net}{AuthNet} $\ast$) + \hyperlink{interface_auth_net_a0f038013f30dbc3cd4980c3bf038310d}{getInstance}}
+\label{interface_auth_net_a0f038013f30dbc3cd4980c3bf038310d}
+
+\begin{DoxyCompactList}\small\item\em Get reference to singleton. \item\end{DoxyCompactList}\item 
+(void) + \hyperlink{interface_auth_net_aea5da974fc41578357c9919df5d34fee}{setDelegate:}
+\begin{DoxyCompactList}\small\item\em Set Delegate to controller. \item\end{DoxyCompactList}\item 
+(\hyperlink{interface_auth_net}{AuthNet} $\ast$) + \hyperlink{interface_auth_net_a786b06faf840607cc5dd722ab101394a}{authNetWithEnvironment:}
+\begin{DoxyCompactList}\small\item\em Initialization of the \hyperlink{interface_auth_net}{AuthNet} Singleton with the development server type. \item\end{DoxyCompactList}\item 
+\hypertarget{interface_auth_net_a0f038013f30dbc3cd4980c3bf038310d}{
+(\hyperlink{interface_auth_net}{AuthNet} $\ast$) + \hyperlink{interface_auth_net_a0f038013f30dbc3cd4980c3bf038310d}{getInstance}}
+\label{interface_auth_net_a0f038013f30dbc3cd4980c3bf038310d}
+
+\begin{DoxyCompactList}\small\item\em Get reference to singleton. \item\end{DoxyCompactList}\item 
+(void) + \hyperlink{interface_auth_net_aea5da974fc41578357c9919df5d34fee}{setDelegate:}
+\begin{DoxyCompactList}\small\item\em Set Delegate to controller. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_auth_net_aab213bddd9479dd42193e3c9d1b333b7}{
+NSObject$<$ \hyperlink{protocol_auth_net_delegate-p}{AuthNetDelegate} $>$ $\ast$ \hyperlink{interface_auth_net_aab213bddd9479dd42193e3c9d1b333b7}{delegate}}
+\label{interface_auth_net_aab213bddd9479dd42193e3c9d1b333b7}
+
+\begin{DoxyCompactList}\small\item\em delegate Implements the checkoutSelector callback as well as \hyperlink{protocol_auth_net_delegate-p}{AuthNetDelegate} Response handling callback methods. \item\end{DoxyCompactList}\item 
+\hypertarget{interface_auth_net_a299efc78870696910facc396a05180c8}{
+UIViewController $\ast$ \hyperlink{interface_auth_net_a299efc78870696910facc396a05180c8}{rootvc}}
+\label{interface_auth_net_a299efc78870696910facc396a05180c8}
+
+\begin{DoxyCompactList}\small\item\em rootvc UIViewController that presents the modal view of the quick and easy checkout experience. \item\end{DoxyCompactList}\item 
+\hypertarget{interface_auth_net_a6392ca5496c66dd26ca4aabfd6df57b6}{
+AUTHNET\_\-ENVIRONMENT \hyperlink{interface_auth_net_a6392ca5496c66dd26ca4aabfd6df57b6}{environment}}
+\label{interface_auth_net_a6392ca5496c66dd26ca4aabfd6df57b6}
+
+\begin{DoxyCompactList}\small\item\em environment Determine whether we are hitting the live or test servers. \item\end{DoxyCompactList}\item 
+\hypertarget{interface_auth_net_a61248d0996e38a3962e4f17ce06c0233}{
+\hyperlink{interface_merchant_authentication_type}{MerchantAuthenticationType} $\ast$ \hyperlink{interface_auth_net_a61248d0996e38a3962e4f17ce06c0233}{merchantAuthentication}}
+\label{interface_auth_net_a61248d0996e38a3962e4f17ce06c0233}
+
+\begin{DoxyCompactList}\small\item\em merchantAuthentication MerchantAuthentication object that holds the username/password login information. \item\end{DoxyCompactList}\item 
+\hypertarget{interface_auth_net_a98feb2cfaa5eefb0a6ae11a62e8688d2}{
+\hyperlink{class_n_s_string}{NSString} $\ast$ \hyperlink{interface_auth_net_a98feb2cfaa5eefb0a6ae11a62e8688d2}{sessionToken}}
+\label{interface_auth_net_a98feb2cfaa5eefb0a6ae11a62e8688d2}
+
+\begin{DoxyCompactList}\small\item\em sessionToken SessionToken that is used to interact with the API Gateway. \item\end{DoxyCompactList}\item 
+\hypertarget{interface_auth_net_aeae52b6e46a10a90aeea3b6e5228e2ea}{
+NSInteger \hyperlink{interface_auth_net_aeae52b6e46a10a90aeea3b6e5228e2ea}{duplicateWindowValue}}
+\label{interface_auth_net_aeae52b6e46a10a90aeea3b6e5228e2ea}
+
+\begin{DoxyCompactList}\small\item\em duplicateWindowValue A value in seconds that determines when two same transactions to the gateway will be considered as duplicate transactions. \item\end{DoxyCompactList}\item 
+\hypertarget{interface_auth_net_af93902fc8e52ec2765adb22891d98391}{
+UIButton $\ast$ \hyperlink{interface_auth_net_af93902fc8e52ec2765adb22891d98391}{button}}
+\label{interface_auth_net_af93902fc8e52ec2765adb22891d98391}
+
+\begin{DoxyCompactList}\small\item\em button The UIButton that is returned by the \hyperlink{interface_auth_net}{AuthNet} module after calling the method
+\begin{DoxyItemize}
+\item (UIButton $\ast$) getButton:(UIViewController$<$AuthNetDelegate$>$ const $\ast$)vc withCheckout:(SEL)checkout withLeft:(int)left withTop:(int)top; 
+\end{DoxyItemize}\item\end{DoxyCompactList}\item 
+\hypertarget{interface_auth_net_a295493a56ba8823b0a751a159abff7f6}{
+NSMutableData $\ast$ \hyperlink{interface_auth_net_a295493a56ba8823b0a751a159abff7f6}{responseData}}
+\label{interface_auth_net_a295493a56ba8823b0a751a159abff7f6}
+
+\begin{DoxyCompactList}\small\item\em responseData The responseData from the outstanding HTTP request to the Authorize.Net gateway API. \item\end{DoxyCompactList}\item 
+BOOL \hyperlink{interface_auth_net_a7cb6478b15ab6c0cffb29eaf53db9d49}{isPendingResponse}
+\begin{DoxyCompactList}\small\item\em isPendingResponse Indicate there is still an outstanding Authorize.Net API request. \item\end{DoxyCompactList}\item 
+\hypertarget{interface_auth_net_a57dd176241e907959199ab7e6515b973}{
+\hyperlink{interface_auth_net_response}{AuthNetResponse} $\ast$ {\bfseries response}}
+\label{interface_auth_net_a57dd176241e907959199ab7e6515b973}
+
+\item 
+\hypertarget{interface_auth_net_a4cf68a0335beef183cb8f0a9cbb60d4c}{
+SEL {\bfseries checkoutSelector}}
+\label{interface_auth_net_a4cf68a0335beef183cb8f0a9cbb60d4c}
+
+\item 
+\hypertarget{interface_auth_net_af618d51af5fbb8318c8160f5a255400c}{
+NSMutableDictionary $\ast$ \hyperlink{interface_auth_net_af618d51af5fbb8318c8160f5a255400c}{merchantFields}}
+\label{interface_auth_net_af618d51af5fbb8318c8160f5a255400c}
+
+\begin{DoxyCompactList}\small\item\em merchantFields The dictionary of merchant defined fields. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{interface_auth_net_a786b06faf840607cc5dd722ab101394a}{
+\index{AuthNet@{AuthNet}!authNetWithEnvironment:@{authNetWithEnvironment:}}
+\index{authNetWithEnvironment:@{authNetWithEnvironment:}!AuthNet@{AuthNet}}
+\subsubsection[{authNetWithEnvironment:}]{\setlength{\rightskip}{0pt plus 5cm}+ ({\bf AuthNet} $\ast$) authNetWithEnvironment: 
+\begin{DoxyParamCaption}
+\item[{dummy(AUTHNET\_\-ENVIRONMENT)}]{ e}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_a786b06faf840607cc5dd722ab101394a}
+
+
+Initialization of the \hyperlink{interface_auth_net}{AuthNet} Singleton with the development server type. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em e}]The environment either live or test server. \end{DoxyParams}
+\hypertarget{interface_auth_net_a786b06faf840607cc5dd722ab101394a}{
+\index{AuthNet@{AuthNet}!authNetWithEnvironment:@{authNetWithEnvironment:}}
+\index{authNetWithEnvironment:@{authNetWithEnvironment:}!AuthNet@{AuthNet}}
+\subsubsection[{authNetWithEnvironment:}]{\setlength{\rightskip}{0pt plus 5cm}+ ({\bf AuthNet} $\ast$) authNetWithEnvironment: 
+\begin{DoxyParamCaption}
+\item[{dummy(AUTHNET\_\-ENVIRONMENT)}]{ e}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_a786b06faf840607cc5dd722ab101394a}
+
+
+Initialization of the \hyperlink{interface_auth_net}{AuthNet} Singleton with the development server type. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em e}]The environment either live or test server. \end{DoxyParams}
+\hypertarget{interface_auth_net_a786b06faf840607cc5dd722ab101394a}{
+\index{AuthNet@{AuthNet}!authNetWithEnvironment:@{authNetWithEnvironment:}}
+\index{authNetWithEnvironment:@{authNetWithEnvironment:}!AuthNet@{AuthNet}}
+\subsubsection[{authNetWithEnvironment:}]{\setlength{\rightskip}{0pt plus 5cm}+ ({\bf AuthNet} $\ast$) authNetWithEnvironment: 
+\begin{DoxyParamCaption}
+\item[{dummy(AUTHNET\_\-ENVIRONMENT)}]{ e}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_a786b06faf840607cc5dd722ab101394a}
+
+
+Initialization of the \hyperlink{interface_auth_net}{AuthNet} Singleton with the development server type. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em e}]The environment either live or test server. \end{DoxyParams}
+\hypertarget{interface_auth_net_ae8435d36d1a6d00e6e771a9fa58ec210}{
+\index{AuthNet@{AuthNet}!authorizeWithRequest:@{authorizeWithRequest:}}
+\index{authorizeWithRequest:@{authorizeWithRequest:}!AuthNet@{AuthNet}}
+\subsubsection[{authorizeWithRequest:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) authorizeWithRequest: 
+\begin{DoxyParamCaption}
+\item[{dummy({\bf CreateTransactionRequest} $\ast$)}]{ r}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_ae8435d36d1a6d00e6e771a9fa58ec210}
+
+
+Perform AUTH transaction with request. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em r}]The request to send. \end{DoxyParams}
+\hypertarget{interface_auth_net_ae8435d36d1a6d00e6e771a9fa58ec210}{
+\index{AuthNet@{AuthNet}!authorizeWithRequest:@{authorizeWithRequest:}}
+\index{authorizeWithRequest:@{authorizeWithRequest:}!AuthNet@{AuthNet}}
+\subsubsection[{authorizeWithRequest:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) authorizeWithRequest: 
+\begin{DoxyParamCaption}
+\item[{dummy({\bf CreateTransactionRequest} $\ast$)}]{ r}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_ae8435d36d1a6d00e6e771a9fa58ec210}
+
+
+Perform AUTH transaction with request. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em r}]The request to send. \end{DoxyParams}
+\hypertarget{interface_auth_net_ae8435d36d1a6d00e6e771a9fa58ec210}{
+\index{AuthNet@{AuthNet}!authorizeWithRequest:@{authorizeWithRequest:}}
+\index{authorizeWithRequest:@{authorizeWithRequest:}!AuthNet@{AuthNet}}
+\subsubsection[{authorizeWithRequest:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) authorizeWithRequest: 
+\begin{DoxyParamCaption}
+\item[{dummy({\bf CreateTransactionRequest} $\ast$)}]{ r}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_ae8435d36d1a6d00e6e771a9fa58ec210}
+
+
+Perform AUTH transaction with request. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em r}]The request to send. \end{DoxyParams}
+\hypertarget{interface_auth_net_a5d2e5d9f91f57cf1ea72a8f091aebf2d}{
+\index{AuthNet@{AuthNet}!captureOnlyWithRequest:@{captureOnlyWithRequest:}}
+\index{captureOnlyWithRequest:@{captureOnlyWithRequest:}!AuthNet@{AuthNet}}
+\subsubsection[{captureOnlyWithRequest:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) captureOnlyWithRequest: 
+\begin{DoxyParamCaption}
+\item[{dummy({\bf CreateTransactionRequest} $\ast$)}]{ r}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_a5d2e5d9f91f57cf1ea72a8f091aebf2d}
+
+
+Perform CAPTURE\_\-ONLY transaction with request. 
+
+NOTE: The 's authCode must be set. 
+\begin{DoxyParams}{Parameters}
+\item[{\em r}]The request to send. \end{DoxyParams}
+\hypertarget{interface_auth_net_a5d2e5d9f91f57cf1ea72a8f091aebf2d}{
+\index{AuthNet@{AuthNet}!captureOnlyWithRequest:@{captureOnlyWithRequest:}}
+\index{captureOnlyWithRequest:@{captureOnlyWithRequest:}!AuthNet@{AuthNet}}
+\subsubsection[{captureOnlyWithRequest:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) captureOnlyWithRequest: 
+\begin{DoxyParamCaption}
+\item[{dummy({\bf CreateTransactionRequest} $\ast$)}]{ r}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_a5d2e5d9f91f57cf1ea72a8f091aebf2d}
+
+
+Perform CAPTURE\_\-ONLY transaction with request. 
+
+NOTE: The 's authCode must be set. 
+\begin{DoxyParams}{Parameters}
+\item[{\em r}]The request to send. \end{DoxyParams}
+\hypertarget{interface_auth_net_a5d2e5d9f91f57cf1ea72a8f091aebf2d}{
+\index{AuthNet@{AuthNet}!captureOnlyWithRequest:@{captureOnlyWithRequest:}}
+\index{captureOnlyWithRequest:@{captureOnlyWithRequest:}!AuthNet@{AuthNet}}
+\subsubsection[{captureOnlyWithRequest:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) captureOnlyWithRequest: 
+\begin{DoxyParamCaption}
+\item[{dummy({\bf CreateTransactionRequest} $\ast$)}]{ r}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_a5d2e5d9f91f57cf1ea72a8f091aebf2d}
+
+
+Perform CAPTURE\_\-ONLY transaction with request. 
+
+NOTE: The 's authCode must be set. 
+\begin{DoxyParams}{Parameters}
+\item[{\em r}]The request to send. \end{DoxyParams}
+\hypertarget{interface_auth_net_a6a586e0765c774199ccecbebdf072d3d}{
+\index{AuthNet@{AuthNet}!captureWithRequest:@{captureWithRequest:}}
+\index{captureWithRequest:@{captureWithRequest:}!AuthNet@{AuthNet}}
+\subsubsection[{captureWithRequest:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) captureWithRequest: 
+\begin{DoxyParamCaption}
+\item[{dummy({\bf CreateTransactionRequest} $\ast$)}]{ r}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_a6a586e0765c774199ccecbebdf072d3d}
+
+
+Perform PRIOR\_\-AUTH\_\-CAPTURE transaction with request. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em r}]The request to send. \end{DoxyParams}
+\hypertarget{interface_auth_net_a6a586e0765c774199ccecbebdf072d3d}{
+\index{AuthNet@{AuthNet}!captureWithRequest:@{captureWithRequest:}}
+\index{captureWithRequest:@{captureWithRequest:}!AuthNet@{AuthNet}}
+\subsubsection[{captureWithRequest:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) captureWithRequest: 
+\begin{DoxyParamCaption}
+\item[{dummy({\bf CreateTransactionRequest} $\ast$)}]{ r}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_a6a586e0765c774199ccecbebdf072d3d}
+
+
+Perform PRIOR\_\-AUTH\_\-CAPTURE transaction with request. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em r}]The request to send. \end{DoxyParams}
+\hypertarget{interface_auth_net_a6a586e0765c774199ccecbebdf072d3d}{
+\index{AuthNet@{AuthNet}!captureWithRequest:@{captureWithRequest:}}
+\index{captureWithRequest:@{captureWithRequest:}!AuthNet@{AuthNet}}
+\subsubsection[{captureWithRequest:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) captureWithRequest: 
+\begin{DoxyParamCaption}
+\item[{dummy({\bf CreateTransactionRequest} $\ast$)}]{ r}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_a6a586e0765c774199ccecbebdf072d3d}
+
+
+Perform PRIOR\_\-AUTH\_\-CAPTURE transaction with request. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em r}]The request to send. \end{DoxyParams}
+\hypertarget{interface_auth_net_a95bc4a5faa7ce40df5295837b98617b3}{
+\index{AuthNet@{AuthNet}!creditWithRequest:@{creditWithRequest:}}
+\index{creditWithRequest:@{creditWithRequest:}!AuthNet@{AuthNet}}
+\subsubsection[{creditWithRequest:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) creditWithRequest: 
+\begin{DoxyParamCaption}
+\item[{dummy({\bf CreateTransactionRequest} $\ast$)}]{ r}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_a95bc4a5faa7ce40df5295837b98617b3}
+
+
+Perform CREDIT transaction with request. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em r}]The request to send. \end{DoxyParams}
+\hypertarget{interface_auth_net_a95bc4a5faa7ce40df5295837b98617b3}{
+\index{AuthNet@{AuthNet}!creditWithRequest:@{creditWithRequest:}}
+\index{creditWithRequest:@{creditWithRequest:}!AuthNet@{AuthNet}}
+\subsubsection[{creditWithRequest:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) creditWithRequest: 
+\begin{DoxyParamCaption}
+\item[{dummy({\bf CreateTransactionRequest} $\ast$)}]{ r}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_a95bc4a5faa7ce40df5295837b98617b3}
+
+
+Perform CREDIT transaction with request. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em r}]The request to send. \end{DoxyParams}
+\hypertarget{interface_auth_net_a95bc4a5faa7ce40df5295837b98617b3}{
+\index{AuthNet@{AuthNet}!creditWithRequest:@{creditWithRequest:}}
+\index{creditWithRequest:@{creditWithRequest:}!AuthNet@{AuthNet}}
+\subsubsection[{creditWithRequest:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) creditWithRequest: 
+\begin{DoxyParamCaption}
+\item[{dummy({\bf CreateTransactionRequest} $\ast$)}]{ r}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_a95bc4a5faa7ce40df5295837b98617b3}
+
+
+Perform CREDIT transaction with request. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em r}]The request to send. \end{DoxyParams}
+\hypertarget{interface_auth_net_ab910773060178d13fbc24394f9bc1ab1}{
+\index{AuthNet@{AuthNet}!dismissModalView@{dismissModalView}}
+\index{dismissModalView@{dismissModalView}!AuthNet@{AuthNet}}
+\subsubsection[{dismissModalView}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) dismissModalView 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_ab910773060178d13fbc24394f9bc1ab1}
+
+
+Method to dismissModalView of the checkout UI modal view. 
+
+Note: This method should not be called by user as the checkout UI will dismissModalView appropriately. @ return void. \hypertarget{interface_auth_net_ab910773060178d13fbc24394f9bc1ab1}{
+\index{AuthNet@{AuthNet}!dismissModalView@{dismissModalView}}
+\index{dismissModalView@{dismissModalView}!AuthNet@{AuthNet}}
+\subsubsection[{dismissModalView}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) dismissModalView 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_ab910773060178d13fbc24394f9bc1ab1}
+
+
+Method to dismissModalView of the checkout UI modal view. 
+
+Note: This method should not be called by user as the checkout UI will dismissModalView appropriately. @ return void. \hypertarget{interface_auth_net_ab910773060178d13fbc24394f9bc1ab1}{
+\index{AuthNet@{AuthNet}!dismissModalView@{dismissModalView}}
+\index{dismissModalView@{dismissModalView}!AuthNet@{AuthNet}}
+\subsubsection[{dismissModalView}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) dismissModalView 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_ab910773060178d13fbc24394f9bc1ab1}
+
+
+Method to dismissModalView of the checkout UI modal view. 
+
+Note: This method should not be called by user as the checkout UI will dismissModalView appropriately. @ return void. \hypertarget{interface_auth_net_a46d75652309982e05c800901ac86e5eb}{
+\index{AuthNet@{AuthNet}!getBatchStatisticsRequest:@{getBatchStatisticsRequest:}}
+\index{getBatchStatisticsRequest:@{getBatchStatisticsRequest:}!AuthNet@{AuthNet}}
+\subsubsection[{getBatchStatisticsRequest:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) getBatchStatisticsRequest: 
+\begin{DoxyParamCaption}
+\item[{dummy({\bf GetBatchStatisticsRequest} $\ast$)}]{ r}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_a46d75652309982e05c800901ac86e5eb}
+
+
+Perform getSettledBatchListRequest on the Reporting API. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em r}]The reporting request to send. \end{DoxyParams}
+\hypertarget{interface_auth_net_a46d75652309982e05c800901ac86e5eb}{
+\index{AuthNet@{AuthNet}!getBatchStatisticsRequest:@{getBatchStatisticsRequest:}}
+\index{getBatchStatisticsRequest:@{getBatchStatisticsRequest:}!AuthNet@{AuthNet}}
+\subsubsection[{getBatchStatisticsRequest:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) getBatchStatisticsRequest: 
+\begin{DoxyParamCaption}
+\item[{dummy({\bf GetBatchStatisticsRequest} $\ast$)}]{ r}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_a46d75652309982e05c800901ac86e5eb}
+
+
+Perform getSettledBatchListRequest on the Reporting API. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em r}]The reporting request to send. \end{DoxyParams}
+\hypertarget{interface_auth_net_a46d75652309982e05c800901ac86e5eb}{
+\index{AuthNet@{AuthNet}!getBatchStatisticsRequest:@{getBatchStatisticsRequest:}}
+\index{getBatchStatisticsRequest:@{getBatchStatisticsRequest:}!AuthNet@{AuthNet}}
+\subsubsection[{getBatchStatisticsRequest:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) getBatchStatisticsRequest: 
+\begin{DoxyParamCaption}
+\item[{dummy({\bf GetBatchStatisticsRequest} $\ast$)}]{ r}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_a46d75652309982e05c800901ac86e5eb}
+
+
+Perform getSettledBatchListRequest on the Reporting API. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em r}]The reporting request to send. \end{DoxyParams}
+\hypertarget{interface_auth_net_a14b9eb10d8c3702b4f89eac53076c621}{
+\index{AuthNet@{AuthNet}!getButton:withCheckout:atX:atY:withWidth:withHeight:@{getButton:withCheckout:atX:atY:withWidth:withHeight:}}
+\index{getButton:withCheckout:atX:atY:withWidth:withHeight:@{getButton:withCheckout:atX:atY:withWidth:withHeight:}!AuthNet@{AuthNet}}
+\subsubsection[{getButton:withCheckout:atX:atY:withWidth:withHeight:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (UIButton $\ast$) getButton: 
+\begin{DoxyParamCaption}
+\item[{dummy(UIViewController$<${\bf AuthNetDelegate}$>$ const $\ast$)}]{ vc}
+\item[{withCheckout:(SEL)}]{ checkout}
+\item[{atX:(int)}]{ x}
+\item[{atY:(int)}]{ y}
+\item[{withWidth:(int)}]{ w}
+\item[{withHeight:(int)}]{ h}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_a14b9eb10d8c3702b4f89eac53076c621}
+
+
+Standardized checkout experience. 
+
+Transaction type is AUTH\_\-CAPTURE. \begin{DoxyReturn}{Returns}
+A UIButton that should be added to the view. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+\item[{\em vc}]The UIViewController that implements the \hyperlink{protocol_auth_net_delegate-p}{AuthNetDelegate} methods. \item[{\em checkout}]Selector method to be called on clicking of UIButton. \item[{\em x}]The X coordinate of the button. \item[{\em y}]The Y coordinate of the button. \item[{\em w}]The width of the button. \item[{\em y}]The height of the button. \end{DoxyParams}
+\hypertarget{interface_auth_net_a14b9eb10d8c3702b4f89eac53076c621}{
+\index{AuthNet@{AuthNet}!getButton:withCheckout:atX:atY:withWidth:withHeight:@{getButton:withCheckout:atX:atY:withWidth:withHeight:}}
+\index{getButton:withCheckout:atX:atY:withWidth:withHeight:@{getButton:withCheckout:atX:atY:withWidth:withHeight:}!AuthNet@{AuthNet}}
+\subsubsection[{getButton:withCheckout:atX:atY:withWidth:withHeight:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (UIButton $\ast$) getButton: 
+\begin{DoxyParamCaption}
+\item[{dummy(UIViewController$<$ {\bf AuthNetDelegate} $>$ const $\ast$)}]{ vc}
+\item[{withCheckout:(SEL)}]{ checkout}
+\item[{atX:(int)}]{ x}
+\item[{atY:(int)}]{ y}
+\item[{withWidth:(int)}]{ w}
+\item[{withHeight:(int)}]{ h}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_a14b9eb10d8c3702b4f89eac53076c621}
+
+
+Standardized checkout experience. 
+
+Transaction type is AUTH\_\-CAPTURE. \begin{DoxyReturn}{Returns}
+A UIButton that should be added to the view. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+\item[{\em vc}]The UIViewController that implements the \hyperlink{protocol_auth_net_delegate-p}{AuthNetDelegate} methods. \item[{\em checkout}]Selector method to be called on clicking of UIButton. \item[{\em x}]The X coordinate of the button. \item[{\em y}]The Y coordinate of the button. \item[{\em w}]The width of the button. \item[{\em y}]The height of the button. \end{DoxyParams}
+\hypertarget{interface_auth_net_a14b9eb10d8c3702b4f89eac53076c621}{
+\index{AuthNet@{AuthNet}!getButton:withCheckout:atX:atY:withWidth:withHeight:@{getButton:withCheckout:atX:atY:withWidth:withHeight:}}
+\index{getButton:withCheckout:atX:atY:withWidth:withHeight:@{getButton:withCheckout:atX:atY:withWidth:withHeight:}!AuthNet@{AuthNet}}
+\subsubsection[{getButton:withCheckout:atX:atY:withWidth:withHeight:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (UIButton $\ast$) getButton: 
+\begin{DoxyParamCaption}
+\item[{dummy(UIViewController$<$ {\bf AuthNetDelegate} $>$ const $\ast$)}]{ vc}
+\item[{withCheckout:(SEL)}]{ checkout}
+\item[{atX:(int)}]{ x}
+\item[{atY:(int)}]{ y}
+\item[{withWidth:(int)}]{ w}
+\item[{withHeight:(int)}]{ h}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_a14b9eb10d8c3702b4f89eac53076c621}
+
+
+Standardized checkout experience. 
+
+Transaction type is AUTH\_\-CAPTURE. \begin{DoxyReturn}{Returns}
+A UIButton that should be added to the view. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+\item[{\em vc}]The UIViewController that implements the \hyperlink{protocol_auth_net_delegate-p}{AuthNetDelegate} methods. \item[{\em checkout}]Selector method to be called on clicking of UIButton. \item[{\em x}]The X coordinate of the button. \item[{\em y}]The Y coordinate of the button. \item[{\em w}]The width of the button. \item[{\em y}]The height of the button. \end{DoxyParams}
+\hypertarget{interface_auth_net_af2379b1db2c4a14d5dda010f81a2c3cb}{
+\index{AuthNet@{AuthNet}!getButton:withCheckout:withLeft:withTop:@{getButton:withCheckout:withLeft:withTop:}}
+\index{getButton:withCheckout:withLeft:withTop:@{getButton:withCheckout:withLeft:withTop:}!AuthNet@{AuthNet}}
+\subsubsection[{getButton:withCheckout:withLeft:withTop:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (UIButton $\ast$) getButton: 
+\begin{DoxyParamCaption}
+\item[{dummy(UIViewController$<${\bf AuthNetDelegate}$>$ const $\ast$)}]{ vc}
+\item[{withCheckout:(SEL)}]{ checkout}
+\item[{withLeft:(int)}]{ left}
+\item[{withTop:(int)}]{ top}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_af2379b1db2c4a14d5dda010f81a2c3cb}
+
+
+Standardized checkout experience. 
+
+Transaction type is AUTH\_\-CAPTURE. \begin{DoxyReturn}{Returns}
+A UIButton that should be added to the view. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+\item[{\em vc}]The UIViewController that implements the \hyperlink{protocol_auth_net_delegate-p}{AuthNetDelegate} methods. \item[{\em checkout}]Selector method to be called on clicking of UIButton. \item[{\em left}]The X coordinate of the button. \item[{\em top}]The Y coordinate of the button. \end{DoxyParams}
+\hypertarget{interface_auth_net_af2379b1db2c4a14d5dda010f81a2c3cb}{
+\index{AuthNet@{AuthNet}!getButton:withCheckout:withLeft:withTop:@{getButton:withCheckout:withLeft:withTop:}}
+\index{getButton:withCheckout:withLeft:withTop:@{getButton:withCheckout:withLeft:withTop:}!AuthNet@{AuthNet}}
+\subsubsection[{getButton:withCheckout:withLeft:withTop:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (UIButton $\ast$) getButton: 
+\begin{DoxyParamCaption}
+\item[{dummy(UIViewController$<$ {\bf AuthNetDelegate} $>$ const $\ast$)}]{ vc}
+\item[{withCheckout:(SEL)}]{ checkout}
+\item[{withLeft:(int)}]{ left}
+\item[{withTop:(int)}]{ top}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_af2379b1db2c4a14d5dda010f81a2c3cb}
+
+
+Standardized checkout experience. 
+
+Transaction type is AUTH\_\-CAPTURE. \begin{DoxyReturn}{Returns}
+A UIButton that should be added to the view. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+\item[{\em vc}]The UIViewController that implements the \hyperlink{protocol_auth_net_delegate-p}{AuthNetDelegate} methods. \item[{\em checkout}]Selector method to be called on clicking of UIButton. \item[{\em left}]The X coordinate of the button. \item[{\em top}]The Y coordinate of the button. \end{DoxyParams}
+\hypertarget{interface_auth_net_af2379b1db2c4a14d5dda010f81a2c3cb}{
+\index{AuthNet@{AuthNet}!getButton:withCheckout:withLeft:withTop:@{getButton:withCheckout:withLeft:withTop:}}
+\index{getButton:withCheckout:withLeft:withTop:@{getButton:withCheckout:withLeft:withTop:}!AuthNet@{AuthNet}}
+\subsubsection[{getButton:withCheckout:withLeft:withTop:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (UIButton $\ast$) getButton: 
+\begin{DoxyParamCaption}
+\item[{dummy(UIViewController$<$ {\bf AuthNetDelegate} $>$ const $\ast$)}]{ vc}
+\item[{withCheckout:(SEL)}]{ checkout}
+\item[{withLeft:(int)}]{ left}
+\item[{withTop:(int)}]{ top}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_af2379b1db2c4a14d5dda010f81a2c3cb}
+
+
+Standardized checkout experience. 
+
+Transaction type is AUTH\_\-CAPTURE. \begin{DoxyReturn}{Returns}
+A UIButton that should be added to the view. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+\item[{\em vc}]The UIViewController that implements the \hyperlink{protocol_auth_net_delegate-p}{AuthNetDelegate} methods. \item[{\em checkout}]Selector method to be called on clicking of UIButton. \item[{\em left}]The X coordinate of the button. \item[{\em top}]The Y coordinate of the button. \end{DoxyParams}
+\hypertarget{interface_auth_net_a1fa89b0779cc561949082cb567dba157}{
+\index{AuthNet@{AuthNet}!getSettledBatchListRequest:@{getSettledBatchListRequest:}}
+\index{getSettledBatchListRequest:@{getSettledBatchListRequest:}!AuthNet@{AuthNet}}
+\subsubsection[{getSettledBatchListRequest:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) getSettledBatchListRequest: 
+\begin{DoxyParamCaption}
+\item[{dummy({\bf GetSettledBatchListRequest} $\ast$)}]{ r}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_a1fa89b0779cc561949082cb567dba157}
+
+
+Perform getSettledBatchListRequest on the Reporting API. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em r}]The reporting request to send. \end{DoxyParams}
+\hypertarget{interface_auth_net_a1fa89b0779cc561949082cb567dba157}{
+\index{AuthNet@{AuthNet}!getSettledBatchListRequest:@{getSettledBatchListRequest:}}
+\index{getSettledBatchListRequest:@{getSettledBatchListRequest:}!AuthNet@{AuthNet}}
+\subsubsection[{getSettledBatchListRequest:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) getSettledBatchListRequest: 
+\begin{DoxyParamCaption}
+\item[{dummy({\bf GetSettledBatchListRequest} $\ast$)}]{ r}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_a1fa89b0779cc561949082cb567dba157}
+
+
+Perform getSettledBatchListRequest on the Reporting API. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em r}]The reporting request to send. \end{DoxyParams}
+\hypertarget{interface_auth_net_a1fa89b0779cc561949082cb567dba157}{
+\index{AuthNet@{AuthNet}!getSettledBatchListRequest:@{getSettledBatchListRequest:}}
+\index{getSettledBatchListRequest:@{getSettledBatchListRequest:}!AuthNet@{AuthNet}}
+\subsubsection[{getSettledBatchListRequest:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) getSettledBatchListRequest: 
+\begin{DoxyParamCaption}
+\item[{dummy({\bf GetSettledBatchListRequest} $\ast$)}]{ r}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_a1fa89b0779cc561949082cb567dba157}
+
+
+Perform getSettledBatchListRequest on the Reporting API. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em r}]The reporting request to send. \end{DoxyParams}
+\hypertarget{interface_auth_net_aceb44273bc91643ae24b3197fe41f5a1}{
+\index{AuthNet@{AuthNet}!getTransactionDetailsRequest:@{getTransactionDetailsRequest:}}
+\index{getTransactionDetailsRequest:@{getTransactionDetailsRequest:}!AuthNet@{AuthNet}}
+\subsubsection[{getTransactionDetailsRequest:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) getTransactionDetailsRequest: 
+\begin{DoxyParamCaption}
+\item[{dummy({\bf GetTransactionDetailsRequest} $\ast$)}]{ r}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_aceb44273bc91643ae24b3197fe41f5a1}
+
+
+Perform getTransactionDetailsRequest on the Reporting API. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em r}]The reporting request to send. \end{DoxyParams}
+\hypertarget{interface_auth_net_aceb44273bc91643ae24b3197fe41f5a1}{
+\index{AuthNet@{AuthNet}!getTransactionDetailsRequest:@{getTransactionDetailsRequest:}}
+\index{getTransactionDetailsRequest:@{getTransactionDetailsRequest:}!AuthNet@{AuthNet}}
+\subsubsection[{getTransactionDetailsRequest:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) getTransactionDetailsRequest: 
+\begin{DoxyParamCaption}
+\item[{dummy({\bf GetTransactionDetailsRequest} $\ast$)}]{ r}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_aceb44273bc91643ae24b3197fe41f5a1}
+
+
+Perform getTransactionDetailsRequest on the Reporting API. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em r}]The reporting request to send. \end{DoxyParams}
+\hypertarget{interface_auth_net_aceb44273bc91643ae24b3197fe41f5a1}{
+\index{AuthNet@{AuthNet}!getTransactionDetailsRequest:@{getTransactionDetailsRequest:}}
+\index{getTransactionDetailsRequest:@{getTransactionDetailsRequest:}!AuthNet@{AuthNet}}
+\subsubsection[{getTransactionDetailsRequest:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) getTransactionDetailsRequest: 
+\begin{DoxyParamCaption}
+\item[{dummy({\bf GetTransactionDetailsRequest} $\ast$)}]{ r}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_aceb44273bc91643ae24b3197fe41f5a1}
+
+
+Perform getTransactionDetailsRequest on the Reporting API. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em r}]The reporting request to send. \end{DoxyParams}
+\hypertarget{interface_auth_net_aea170727593689d07fd6a522523bf222}{
+\index{AuthNet@{AuthNet}!getTransactionListRequest:@{getTransactionListRequest:}}
+\index{getTransactionListRequest:@{getTransactionListRequest:}!AuthNet@{AuthNet}}
+\subsubsection[{getTransactionListRequest:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) getTransactionListRequest: 
+\begin{DoxyParamCaption}
+\item[{dummy({\bf GetTransactionListRequest} $\ast$)}]{ r}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_aea170727593689d07fd6a522523bf222}
+
+
+Perform getTransactionDetailsRequest on the Reporting API. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em r}]The reporting request to send. \end{DoxyParams}
+\hypertarget{interface_auth_net_aea170727593689d07fd6a522523bf222}{
+\index{AuthNet@{AuthNet}!getTransactionListRequest:@{getTransactionListRequest:}}
+\index{getTransactionListRequest:@{getTransactionListRequest:}!AuthNet@{AuthNet}}
+\subsubsection[{getTransactionListRequest:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) getTransactionListRequest: 
+\begin{DoxyParamCaption}
+\item[{dummy({\bf GetTransactionListRequest} $\ast$)}]{ r}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_aea170727593689d07fd6a522523bf222}
+
+
+Perform getTransactionDetailsRequest on the Reporting API. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em r}]The reporting request to send. \end{DoxyParams}
+\hypertarget{interface_auth_net_aea170727593689d07fd6a522523bf222}{
+\index{AuthNet@{AuthNet}!getTransactionListRequest:@{getTransactionListRequest:}}
+\index{getTransactionListRequest:@{getTransactionListRequest:}!AuthNet@{AuthNet}}
+\subsubsection[{getTransactionListRequest:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) getTransactionListRequest: 
+\begin{DoxyParamCaption}
+\item[{dummy({\bf GetTransactionListRequest} $\ast$)}]{ r}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_aea170727593689d07fd6a522523bf222}
+
+
+Perform getTransactionDetailsRequest on the Reporting API. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em r}]The reporting request to send. \end{DoxyParams}
+\hypertarget{interface_auth_net_aa5bdf2aed5018970a50ee6e3184a6bf8}{
+\index{AuthNet@{AuthNet}!getUnsettledTransactionListRequest:@{getUnsettledTransactionListRequest:}}
+\index{getUnsettledTransactionListRequest:@{getUnsettledTransactionListRequest:}!AuthNet@{AuthNet}}
+\subsubsection[{getUnsettledTransactionListRequest:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) getUnsettledTransactionListRequest: 
+\begin{DoxyParamCaption}
+\item[{dummy({\bf GetUnsettledTransactionListRequest} $\ast$)}]{ r}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_aa5bdf2aed5018970a50ee6e3184a6bf8}
+
+
+Perform getUnsettledTransactionListRequest on the Reporting API. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em r}]The reporting request to send. \end{DoxyParams}
+\hypertarget{interface_auth_net_aa5bdf2aed5018970a50ee6e3184a6bf8}{
+\index{AuthNet@{AuthNet}!getUnsettledTransactionListRequest:@{getUnsettledTransactionListRequest:}}
+\index{getUnsettledTransactionListRequest:@{getUnsettledTransactionListRequest:}!AuthNet@{AuthNet}}
+\subsubsection[{getUnsettledTransactionListRequest:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) getUnsettledTransactionListRequest: 
+\begin{DoxyParamCaption}
+\item[{dummy({\bf GetUnsettledTransactionListRequest} $\ast$)}]{ r}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_aa5bdf2aed5018970a50ee6e3184a6bf8}
+
+
+Perform getUnsettledTransactionListRequest on the Reporting API. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em r}]The reporting request to send. \end{DoxyParams}
+\hypertarget{interface_auth_net_aa5bdf2aed5018970a50ee6e3184a6bf8}{
+\index{AuthNet@{AuthNet}!getUnsettledTransactionListRequest:@{getUnsettledTransactionListRequest:}}
+\index{getUnsettledTransactionListRequest:@{getUnsettledTransactionListRequest:}!AuthNet@{AuthNet}}
+\subsubsection[{getUnsettledTransactionListRequest:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) getUnsettledTransactionListRequest: 
+\begin{DoxyParamCaption}
+\item[{dummy({\bf GetUnsettledTransactionListRequest} $\ast$)}]{ r}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_aa5bdf2aed5018970a50ee6e3184a6bf8}
+
+
+Perform getUnsettledTransactionListRequest on the Reporting API. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em r}]The reporting request to send. \end{DoxyParams}
+\hypertarget{interface_auth_net_a69e0de01f90a5296752f90fcf5f9e893}{
+\index{AuthNet@{AuthNet}!mobileDeviceLoginRequest:@{mobileDeviceLoginRequest:}}
+\index{mobileDeviceLoginRequest:@{mobileDeviceLoginRequest:}!AuthNet@{AuthNet}}
+\subsubsection[{mobileDeviceLoginRequest:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) mobileDeviceLoginRequest: 
+\begin{DoxyParamCaption}
+\item[{dummy({\bf MobileDeviceLoginRequest} $\ast$)}]{ r}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_a69e0de01f90a5296752f90fcf5f9e893}
+
+
+Perform mobileDeviceLoginRequest on the AIM API. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em r}]The request to send. \end{DoxyParams}
+\hypertarget{interface_auth_net_a69e0de01f90a5296752f90fcf5f9e893}{
+\index{AuthNet@{AuthNet}!mobileDeviceLoginRequest:@{mobileDeviceLoginRequest:}}
+\index{mobileDeviceLoginRequest:@{mobileDeviceLoginRequest:}!AuthNet@{AuthNet}}
+\subsubsection[{mobileDeviceLoginRequest:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) mobileDeviceLoginRequest: 
+\begin{DoxyParamCaption}
+\item[{dummy({\bf MobileDeviceLoginRequest} $\ast$)}]{ r}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_a69e0de01f90a5296752f90fcf5f9e893}
+
+
+Perform mobileDeviceLoginRequest on the AIM API. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em r}]The request to send. \end{DoxyParams}
+\hypertarget{interface_auth_net_a69e0de01f90a5296752f90fcf5f9e893}{
+\index{AuthNet@{AuthNet}!mobileDeviceLoginRequest:@{mobileDeviceLoginRequest:}}
+\index{mobileDeviceLoginRequest:@{mobileDeviceLoginRequest:}!AuthNet@{AuthNet}}
+\subsubsection[{mobileDeviceLoginRequest:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) mobileDeviceLoginRequest: 
+\begin{DoxyParamCaption}
+\item[{dummy({\bf MobileDeviceLoginRequest} $\ast$)}]{ r}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_a69e0de01f90a5296752f90fcf5f9e893}
+
+
+Perform mobileDeviceLoginRequest on the AIM API. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em r}]The request to send. \end{DoxyParams}
+\hypertarget{interface_auth_net_a85da8b448835e5dc865772a5fbe2527e}{
+\index{AuthNet@{AuthNet}!mobileDeviceRegistrationRequest:@{mobileDeviceRegistrationRequest:}}
+\index{mobileDeviceRegistrationRequest:@{mobileDeviceRegistrationRequest:}!AuthNet@{AuthNet}}
+\subsubsection[{mobileDeviceRegistrationRequest:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) mobileDeviceRegistrationRequest: 
+\begin{DoxyParamCaption}
+\item[{dummy({\bf MobileDeviceRegistrationRequest} $\ast$)}]{ r}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_a85da8b448835e5dc865772a5fbe2527e}
+
+
+Perform mobileDeviceRegistrationRequest on the AIM API. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em r}]The request to send. \end{DoxyParams}
+\hypertarget{interface_auth_net_a85da8b448835e5dc865772a5fbe2527e}{
+\index{AuthNet@{AuthNet}!mobileDeviceRegistrationRequest:@{mobileDeviceRegistrationRequest:}}
+\index{mobileDeviceRegistrationRequest:@{mobileDeviceRegistrationRequest:}!AuthNet@{AuthNet}}
+\subsubsection[{mobileDeviceRegistrationRequest:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) mobileDeviceRegistrationRequest: 
+\begin{DoxyParamCaption}
+\item[{dummy({\bf MobileDeviceRegistrationRequest} $\ast$)}]{ r}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_a85da8b448835e5dc865772a5fbe2527e}
+
+
+Perform mobileDeviceRegistrationRequest on the AIM API. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em r}]The request to send. \end{DoxyParams}
+\hypertarget{interface_auth_net_a85da8b448835e5dc865772a5fbe2527e}{
+\index{AuthNet@{AuthNet}!mobileDeviceRegistrationRequest:@{mobileDeviceRegistrationRequest:}}
+\index{mobileDeviceRegistrationRequest:@{mobileDeviceRegistrationRequest:}!AuthNet@{AuthNet}}
+\subsubsection[{mobileDeviceRegistrationRequest:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) mobileDeviceRegistrationRequest: 
+\begin{DoxyParamCaption}
+\item[{dummy({\bf MobileDeviceRegistrationRequest} $\ast$)}]{ r}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_a85da8b448835e5dc865772a5fbe2527e}
+
+
+Perform mobileDeviceRegistrationRequest on the AIM API. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em r}]The request to send. \end{DoxyParams}
+\hypertarget{interface_auth_net_a466bfa76518d3dd27fc7eb38a7967812}{
+\index{AuthNet@{AuthNet}!purchaseWithRequest:@{purchaseWithRequest:}}
+\index{purchaseWithRequest:@{purchaseWithRequest:}!AuthNet@{AuthNet}}
+\subsubsection[{purchaseWithRequest:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) purchaseWithRequest: 
+\begin{DoxyParamCaption}
+\item[{dummy({\bf CreateTransactionRequest} $\ast$)}]{ r}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_a466bfa76518d3dd27fc7eb38a7967812}
+
+
+Perform AUTH\_\-CAPTURE transaction with request. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em r}]The request to send. \end{DoxyParams}
+\hypertarget{interface_auth_net_a466bfa76518d3dd27fc7eb38a7967812}{
+\index{AuthNet@{AuthNet}!purchaseWithRequest:@{purchaseWithRequest:}}
+\index{purchaseWithRequest:@{purchaseWithRequest:}!AuthNet@{AuthNet}}
+\subsubsection[{purchaseWithRequest:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) purchaseWithRequest: 
+\begin{DoxyParamCaption}
+\item[{dummy({\bf CreateTransactionRequest} $\ast$)}]{ r}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_a466bfa76518d3dd27fc7eb38a7967812}
+
+
+Perform AUTH\_\-CAPTURE transaction with request. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em r}]The request to send. \end{DoxyParams}
+\hypertarget{interface_auth_net_a466bfa76518d3dd27fc7eb38a7967812}{
+\index{AuthNet@{AuthNet}!purchaseWithRequest:@{purchaseWithRequest:}}
+\index{purchaseWithRequest:@{purchaseWithRequest:}!AuthNet@{AuthNet}}
+\subsubsection[{purchaseWithRequest:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) purchaseWithRequest: 
+\begin{DoxyParamCaption}
+\item[{dummy({\bf CreateTransactionRequest} $\ast$)}]{ r}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_a466bfa76518d3dd27fc7eb38a7967812}
+
+
+Perform AUTH\_\-CAPTURE transaction with request. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em r}]The request to send. \end{DoxyParams}
+\hypertarget{interface_auth_net_aea5da974fc41578357c9919df5d34fee}{
+\index{AuthNet@{AuthNet}!setDelegate:@{setDelegate:}}
+\index{setDelegate:@{setDelegate:}!AuthNet@{AuthNet}}
+\subsubsection[{setDelegate:}]{\setlength{\rightskip}{0pt plus 5cm}+ (void) setDelegate: 
+\begin{DoxyParamCaption}
+\item[{dummy(UIViewController$<${\bf AuthNetDelegate}$>$ const $\ast$)}]{ vc}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_aea5da974fc41578357c9919df5d34fee}
+
+
+Set Delegate to controller. 
+
+Call is not necessary when using standardized getButton method. 
+\begin{DoxyParams}{Parameters}
+\item[{\em vc}]The View Controller that should be the delegate for \hyperlink{protocol_auth_net_delegate-p}{AuthNetDelegate} methods. \end{DoxyParams}
+\hypertarget{interface_auth_net_aea5da974fc41578357c9919df5d34fee}{
+\index{AuthNet@{AuthNet}!setDelegate:@{setDelegate:}}
+\index{setDelegate:@{setDelegate:}!AuthNet@{AuthNet}}
+\subsubsection[{setDelegate:}]{\setlength{\rightskip}{0pt plus 5cm}+ (void) setDelegate: 
+\begin{DoxyParamCaption}
+\item[{dummy(UIViewController$<$ {\bf AuthNetDelegate} $>$ const $\ast$)}]{ vc}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_aea5da974fc41578357c9919df5d34fee}
+
+
+Set Delegate to controller. 
+
+Call is not necessary when using standardized getButton method. 
+\begin{DoxyParams}{Parameters}
+\item[{\em vc}]The View Controller that should be the delegate for \hyperlink{protocol_auth_net_delegate-p}{AuthNetDelegate} methods. \end{DoxyParams}
+\hypertarget{interface_auth_net_aea5da974fc41578357c9919df5d34fee}{
+\index{AuthNet@{AuthNet}!setDelegate:@{setDelegate:}}
+\index{setDelegate:@{setDelegate:}!AuthNet@{AuthNet}}
+\subsubsection[{setDelegate:}]{\setlength{\rightskip}{0pt plus 5cm}+ (void) setDelegate: 
+\begin{DoxyParamCaption}
+\item[{dummy(UIViewController$<$ {\bf AuthNetDelegate} $>$ const $\ast$)}]{ vc}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_aea5da974fc41578357c9919df5d34fee}
+
+
+Set Delegate to controller. 
+
+Call is not necessary when using standardized getButton method. 
+\begin{DoxyParams}{Parameters}
+\item[{\em vc}]The View Controller that should be the delegate for \hyperlink{protocol_auth_net_delegate-p}{AuthNetDelegate} methods. \end{DoxyParams}
+\hypertarget{interface_auth_net_a20baaa2b91fc9778de02bef1d007cda4}{
+\index{AuthNet@{AuthNet}!startCheckout:@{startCheckout:}}
+\index{startCheckout:@{startCheckout:}!AuthNet@{AuthNet}}
+\subsubsection[{startCheckout:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) startCheckout: 
+\begin{DoxyParamCaption}
+\item[{dummy({\bf CreateTransactionRequest} $\ast$)}]{ r}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_a20baaa2b91fc9778de02bef1d007cda4}
+
+
+Method to start standardized checkout experience. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em r}]Request for the AUTH\_\-CAPTURE transaction. \end{DoxyParams}
+\hypertarget{interface_auth_net_a20baaa2b91fc9778de02bef1d007cda4}{
+\index{AuthNet@{AuthNet}!startCheckout:@{startCheckout:}}
+\index{startCheckout:@{startCheckout:}!AuthNet@{AuthNet}}
+\subsubsection[{startCheckout:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) startCheckout: 
+\begin{DoxyParamCaption}
+\item[{dummy({\bf CreateTransactionRequest} $\ast$)}]{ r}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_a20baaa2b91fc9778de02bef1d007cda4}
+
+
+Method to start standardized checkout experience. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em r}]Request for the AUTH\_\-CAPTURE transaction. \end{DoxyParams}
+\hypertarget{interface_auth_net_a20baaa2b91fc9778de02bef1d007cda4}{
+\index{AuthNet@{AuthNet}!startCheckout:@{startCheckout:}}
+\index{startCheckout:@{startCheckout:}!AuthNet@{AuthNet}}
+\subsubsection[{startCheckout:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) startCheckout: 
+\begin{DoxyParamCaption}
+\item[{dummy({\bf CreateTransactionRequest} $\ast$)}]{ r}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_a20baaa2b91fc9778de02bef1d007cda4}
+
+
+Method to start standardized checkout experience. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em r}]Request for the AUTH\_\-CAPTURE transaction. \end{DoxyParams}
+\hypertarget{interface_auth_net_a5b2bc486ff67a6f7fd8c8708c89057a0}{
+\index{AuthNet@{AuthNet}!unlinkedCreditWithRequest:@{unlinkedCreditWithRequest:}}
+\index{unlinkedCreditWithRequest:@{unlinkedCreditWithRequest:}!AuthNet@{AuthNet}}
+\subsubsection[{unlinkedCreditWithRequest:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) unlinkedCreditWithRequest: 
+\begin{DoxyParamCaption}
+\item[{dummy({\bf CreateTransactionRequest} $\ast$)}]{ r}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_a5b2bc486ff67a6f7fd8c8708c89057a0}
+
+
+Perform unlinked CREDIT transaction with request. 
+
+NOTE: The should not include an x\_\-trans\_\-id or a regular CREDIT request will be attempted. 
+\begin{DoxyParams}{Parameters}
+\item[{\em r}]The request to send. \end{DoxyParams}
+\hypertarget{interface_auth_net_a5b2bc486ff67a6f7fd8c8708c89057a0}{
+\index{AuthNet@{AuthNet}!unlinkedCreditWithRequest:@{unlinkedCreditWithRequest:}}
+\index{unlinkedCreditWithRequest:@{unlinkedCreditWithRequest:}!AuthNet@{AuthNet}}
+\subsubsection[{unlinkedCreditWithRequest:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) unlinkedCreditWithRequest: 
+\begin{DoxyParamCaption}
+\item[{dummy({\bf CreateTransactionRequest} $\ast$)}]{ r}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_a5b2bc486ff67a6f7fd8c8708c89057a0}
+
+
+Perform unlinked CREDIT transaction with request. 
+
+NOTE: The should not include an x\_\-trans\_\-id or a regular CREDIT request will be attempted. 
+\begin{DoxyParams}{Parameters}
+\item[{\em r}]The request to send. \end{DoxyParams}
+\hypertarget{interface_auth_net_a5b2bc486ff67a6f7fd8c8708c89057a0}{
+\index{AuthNet@{AuthNet}!unlinkedCreditWithRequest:@{unlinkedCreditWithRequest:}}
+\index{unlinkedCreditWithRequest:@{unlinkedCreditWithRequest:}!AuthNet@{AuthNet}}
+\subsubsection[{unlinkedCreditWithRequest:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) unlinkedCreditWithRequest: 
+\begin{DoxyParamCaption}
+\item[{dummy({\bf CreateTransactionRequest} $\ast$)}]{ r}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_a5b2bc486ff67a6f7fd8c8708c89057a0}
+
+
+Perform unlinked CREDIT transaction with request. 
+
+NOTE: The should not include an x\_\-trans\_\-id or a regular CREDIT request will be attempted. 
+\begin{DoxyParams}{Parameters}
+\item[{\em r}]The request to send. \end{DoxyParams}
+\hypertarget{interface_auth_net_aef8d13917d406c5056a2176817562260}{
+\index{AuthNet@{AuthNet}!voidWithRequest:@{voidWithRequest:}}
+\index{voidWithRequest:@{voidWithRequest:}!AuthNet@{AuthNet}}
+\subsubsection[{voidWithRequest:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) voidWithRequest: 
+\begin{DoxyParamCaption}
+\item[{dummy({\bf CreateTransactionRequest} $\ast$)}]{ r}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_aef8d13917d406c5056a2176817562260}
+
+
+Perform VOID transaction with request. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em r}]The request to send. \end{DoxyParams}
+\hypertarget{interface_auth_net_aef8d13917d406c5056a2176817562260}{
+\index{AuthNet@{AuthNet}!voidWithRequest:@{voidWithRequest:}}
+\index{voidWithRequest:@{voidWithRequest:}!AuthNet@{AuthNet}}
+\subsubsection[{voidWithRequest:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) voidWithRequest: 
+\begin{DoxyParamCaption}
+\item[{dummy({\bf CreateTransactionRequest} $\ast$)}]{ r}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_aef8d13917d406c5056a2176817562260}
+
+
+Perform VOID transaction with request. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em r}]The request to send. \end{DoxyParams}
+\hypertarget{interface_auth_net_aef8d13917d406c5056a2176817562260}{
+\index{AuthNet@{AuthNet}!voidWithRequest:@{voidWithRequest:}}
+\index{voidWithRequest:@{voidWithRequest:}!AuthNet@{AuthNet}}
+\subsubsection[{voidWithRequest:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) voidWithRequest: 
+\begin{DoxyParamCaption}
+\item[{dummy({\bf CreateTransactionRequest} $\ast$)}]{ r}
+\end{DoxyParamCaption}
+}}
+\label{interface_auth_net_aef8d13917d406c5056a2176817562260}
+
+
+Perform VOID transaction with request. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em r}]The request to send. \end{DoxyParams}
+
+
+\subsection{Property Documentation}
+\hypertarget{interface_auth_net_a7cb6478b15ab6c0cffb29eaf53db9d49}{
+\index{AuthNet@{AuthNet}!isPendingResponse@{isPendingResponse}}
+\index{isPendingResponse@{isPendingResponse}!AuthNet@{AuthNet}}
+\subsubsection[{isPendingResponse}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (BOOL) isPendingResponse\hspace{0.3cm}{\ttfamily  \mbox{[}read, write, assign\mbox{]}}}}
+\label{interface_auth_net_a7cb6478b15ab6c0cffb29eaf53db9d49}
+
+
+isPendingResponse Indicate there is still an outstanding Authorize.Net API request. 
+
+No new request will be initiated till the outstanding finishes. 
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+/Users/Shiun/labzero/svn-\/aim-\/ios-\/sk/trunk/ANMobilePaymentLib/AuthNet.h\item 
+/Users/Shiun/labzero/svn-\/aim-\/ios-\/sk/trunk/AuthNet.h\item 
+/Users/Shiun/labzero/svn-\/aim-\/ios-\/sk/trunk/CoffeeShopApp/ANMobilePaymentLib/AuthNet.h\item 
+/Users/Shiun/labzero/svn-\/aim-\/ios-\/sk/trunk/AuthNet.m\end{DoxyCompactItemize}

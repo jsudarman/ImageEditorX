@@ -1,0 +1,113 @@
+\hypertarget{interface_merchant}{
+\section{Merchant Class Reference}
+\label{interface_merchant}\index{Merchant@{Merchant}}
+}
+
+
+\hyperlink{interface_merchant}{Merchant}.  
+
+
+
+
+{\ttfamily \#import $<$Merchant.h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+(\hyperlink{interface_merchant}{Merchant} $\ast$) -\/ \hyperlink{interface_merchant_afc3535a77c0dae4b2a95a074a411ec91}{initWithAPILogin:transactionKey:environment:}
+\begin{DoxyCompactList}\small\item\em Set the merchant related fields. \item\end{DoxyCompactList}\item 
+(BOOL) -\/ \hyperlink{interface_merchant_a89a03638ddad68187baa49ed00e53d6f}{isValid}
+\begin{DoxyCompactList}\small\item\em Validate that fields are valid in terms of length and acceptable values. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+(\hyperlink{interface_merchant}{Merchant} $\ast$) + \hyperlink{interface_merchant_a1e8a81b4bd4f99847b52535b06012bbc}{merchant}
+\begin{DoxyCompactList}\small\item\em Creates an autoreleased \hyperlink{interface_merchant}{Merchant} object;. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_merchant_aa21dcb9ea1e089bee08d9c96bad28d96}{
+AUTHNET\_\-ENVIRONMENT {\bfseries environment}}
+\label{interface_merchant_aa21dcb9ea1e089bee08d9c96bad28d96}
+
+\item 
+\hypertarget{interface_merchant_a80718c747a07d802c6667a5fe3cd3ca9}{
+NSString $\ast$ {\bfseries apiLoginID}}
+\label{interface_merchant_a80718c747a07d802c6667a5fe3cd3ca9}
+
+\item 
+\hypertarget{interface_merchant_abf66695f70c85dd5d53fe7e77a3a9343}{
+NSString $\ast$ {\bfseries transactionKey}}
+\label{interface_merchant_abf66695f70c85dd5d53fe7e77a3a9343}
+
+\item 
+\hypertarget{interface_merchant_a81ecdda00c2bc1281daf1d2ab55639a9}{
+BOOL {\bfseries allowPartialAuth}}
+\label{interface_merchant_a81ecdda00c2bc1281daf1d2ab55639a9}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{interface_merchant}{Merchant}. Contains the values that are common to the merchant information. 
+
+\subsection{Member Function Documentation}
+\hypertarget{interface_merchant_afc3535a77c0dae4b2a95a074a411ec91}{
+\index{Merchant@{Merchant}!initWithAPILogin:transactionKey:environment:@{initWithAPILogin:transactionKey:environment:}}
+\index{initWithAPILogin:transactionKey:environment:@{initWithAPILogin:transactionKey:environment:}!Merchant@{Merchant}}
+\subsubsection[{initWithAPILogin:transactionKey:environment:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ ({\bf Merchant} $\ast$) initWithAPILogin: 
+\begin{DoxyParamCaption}
+\item[{dummy(NSString const $\ast$)}]{ login}
+\item[{transactionKey:(NSString const $\ast$)}]{ tKey}
+\item[{environment:(AUTHNET\_\-ENVIRONMENT)}]{ e}
+\end{DoxyParamCaption}
+}}
+\label{interface_merchant_afc3535a77c0dae4b2a95a074a411ec91}
+
+
+Set the merchant related fields. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em login}]Set API Login ID \item[{\em tid}]Set Transaction ID \item[{\em e}]The server to make the request. Test or Live server. \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+An instance of the \hyperlink{interface_merchant}{Merchant} object. 
+\end{DoxyReturn}
+\hypertarget{interface_merchant_a89a03638ddad68187baa49ed00e53d6f}{
+\index{Merchant@{Merchant}!isValid@{isValid}}
+\index{isValid@{isValid}!Merchant@{Merchant}}
+\subsubsection[{isValid}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (BOOL) isValid 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}
+\label{interface_merchant_a89a03638ddad68187baa49ed00e53d6f}
+
+
+Validate that fields are valid in terms of length and acceptable values. 
+
+\begin{DoxyReturn}{Returns}
+BOOL returns whether values are valid. 
+\end{DoxyReturn}
+\hypertarget{interface_merchant_a1e8a81b4bd4f99847b52535b06012bbc}{
+\index{Merchant@{Merchant}!merchant@{merchant}}
+\index{merchant@{merchant}!Merchant@{Merchant}}
+\subsubsection[{merchant}]{\setlength{\rightskip}{0pt plus 5cm}+ ({\bf Merchant} $\ast$) merchant 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}
+\label{interface_merchant_a1e8a81b4bd4f99847b52535b06012bbc}
+
+
+Creates an autoreleased \hyperlink{interface_merchant}{Merchant} object;. 
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{interface_merchant}{Merchant} an autoreleased \hyperlink{interface_merchant}{Merchant} object. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+/Users/Shiun/labzero/iphone-\/aim/Merchant.h\item 
+/Users/Shiun/labzero/iphone-\/aim/Merchant.m\end{DoxyCompactItemize}

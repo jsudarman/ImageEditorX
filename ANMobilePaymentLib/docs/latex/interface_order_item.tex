@@ -1,0 +1,118 @@
+\hypertarget{interface_order_item}{
+\section{OrderItem Class Reference}
+\label{interface_order_item}\index{OrderItem@{OrderItem}}
+}
+
+
+\hyperlink{interface_order_item}{OrderItem}.  
+
+
+
+
+{\ttfamily \#import $<$OrderItem.h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+(NSString $\ast$) -\/ \hyperlink{interface_order_item_a37014a281fd7de5cb47f7086bda85496}{generateOrderItemString}
+\begin{DoxyCompactList}\small\item\em Generate the key/value fields that are associated with this order item. \item\end{DoxyCompactList}\item 
+(BOOL) -\/ \hyperlink{interface_order_item_a1b1da612579aad28dbd3422a06ddde3c}{isValid}
+\begin{DoxyCompactList}\small\item\em Validate that fields are valid in terms of length and acceptable values. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+(\hyperlink{interface_order_item}{OrderItem} $\ast$) + \hyperlink{interface_order_item_a142112358ad38990b26733ad757ddfe2}{orderItem}
+\begin{DoxyCompactList}\small\item\em Creates an autoreleased \hyperlink{interface_order_item}{OrderItem} object;. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_order_item_ac5b745771de2a09de7421484e6662385}{
+NSString $\ast$ {\bfseries itemID}}
+\label{interface_order_item_ac5b745771de2a09de7421484e6662385}
+
+\item 
+\hypertarget{interface_order_item_a4e054e695388b8edb4ee0d72f26d6e06}{
+NSString $\ast$ {\bfseries itemName}}
+\label{interface_order_item_a4e054e695388b8edb4ee0d72f26d6e06}
+
+\item 
+\hypertarget{interface_order_item_a7f8c08341b4b0f013301cd597499d329}{
+NSString $\ast$ {\bfseries itemDescription}}
+\label{interface_order_item_a7f8c08341b4b0f013301cd597499d329}
+
+\item 
+\hypertarget{interface_order_item_a2a308244ebd82e55dda04f5d51b43642}{
+NSString $\ast$ {\bfseries itemQuantity}}
+\label{interface_order_item_a2a308244ebd82e55dda04f5d51b43642}
+
+\item 
+\hypertarget{interface_order_item_a9d13f9bdab9ffd0bd98dc29fbffbb06a}{
+NSString $\ast$ {\bfseries itemPrice}}
+\label{interface_order_item_a9d13f9bdab9ffd0bd98dc29fbffbb06a}
+
+\item 
+\hypertarget{interface_order_item_aad763b78640fc9c6bb0d4a681ac3321e}{
+BOOL {\bfseries itemTaxable}}
+\label{interface_order_item_aad763b78640fc9c6bb0d4a681ac3321e}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{interface_order_item}{OrderItem}. Contains the values that are common to the itemized order information of a \hyperlink{interface_auth_net_request}{AuthNetRequest} object. 
+
+\subsection{Member Function Documentation}
+\hypertarget{interface_order_item_a37014a281fd7de5cb47f7086bda85496}{
+\index{OrderItem@{OrderItem}!generateOrderItemString@{generateOrderItemString}}
+\index{generateOrderItemString@{generateOrderItemString}!OrderItem@{OrderItem}}
+\subsubsection[{generateOrderItemString}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (NSString $\ast$) generateOrderItemString 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}
+\label{interface_order_item_a37014a281fd7de5cb47f7086bda85496}
+
+
+Generate the key/value fields that are associated with this order item. 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em fields}]The NSMutableDictionary that will be filled with the Key/Value fields. \end{DoxyParams}
+\hypertarget{interface_order_item_a1b1da612579aad28dbd3422a06ddde3c}{
+\index{OrderItem@{OrderItem}!isValid@{isValid}}
+\index{isValid@{isValid}!OrderItem@{OrderItem}}
+\subsubsection[{isValid}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (BOOL) isValid 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}
+\label{interface_order_item_a1b1da612579aad28dbd3422a06ddde3c}
+
+
+Validate that fields are valid in terms of length and acceptable values. 
+
+\begin{DoxyReturn}{Returns}
+BOOL returns whether values are valid. 
+\end{DoxyReturn}
+\hypertarget{interface_order_item_a142112358ad38990b26733ad757ddfe2}{
+\index{OrderItem@{OrderItem}!orderItem@{orderItem}}
+\index{orderItem@{orderItem}!OrderItem@{OrderItem}}
+\subsubsection[{orderItem}]{\setlength{\rightskip}{0pt plus 5cm}+ ({\bf OrderItem} $\ast$) orderItem 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}
+\label{interface_order_item_a142112358ad38990b26733ad757ddfe2}
+
+
+Creates an autoreleased \hyperlink{interface_order_item}{OrderItem} object;. 
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{interface_order_item}{OrderItem} an autoreleased \hyperlink{interface_order_item}{OrderItem} object. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+/Users/Shiun/labzero/iphone-\/aim/OrderItem.h\item 
+/Users/Shiun/labzero/iphone-\/aim/OrderItem.m\end{DoxyCompactItemize}
