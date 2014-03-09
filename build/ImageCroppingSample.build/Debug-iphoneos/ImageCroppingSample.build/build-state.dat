@@ -1,550 +1,0 @@
-TImageCroppingSample
-v5
-r1
-cCheck dependencies
-cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist build/Debug-iphoneos/ImageCroppingSample.app/ResourceRules.plist
-cProcessInfoPlistFile "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/Info.plist" ImageCroppingSample/ImageCroppingSample-Info.plist
-cProcessPCH /var/folders/f0/0sl56bjs6djb9mf9d_8clnh80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageCroppingSample-Prefix-cwlfotozeetoencghpmkqwqjzrup/ImageCroppingSample-Prefix.pch.pth ImageCroppingSample/ImageCroppingSample-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cProcessPCH /var/folders/f0/0sl56bjs6djb9mf9d_8clnh80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageCroppingSample-Prefix-bxhrnmqwzeqqxdfbbcvzbrvpdtgl/ImageCroppingSample-Prefix.pch.pth ImageCroppingSample/ImageCroppingSample-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7/main.o "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/main.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7/AppDelegate.o "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/AppDelegate.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7/ViewController.o "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/ViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7s/main.o "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/main.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7s/AppDelegate.o "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/AppDelegate.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7s/ViewController.o "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/ViewController.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7/ImageCroppingSample" normal armv7
-cLd "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7s/ImageCroppingSample" normal armv7s
-cCreateUniversalBinary "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/ImageCroppingSample" normal "armv7 armv7s"
-cGenerateDSYMFile "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app.dSYM" "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/ImageCroppingSample"
-cCopyStringsFile "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/en.lproj/InfoPlist.strings" ImageCroppingSample/en.lproj/InfoPlist.strings
-cCompileXIB "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/en.lproj/ViewController.xib"
-cCopyPNGFile "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/icon.png" ImageCroppingSample/icon.png
-cCopyPNGFile "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/bottom_left.png" ImageCroppingSample/bottom_left.png
-cCopyPNGFile "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/bottom_right.png" ImageCroppingSample/bottom_right.png
-cCopyPNGFile "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/top_left.png" ImageCroppingSample/top_left.png
-cCopyPNGFile "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/top_right.png" ImageCroppingSample/top_right.png
-cCopyPNGFile "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/wink.png" ImageCroppingSample/wink.png
-cProcessProductPackaging "/Users/indianic/Library/MobileDevice/Provisioning Profiles/4FAD494E-EA02-4867-9ECC-2BEB659994A5.mobileprovision" "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/embedded.mobileprovision"
-cProcessProductPackaging "/Users/indianic/Library/MobileDevice/Provisioning Profiles/4FAD494E-EA02-4867-9ECC-2BEB659994A5.mobileprovision" "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/embedded.mobileprovision"
-cTouch "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app"
-cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/ImageCroppingSample.xcent"
-cCodeSign "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app"
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk
-c00000000503C83D40000000000000132
-t1346143188
-s306
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist
-c00000000504A967B0000000000000094
-t1347065467
-s148
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist
-c00000000504A967B0000000000000096
-t1347065467
-s150
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c00000000504A968A0000000000322740
-t1347065482
-s3286848
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c00000000504A968F0000000000629C80
-t1347065487
-s6462592
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c00000000504A96950000000000359720
-t1347065493
-s3512096
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c00000000504A969700000000011BA850
-t1347065495
-s18589776
-
-N/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/AppDelegate.m
-c000000004FBF2CC900000000000009A7
-t1337928905
-s2471
-
-N/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/ImageCroppingSample-Prefix.pch
-c000000004FA79018000000000000017D
-t1336381464
-s381
-
-N/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/ViewController.m
-c00000000503EFF900000000000004D93
-t1346305936
-s19859
-
-N/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/bottom_left.png
-c000000005018B82E0000000000000C22
-t1343797294
-s3106
-
-N/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/bottom_right.png
-c000000005018B8300000000000000BCB
-t1343797296
-s3019
-
-N/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/en.lproj/InfoPlist.strings
-c000000004FA261BE000000000000002D
-t1336041918
-s45
-
-N/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/en.lproj/ViewController.xib
-c00000000508516B600000000000058F3
-t1350899382
-s22771
-
-N/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/icon.png
-c000000004FA508FD000000000000059E
-t1336215805
-s1438
-
-N/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/main.m
-c000000004FA261BE0000000000000163
-t1336041918
-s355
-
-N/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/top_left.png
-c000000005018B82C0000000000000BFF
-t1343797292
-s3071
-
-N/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/top_right.png
-c000000005018B82D0000000000000BB3
-t1343797293
-s2995
-
-N/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/wink.png
-c000000004E86AF7E000000000000430F
-t1317449598
-s17167
-
-N/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app
-t2
-s0
-
-N/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app.dSYM
-t2
-s0
-
-N/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/ImageCroppingSample
-t2
-s0
-
-N/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/Info.plist
-t2
-s0
-
-N/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/PkgInfo
-t2
-s0
-
-N/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/ResourceRules.plist
-t2
-s0
-
-N/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/bottom_left.png
-t2
-s0
-
-N/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/bottom_right.png
-t2
-s0
-
-N/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/embedded.mobileprovision
-t2
-s0
-
-N/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/en.lproj/InfoPlist.strings
-t2
-s0
-
-N/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/en.lproj/ViewController.nib
-t2
-s0
-
-N/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/icon.png
-t2
-s0
-
-N/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/top_left.png
-t2
-s0
-
-N/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/top_right.png
-t2
-s0
-
-N/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/wink.png
-t2
-s0
-
-N/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/ImageCroppingSample.xcent
-t2
-s0
-
-N/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7/AppDelegate.o
-t2
-s0
-
-N/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7/ImageCroppingSample
-t2
-s0
-
-N/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7/ImageCroppingSample.LinkFileList
-c000000005089067D0000000000000221
-t1351157373
-s545
-
-N/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7/ViewController.o
-t2
-s0
-
-N/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7/main.o
-t2
-s0
-
-N/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7s/AppDelegate.o
-t2
-s0
-
-N/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7s/ImageCroppingSample
-t2
-s0
-
-N/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7s/ImageCroppingSample.LinkFileList
-c000000005089067D0000000000000224
-t1351157373
-s548
-
-N/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7s/ViewController.o
-t2
-s0
-
-N/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7s/main.o
-t2
-s0
-
-N/Users/indianic/Library/MobileDevice/Provisioning Profiles/4FAD494E-EA02-4867-9ECC-2BEB659994A5.mobileprovision
-c0000000050654E410000000000003786
-t1348816449
-s14214
-
-N/var/folders/f0/0sl56bjs6djb9mf9d_8clnh80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageCroppingSample-Prefix-bxhrnmqwzeqqxdfbbcvzbrvpdtgl/ImageCroppingSample-Prefix.pch.pth
-t2
-s0
-
-N/var/folders/f0/0sl56bjs6djb9mf9d_8clnh80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageCroppingSample-Prefix-cwlfotozeetoencghpmkqwqjzrup/ImageCroppingSample-Prefix.pch.pth
-t2
-s0
-
-NImageCroppingSample/ImageCroppingSample-Info.plist
-c000000004FA261BE00000000000004B0
-t1336041918
-s1200
-
-CBuild AST from "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/AppDelegate.m"
-r0
-
-CBuild AST from "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/ViewController.m"
-r0
-
-CBuild AST from "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/main.m"
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesd66e07fd3d39b641^4e252bfd3d39b641^---0#1#0#--18"Check dependencies36"F8F5DA8E-1991-4D74-B918-770A1F47FAEE-
-
-CCodeSign "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app"
-s372850176.354009
-e372850176.892678
-r1
-xCodeSign
-x/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"CodeSign build/Debug-iphoneos/ImageCroppingSample.appe1b65a003e39b641^f086e4003e39b641^---0#0#0#-19%DVTDocumentLocation2@140"file://localhost/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules%202/Image%20Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/0000000000000000^1012"CodeSign build/Debug-iphoneos/ImageCroppingSample.app    cd "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample"    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign fd3b99fd547defff694bb2570b3126801214e4ad "--resource-rules=/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/ResourceRules.plist" --entitlements "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/ImageCroppingSample.xcent" "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app"36"829BA822-7D50-4B59-BDFF-3353C41F2980-
-
-CCompileC build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7/AppDelegate.o "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/AppDelegate.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372850173.765910
-e372850174.103278
-r1
-xCompileC
-xbuild/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7/AppDelegate.o
-x/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/AppDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Compile /CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/AppDelegate.ma243c4fd3d39b641^09701afe3d39b641^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules%202/Image%20Croping/ImageCroppingSample/ImageCroppingSample/AppDelegate.m0000000000000000^4156"CompileC build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7/AppDelegate.o ImageCroppingSample/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.0 -iquote "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/ImageCroppingSample-generated-files.hmap" "-I/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/ImageCroppingSample-own-target-headers.hmap" "-I/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/ImageCroppingSample-all-target-headers.hmap" -iquote "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/ImageCroppingSample-project-headers.hmap" "-I/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/DerivedSources/armv7" "-I/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/DerivedSources" "-F/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos" -include /var/folders/f0/0sl56bjs6djb9mf9d_8clnh80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageCroppingSample-Prefix-cwlfotozeetoencghpmkqwqjzrup/ImageCroppingSample-Prefix.pch -MMD -MT dependencies -MF "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7/AppDelegate.d" --serialize-diagnostics "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7/AppDelegate.dia" -c "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/AppDelegate.m" -o "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7/AppDelegate.o"36"40F75B1A-ED3F-467E-97CE-751129A3F1A0-
-
-CCompileC build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7/ViewController.o "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/ViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372850173.765919
-e372850174.188325
-r1
-xCompileC
-xbuild/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7/ViewController.o
-x/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/ViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/ViewController.m:17:17: warning: incomplete implementation [-Wincomplete-implementation]
-o@implementation ViewController
-o                ^
-o/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/ViewController.h:44:1: note: method definition for 'btnCropTapped:' not found
-o- (IBAction)btnCropTapped:(id)sender;
-o^
-o1 warning generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Compile /CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/ViewController.m0f42c4fd3d39b641^eb3630fe3d39b641^-467"/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/ViewController.m:17:17: warning: incomplete implementation [-Wincomplete-implementation]@implementation ViewController                ^/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/ViewController.h:44:1: note: method definition for 'btnCropTapped:' not found- (IBAction)btnCropTapped:(id)sender;^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@25"Incomplete implementation-372850174#18446744073709551615#0#1(2@48"Method definition for 'btnCropTapped:' not found-372850174#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@131"file://localhost/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules%202/Image%20Croping/ImageCroppingSample/ImageCroppingSample/ViewController.h0000000000000000^43#0#43#0#1250#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@131"file://localhost/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules%202/Image%20Croping/ImageCroppingSample/ImageCroppingSample/ViewController.m0000000000000000^16#16#16#16#330#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@131"file://localhost/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules%202/Image%20Croping/ImageCroppingSample/ImageCroppingSample/ViewController.m0000000000000000^4174"CompileC build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7/ViewController.o ImageCroppingSample/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.0 -iquote "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/ImageCroppingSample-generated-files.hmap" "-I/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/ImageCroppingSample-own-target-headers.hmap" "-I/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/ImageCroppingSample-all-target-headers.hmap" -iquote "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/ImageCroppingSample-project-headers.hmap" "-I/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/DerivedSources/armv7" "-I/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/DerivedSources" "-F/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos" -include /var/folders/f0/0sl56bjs6djb9mf9d_8clnh80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageCroppingSample-Prefix-cwlfotozeetoencghpmkqwqjzrup/ImageCroppingSample-Prefix.pch -MMD -MT dependencies -MF "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7/ViewController.d" --serialize-diagnostics "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7/ViewController.dia" -c "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/ViewController.m" -o "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7/ViewController.o"36"27E57CB2-339A-49DB-B61F-78404CA367B1-
-
-CCompileC build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7/main.o "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/main.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372850173.765316
-e372850174.085805
-r1
-xCompileC
-xbuild/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7/main.o
-x/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/main.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/main.m4018c4fd3d39b641^4a4216fe3d39b641^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules%202/Image%20Croping/ImageCroppingSample/ImageCroppingSample/main.m0000000000000000^4114"CompileC build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7/main.o ImageCroppingSample/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.0 -iquote "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/ImageCroppingSample-generated-files.hmap" "-I/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/ImageCroppingSample-own-target-headers.hmap" "-I/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/ImageCroppingSample-all-target-headers.hmap" -iquote "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/ImageCroppingSample-project-headers.hmap" "-I/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/DerivedSources/armv7" "-I/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/DerivedSources" "-F/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos" -include /var/folders/f0/0sl56bjs6djb9mf9d_8clnh80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageCroppingSample-Prefix-cwlfotozeetoencghpmkqwqjzrup/ImageCroppingSample-Prefix.pch -MMD -MT dependencies -MF "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7/main.d" --serialize-diagnostics "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7/main.dia" -c "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/main.m" -o "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7/main.o"36"2733FDFD-A128-45E5-A79F-F58CFA336B99-
-
-CCompileC build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7s/AppDelegate.o "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/AppDelegate.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372850174.087221
-e372850174.181867
-r1
-xCompileC
-xbuild/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7s/AppDelegate.o
-x/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/AppDelegate.m
-xnormal
-xarmv7s
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Compile /CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/AppDelegate.m228916fe3d39b641^a48e2efe3d39b641^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules%202/Image%20Croping/ImageCroppingSample/ImageCroppingSample/AppDelegate.m0000000000000000^4163"CompileC build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7s/AppDelegate.o ImageCroppingSample/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.0 -iquote "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/ImageCroppingSample-generated-files.hmap" "-I/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/ImageCroppingSample-own-target-headers.hmap" "-I/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/ImageCroppingSample-all-target-headers.hmap" -iquote "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/ImageCroppingSample-project-headers.hmap" "-I/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/DerivedSources/armv7s" "-I/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/DerivedSources" "-F/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos" -include /var/folders/f0/0sl56bjs6djb9mf9d_8clnh80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageCroppingSample-Prefix-bxhrnmqwzeqqxdfbbcvzbrvpdtgl/ImageCroppingSample-Prefix.pch -MMD -MT dependencies -MF "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7s/AppDelegate.d" --serialize-diagnostics "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7s/AppDelegate.dia" -c "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/AppDelegate.m" -o "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7s/AppDelegate.o"36"FF056BAE-07DF-46B4-9EFC-BCD33D0E8C74-
-
-CCompileC build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7s/ViewController.o "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/ViewController.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372850174.087427
-e372850174.280996
-r1
-xCompileC
-xbuild/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7s/ViewController.o
-x/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/ViewController.m
-xnormal
-xarmv7s
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/ViewController.m:17:17: warning: incomplete implementation [-Wincomplete-implementation]
-o@implementation ViewController
-o                ^
-o/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/ViewController.h:44:1: note: method definition for 'btnCropTapped:' not found
-o- (IBAction)btnCropTapped:(id)sender;
-o^
-o1 warning generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Compile /CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/ViewController.m9f9316fe3d39b641^85ed47fe3d39b641^-467"/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/ViewController.m:17:17: warning: incomplete implementation [-Wincomplete-implementation]@implementation ViewController                ^/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/ViewController.h:44:1: note: method definition for 'btnCropTapped:' not found- (IBAction)btnCropTapped:(id)sender;^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@25"Incomplete implementation-372850174#18446744073709551615#0#1(2@48"Method definition for 'btnCropTapped:' not found-372850174#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@131"file://localhost/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules%202/Image%20Croping/ImageCroppingSample/ImageCroppingSample/ViewController.h0000000000000000^43#0#43#0#1250#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@131"file://localhost/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules%202/Image%20Croping/ImageCroppingSample/ImageCroppingSample/ViewController.m0000000000000000^16#16#16#16#330#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@131"file://localhost/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules%202/Image%20Croping/ImageCroppingSample/ImageCroppingSample/ViewController.m0000000000000000^4181"CompileC build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7s/ViewController.o ImageCroppingSample/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.0 -iquote "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/ImageCroppingSample-generated-files.hmap" "-I/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/ImageCroppingSample-own-target-headers.hmap" "-I/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/ImageCroppingSample-all-target-headers.hmap" -iquote "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/ImageCroppingSample-project-headers.hmap" "-I/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/DerivedSources/armv7s" "-I/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/DerivedSources" "-F/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos" -include /var/folders/f0/0sl56bjs6djb9mf9d_8clnh80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageCroppingSample-Prefix-bxhrnmqwzeqqxdfbbcvzbrvpdtgl/ImageCroppingSample-Prefix.pch -MMD -MT dependencies -MF "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7s/ViewController.d" --serialize-diagnostics "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7s/ViewController.dia" -c "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/ViewController.m" -o "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7s/ViewController.o"36"9C1B90AA-4E19-4000-97B6-C4A5E8CB360D-
-
-CCompileC build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7s/main.o "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/main.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372850173.766259
-e372850174.085631
-r1
-xCompileC
-xbuild/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7s/main.o
-x/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/main.m
-xnormal
-xarmv7s
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/main.mc556c4fd3d39b641^180816fe3d39b641^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules%202/Image%20Croping/ImageCroppingSample/ImageCroppingSample/main.m0000000000000000^4121"CompileC build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7s/main.o ImageCroppingSample/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.0 -iquote "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/ImageCroppingSample-generated-files.hmap" "-I/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/ImageCroppingSample-own-target-headers.hmap" "-I/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/ImageCroppingSample-all-target-headers.hmap" -iquote "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/ImageCroppingSample-project-headers.hmap" "-I/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/DerivedSources/armv7s" "-I/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/DerivedSources" "-F/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos" -include /var/folders/f0/0sl56bjs6djb9mf9d_8clnh80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageCroppingSample-Prefix-bxhrnmqwzeqqxdfbbcvzbrvpdtgl/ImageCroppingSample-Prefix.pch -MMD -MT dependencies -MF "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7s/main.d" --serialize-diagnostics "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7s/main.dia" -c "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/main.m" -o "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7s/main.o"36"506C1E40-E490-4C41-8002-DA6AC90F9416-
-
-CCompileXIB "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/en.lproj/ViewController.xib"
-s372850175.192777
-e372850176.184030
-r1
-xCompileXIB
-x/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/en.lproj/ViewController.xib
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Compiling /CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/en.lproj/ViewController.xib577631ff3d39b641^b91c2f003e39b641^---0#0#0#-19%DVTDocumentLocation2@142"file://localhost/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules%202/Image%20Croping/ImageCroppingSample/ImageCroppingSample/en.lproj/ViewController.xib0000000000000000^991"CompileXIB ImageCroppingSample/en.lproj/ViewController.xib    cd "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/en.lproj/ViewController.nib" "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/en.lproj/ViewController.xib" --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk36"70F9D3CC-27C7-45F2-9B55-B60600F1A89E-
-
-CCopyPNGFile "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/bottom_left.png" ImageCroppingSample/bottom_left.png
-s372850175.193317
-e372850175.509893
-r1
-xCopyPNGFile
-x/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/bottom_left.png
-xImageCroppingSample/bottom_left.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"CopyPNGFile build/Debug-iphoneos/ImageCroppingSample.app/bottom_left.png ImageCroppingSample/bottom_left.pngc18c31ff3d39b641^be8882ff3d39b641^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules%202/Image%20Croping/ImageCroppingSample/ImageCroppingSample/bottom_left.png0000000000000000^746"CopyPNGFile build/Debug-iphoneos/ImageCroppingSample.app/bottom_left.png ImageCroppingSample/bottom_left.png    cd "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/bottom_left.png" "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/bottom_left.png"36"FC7C1812-A180-462F-B4EA-E5F99E889F7B-
-
-CCopyPNGFile "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/bottom_right.png" ImageCroppingSample/bottom_right.png
-s372850175.197118
-e372850175.509514
-r1
-xCopyPNGFile
-x/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/bottom_right.png
-xImageCroppingSample/bottom_right.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"CopyPNGFile build/Debug-iphoneos/ImageCroppingSample.app/bottom_right.png ImageCroppingSample/bottom_right.png0d8e32ff3d39b641^2f6f82ff3d39b641^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules%202/Image%20Croping/ImageCroppingSample/ImageCroppingSample/bottom_right.png0000000000000000^750"CopyPNGFile build/Debug-iphoneos/ImageCroppingSample.app/bottom_right.png ImageCroppingSample/bottom_right.png    cd "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/bottom_right.png" "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/bottom_right.png"36"CCFB53E8-3C18-4181-937D-BDA7128A7605-
-
-CCopyPNGFile "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/icon.png" ImageCroppingSample/icon.png
-s372850175.192787
-e372850175.509515
-r1
-xCopyPNGFile
-x/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/icon.png
-xImageCroppingSample/icon.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"CopyPNGFile build/Debug-iphoneos/ImageCroppingSample.app/icon.png ImageCroppingSample/icon.pngb47431ff3d39b641^ee7982ff3d39b641^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules%202/Image%20Croping/ImageCroppingSample/ImageCroppingSample/icon.png0000000000000000^718"CopyPNGFile build/Debug-iphoneos/ImageCroppingSample.app/icon.png ImageCroppingSample/icon.png    cd "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/icon.png" "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/icon.png"36"695906D4-094F-4D34-A8FD-232EF0760D3F-
-
-CCopyPNGFile "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/top_left.png" ImageCroppingSample/top_left.png
-s372850175.510852
-e372850175.544015
-r1
-xCopyPNGFile
-x/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/top_left.png
-xImageCroppingSample/top_left.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"CopyPNGFile build/Debug-iphoneos/ImageCroppingSample.app/top_left.png ImageCroppingSample/top_left.png45da82ff3d39b641^d0458bff3d39b641^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules%202/Image%20Croping/ImageCroppingSample/ImageCroppingSample/top_left.png0000000000000000^734"CopyPNGFile build/Debug-iphoneos/ImageCroppingSample.app/top_left.png ImageCroppingSample/top_left.png    cd "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/top_left.png" "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/top_left.png"36"C129F4DF-14C5-4FED-87E8-49987940C585-
-
-CCopyPNGFile "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/top_right.png" ImageCroppingSample/top_right.png
-s372850175.510869
-e372850175.541451
-r1
-xCopyPNGFile
-x/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/top_right.png
-xImageCroppingSample/top_right.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"CopyPNGFile build/Debug-iphoneos/ImageCroppingSample.app/top_right.png ImageCroppingSample/top_right.png83df82ff3d39b641^b3b58aff3d39b641^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules%202/Image%20Croping/ImageCroppingSample/ImageCroppingSample/top_right.png0000000000000000^738"CopyPNGFile build/Debug-iphoneos/ImageCroppingSample.app/top_right.png ImageCroppingSample/top_right.png    cd "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/top_right.png" "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/top_right.png"36"381A9D9D-0089-4D96-B3A9-3EABC138BA3C-
-
-CCopyPNGFile "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/wink.png" ImageCroppingSample/wink.png
-s372850175.511317
-e372850175.565901
-r1
-xCopyPNGFile
-x/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/wink.png
-xImageCroppingSample/wink.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"CopyPNGFile build/Debug-iphoneos/ImageCroppingSample.app/wink.png ImageCroppingSample/wink.pngbff482ff3d39b641^7adf90ff3d39b641^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules%202/Image%20Croping/ImageCroppingSample/ImageCroppingSample/wink.png0000000000000000^718"CopyPNGFile build/Debug-iphoneos/ImageCroppingSample.app/wink.png ImageCroppingSample/wink.png    cd "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/wink.png" "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/wink.png"36"3FBA1FB3-262D-40DD-B673-E01D7DF1D886-
-
-CCopyStringsFile "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/en.lproj/InfoPlist.strings" ImageCroppingSample/en.lproj/InfoPlist.strings
-s372850175.192781
-e372850175.195967
-r1
-xCopyStringsFile
-x/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/en.lproj/InfoPlist.strings
-xImageCroppingSample/en.lproj/InfoPlist.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy ImageCroppingSample/en.lproj/InfoPlist.strings3f7031ff3d39b641^d02b32ff3d39b641^---0#0#0#-19%DVTDocumentLocation2@141"file://localhost/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules%202/Image%20Croping/ImageCroppingSample/ImageCroppingSample/en.lproj/InfoPlist.strings0000000000000000^678"CopyStringsFile build/Debug-iphoneos/ImageCroppingSample.app/en.lproj/InfoPlist.strings ImageCroppingSample/en.lproj/InfoPlist.strings    cd "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/en.lproj" -- ImageCroppingSample/en.lproj/InfoPlist.strings36"9BD4192A-8A9E-454A-9B1A-76C893DD638B-
-
-CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist build/Debug-iphoneos/ImageCroppingSample.app/ResourceRules.plist
-s372850173.176410
-e372850173.184256
-r1
-xCpResource
-x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist
-xbuild/Debug-iphoneos/ImageCroppingSample.app/ResourceRules.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy build/Debug-iphoneos/ImageCroppingSample.app/ResourceRules.plist533d2dfd3d39b641^aa2b2ffd3d39b641^---0#0#0#-19%DVTDocumentLocation2@159"file://localhost/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules%202/Image%20Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/ResourceRules.plist000000000080d041^826"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist build/Debug-iphoneos/ImageCroppingSample.app/ResourceRules.plist    cd "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app"36"799AAED6-65B2-490B-B9E8-6029824EB5A1-
-
-CCreateUniversalBinary "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/ImageCroppingSample" normal "armv7 armv7s"
-s372850175.084609
-e372850175.107830
-r1
-xCreateUniversalBinary
-x/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/ImageCroppingSample
-xnormal
-xarmv7 armv7s
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection163"Create universal binary /CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/ImageCroppingSample63d015ff3d39b641^1b9d1bff3d39b641^---0#0#0#-19%DVTDocumentLocation2@159"file://localhost/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules%202/Image%20Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/ImageCroppingSample000000000080d041^931"CreateUniversalBinary build/Debug-iphoneos/ImageCroppingSample.app/ImageCroppingSample normal "armv7 armv7s"    cd "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    lipo -create "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7/ImageCroppingSample" "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7s/ImageCroppingSample" -output "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/ImageCroppingSample"36"EFFA85A6-7B01-4ABB-9EA1-B6B88F7B153D-
-
-CGenerateDSYMFile "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app.dSYM" "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/ImageCroppingSample"
-s372850175.115684
-e372850175.183733
-r1
-xGenerateDSYMFile
-x/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app.dSYM
-x/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/ImageCroppingSample
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Generating /CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app.dSYMeeb01dff3d39b641^f2072fff3d39b641^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules%202/Image%20Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app.dSYM000000000080d041^776"GenerateDSYMFile build/Debug-iphoneos/ImageCroppingSample.app.dSYM build/Debug-iphoneos/ImageCroppingSample.app/ImageCroppingSample    cd "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/ImageCroppingSample" -o "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app.dSYM"36"AC1C051C-CB65-438D-978D-42F6D33EF8C8-
-
-CLd "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7/ImageCroppingSample" normal armv7
-s372850174.204245
-e372850175.077895
-r1
-xLd
-x/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7/ImageCroppingSample
-xnormal
-xarmv7
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection193"Link /CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7/ImageCroppingSample4dbf34fe3d39b641^d4f213ff3d39b641^---0#0#0#--1428"Ld build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7/ImageCroppingSample normal armv7    cd "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk "-L/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos" "-F/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos" -filelist "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7/ImageCroppingSample.LinkFileList" -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=4.0 -framework QuartzCore -framework UIKit -framework Foundation -framework CoreGraphics -o "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7/ImageCroppingSample"36"74F3F490-6152-4E38-B2D0-69945AF99DFD-
-
-CLd "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7s/ImageCroppingSample" normal armv7s
-s372850174.287844
-e372850175.077900
-r1
-xLd
-x/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7s/ImageCroppingSample
-xnormal
-xarmv7s
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection194"Link /CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7s/ImageCroppingSample2ec949fe3d39b641^83f913ff3d39b641^---0#0#0#--1433"Ld build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7s/ImageCroppingSample normal armv7s    cd "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk "-L/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos" "-F/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos" -filelist "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7s/ImageCroppingSample.LinkFileList" -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=4.0 -framework QuartzCore -framework UIKit -framework Foundation -framework CoreGraphics -o "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/Objects-normal/armv7s/ImageCroppingSample"36"5B5431AD-1468-469F-B1CC-923D540CC20A-
-
-CProcessInfoPlistFile "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/Info.plist" ImageCroppingSample/ImageCroppingSample-Info.plist
-s372850173.176889
-e372850173.184984
-r1
-xProcessInfoPlistFile
-x/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/Info.plist
-xImageCroppingSample/ImageCroppingSample-Info.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Process ImageCroppingSample/ImageCroppingSample-Info.plist215c2dfd3d39b641^fb5a2ffd3d39b641^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules%202/Image%20Croping/ImageCroppingSample/ImageCroppingSample/ImageCroppingSample-Info.plist0000000000000000^974"ProcessInfoPlistFile build/Debug-iphoneos/ImageCroppingSample.app/Info.plist ImageCroppingSample/ImageCroppingSample-Info.plist    cd "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ImageCroppingSample/ImageCroppingSample-Info.plist -genpkginfo "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/ResourceRules.plist" -o "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/Info.plist"36"7661A0B7-249F-4A2F-8A33-E768D56B9C20-
-
-CProcessPCH /Users/indianic/Library/Developer/Xcode/DerivedData/ImageCroppingSample-ctjzmwdtpwwkzhcererykpzrrfgo/Index/PrecompiledHeaders/ImageCroppingSample-Prefix-cpilxzyodcrpgvgizgdzmsnqzypq_ast/ImageCroppingSample-Prefix.pch.pth ImageCroppingSample/ImageCroppingSample-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Users/indianic/Library/Developer/Xcode/DerivedData/ImageCroppingSample-ctjzmwdtpwwkzhcererykpzrrfgo/Index/PrecompiledHeaders/ImageCroppingSample-Prefix-dgbfomjsdxbayzekupwjadshuaem_ast/ImageCroppingSample-Prefix.pch.pth ImageCroppingSample/ImageCroppingSample-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /var/folders/f0/0sl56bjs6djb9mf9d_8clnh80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageCroppingSample-Prefix-bxhrnmqwzeqqxdfbbcvzbrvpdtgl/ImageCroppingSample-Prefix.pch.pth ImageCroppingSample/ImageCroppingSample-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372850173.194393
-e372850173.758361
-r1
-xProcessPCH
-x/var/folders/f0/0sl56bjs6djb9mf9d_8clnh80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageCroppingSample-Prefix-bxhrnmqwzeqqxdfbbcvzbrvpdtgl/ImageCroppingSample-Prefix.pch.pth
-xImageCroppingSample/ImageCroppingSample-Prefix.pch
-xnormal
-xarmv7s
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Precompile ImageCroppingSample/ImageCroppingSample-Prefix.pchb8e731fd3d39b641^4624c2fd3d39b641^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules%202/Image%20Croping/ImageCroppingSample/ImageCroppingSample/ImageCroppingSample-Prefix.pch0000000000000000^4085"ProcessPCH /var/folders/f0/0sl56bjs6djb9mf9d_8clnh80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageCroppingSample-Prefix-bxhrnmqwzeqqxdfbbcvzbrvpdtgl/ImageCroppingSample-Prefix.pch.pth ImageCroppingSample/ImageCroppingSample-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.0 -iquote "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/ImageCroppingSample-generated-files.hmap" "-I/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/ImageCroppingSample-own-target-headers.hmap" "-I/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/ImageCroppingSample-all-target-headers.hmap" -iquote "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/ImageCroppingSample-project-headers.hmap" "-I/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/DerivedSources/armv7s" "-I/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/DerivedSources" "-F/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos" --serialize-diagnostics /var/folders/f0/0sl56bjs6djb9mf9d_8clnh80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageCroppingSample-Prefix-bxhrnmqwzeqqxdfbbcvzbrvpdtgl/ImageCroppingSample-Prefix.pch.dia -c "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/ImageCroppingSample-Prefix.pch" -o /var/folders/f0/0sl56bjs6djb9mf9d_8clnh80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageCroppingSample-Prefix-bxhrnmqwzeqqxdfbbcvzbrvpdtgl/ImageCroppingSample-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/f0/0sl56bjs6djb9mf9d_8clnh80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageCroppingSample-Prefix-bxhrnmqwzeqqxdfbbcvzbrvpdtgl/ImageCroppingSample-Prefix.pch.d36"06ED9282-F7E0-40A6-B77B-21E359222562-
-
-CProcessPCH /var/folders/f0/0sl56bjs6djb9mf9d_8clnh80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageCroppingSample-Prefix-cwlfotozeetoencghpmkqwqjzrup/ImageCroppingSample-Prefix.pch.pth ImageCroppingSample/ImageCroppingSample-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372850173.194377
-e372850173.758578
-r1
-xProcessPCH
-x/var/folders/f0/0sl56bjs6djb9mf9d_8clnh80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageCroppingSample-Prefix-cwlfotozeetoencghpmkqwqjzrup/ImageCroppingSample-Prefix.pch.pth
-xImageCroppingSample/ImageCroppingSample-Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Precompile ImageCroppingSample/ImageCroppingSample-Prefix.pch53e731fd3d39b641^b631c2fd3d39b641^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules%202/Image%20Croping/ImageCroppingSample/ImageCroppingSample/ImageCroppingSample-Prefix.pch0000000000000000^4082"ProcessPCH /var/folders/f0/0sl56bjs6djb9mf9d_8clnh80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageCroppingSample-Prefix-cwlfotozeetoencghpmkqwqjzrup/ImageCroppingSample-Prefix.pch.pth ImageCroppingSample/ImageCroppingSample-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.0 -iquote "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/ImageCroppingSample-generated-files.hmap" "-I/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/ImageCroppingSample-own-target-headers.hmap" "-I/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/ImageCroppingSample-all-target-headers.hmap" -iquote "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/ImageCroppingSample-project-headers.hmap" "-I/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/DerivedSources/armv7" "-I/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/DerivedSources" "-F/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos" --serialize-diagnostics /var/folders/f0/0sl56bjs6djb9mf9d_8clnh80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageCroppingSample-Prefix-cwlfotozeetoencghpmkqwqjzrup/ImageCroppingSample-Prefix.pch.dia -c "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/ImageCroppingSample/ImageCroppingSample-Prefix.pch" -o /var/folders/f0/0sl56bjs6djb9mf9d_8clnh80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageCroppingSample-Prefix-cwlfotozeetoencghpmkqwqjzrup/ImageCroppingSample-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/f0/0sl56bjs6djb9mf9d_8clnh80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageCroppingSample-Prefix-cwlfotozeetoencghpmkqwqjzrup/ImageCroppingSample-Prefix.pch.d36"9F44F4B6-EEE7-43F9-966A-1BF77F334A93-
-
-CProcessProductPackaging "/Users/indianic/Library/MobileDevice/Provisioning Profiles/4FAD494E-EA02-4867-9ECC-2BEB659994A5.mobileprovision" "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/embedded.mobileprovision"
-s372850176.231309
-e372850176.235157
-r1
-xProcessProductPackaging
-x/Users/indianic/Library/MobileDevice/Provisioning Profiles/4FAD494E-EA02-4867-9ECC-2BEB659994A5.mobileprovision
-x/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/embedded.mobileprovision
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection207"ProcessProductPackaging "/Users/indianic/Library/MobileDevice/Provisioning Profiles/4FAD494E-EA02-4867-9ECC-2BEB659994A5.mobileprovision" build/Debug-iphoneos/ImageCroppingSample.app/embedded.mobileprovision874e3b003e39b641^94333c003e39b641^---0#0#0#-19%DVTDocumentLocation2@164"file://localhost/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules%202/Image%20Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/embedded.mobileprovision0000000000000000^780"ProcessProductPackaging "/Users/indianic/Library/MobileDevice/Provisioning Profiles/4FAD494E-EA02-4867-9ECC-2BEB659994A5.mobileprovision" build/Debug-iphoneos/ImageCroppingSample.app/embedded.mobileprovision    cd "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/indianic/Library/MobileDevice/Provisioning Profiles/4FAD494E-EA02-4867-9ECC-2BEB659994A5.mobileprovision" -o "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app/embedded.mobileprovision"36"BC795F28-3BEB-4810-AFBA-9BB577DCB3E0-
-
-CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/ImageCroppingSample.xcent"
-s372850176.284247
-e372850176.344959
-r1
-xProcessProductPackaging
-x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist
-x/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/ImageCroppingSample.xcent
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection243"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/ImageCroppingSample.xcent77d848003e39b641^7f4f58003e39b641^---0#0#0#-19%DVTDocumentLocation2@193"file://localhost/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules%202/Image%20Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/ImageCroppingSample.xcent000000000080d041^878"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/ImageCroppingSample.xcent    cd "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist -entitlements -format xml -o "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/ImageCroppingSample.build/Debug-iphoneos/ImageCroppingSample.build/ImageCroppingSample.xcent"36"0F438445-8B9E-41A9-B415-BF2691C4C3F2-
-
-CTouch "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app"
-s372850176.244173
-e372850176.276040
-r1
-xTouch
-x/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Touch /CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app75913e003e39b641^2aaa46003e39b641^---0#0#0#--467"Touch build/Debug-iphoneos/ImageCroppingSample.app    cd "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/CHETAN/DATA/SKYPE_DOWLOAD/iOS_modules 2/Image Croping/ImageCroppingSample/build/Debug-iphoneos/ImageCroppingSample.app"36"CF2BE04F-EA16-4E80-B015-D143CA489B1B-
-
